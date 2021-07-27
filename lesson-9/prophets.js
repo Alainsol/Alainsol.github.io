@@ -8,6 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
 
         /* Downloaded data */
+        console.table(jsonObject)
         const prophets = jsonObject['prophets'];
 
         /* Display on the HTML */
