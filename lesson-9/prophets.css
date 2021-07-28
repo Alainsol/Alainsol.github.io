@@ -35,3 +35,18 @@ footer {
     background-color: cadetblue;
     
 }
+img  {
+    display: flex;
+    width:200px;
+    flex-direction: row;
+}
+
+.cards {
+    display: flex;
+    flex-flow: row;
+    width: 200px;
+    border-radius: 20px;
+    background-image: beige;
+    border: 10px solid gold;
+    gap: 20px;
+}
