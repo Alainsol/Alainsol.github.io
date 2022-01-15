@@ -1,5 +1,5 @@
 header, footer {
-    background-color: rgb(7, 10, 48);
+    background-color: rgb(32, 29, 29);
     padding: 1.5em;
     align-content: center;
     border-radius: 20px;
@@ -55,7 +55,7 @@ header, footer {
     }
 
     li:hover{
-        color: rgb(47, 42, 53);
+        color: rgb(204, 19, 19);
       }
 
     main:hover{
@@ -73,6 +73,10 @@ header, footer {
       font-family: "Lucida Console", "Courier New", monospace;
       
     }
+ 
+    
+
+    
   footer{
     
 
