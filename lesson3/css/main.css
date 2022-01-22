@@ -1,0 +1,131 @@
+
+body {
+    font-size: 16px;
+  background-color: rgb(233, 206, 44);
+ /* background-color: rgb(255, 184, 77);*/
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  img {
+    max-width: 20%;
+  }
+  
+  main {
+      padding: 0.5em;
+  }
+  
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 75rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-decoration-color: tomato;
+  }
+
+  header {
+    display: block;
+    text-align: center;
+    background-color:rgb(233, 72, 44);
+    color: rgb(255, 251, 251);
+    margin-bottom: -2.1em;
+  }
+  header h1 {
+      font-size: 2.5em;
+    }
+  
+  h1, h2, h3, h4, h5{
+      font-family: 'Ubuntu', sans-serif;
+  }
+  
+
+  header img {
+    margin: 1em;
+    width:13.88em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav li {
+    padding: 2em;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    text-anchor: inherit;
+  }
+  
+  nav li:hover {
+    background-color: #03254c;
+  }
+  
+  nav a {
+    color: rgb(248, 203, 4);
+    font-weight: 900;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color:rgb(255, 210, 63);
+  }
+  
+  footer {
+    background-color:rgb(233, 72, 44);
+    padding: 0.3em;
+    margin-top: 2em;
+    color: #fcf7f8;
+    text-align: center;
+  }
+  footer a {
+    color: #ffffff;
+  }
+  p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /*.color {
+    border: solid .5em rgb(18, 110, 216);
+    padding:.5em;
+}*/
+.color-container{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+  #primary {
+  border:  solid#2c68e9;
+  background-color: rgb(233, 206, 44);
+  padding: 2rem;
+  text-align: center;
+
+}
+  #secondary {
+  border: solid  rgba(139, 39, 0, 0.61);
+  background-color: rgb(233, 72, 44);
+  text-align: center;
+  padding: 2rem;
+
+}  
+  #accent1{
+     border: solid rgb(8, 8, 8);
+     background-color: #ffffff;
+     text-align: center;
+     padding: 2rem;
+
+  }
+  #accent2{ 
+    border: solid  #08b8ee;
+    background-color: #03254c;
+    text-align: center;
+    padding: 2rem;
+
+  }
+  
+
+  
+
+  
+
