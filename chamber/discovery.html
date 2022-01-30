@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wdd 230: Assignment portal </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <lilnk re="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+    <picture>
+        <img src="images/logo.jpg" alt="My logo">
+    </picture>
+    
+    <section class="headings">
+    <h1>Enjoy your journey</h1>
+        <q class="m">Global Agent</q>
+    </section>
+
+    </div>
+
+    
+    <div class="social">
+            <ul>
+                <li>
+                    <a class="social-link" href="https://www.facebook.com" target="_blank">
+                        <img class="footer-right-img"
+                             src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_facebook.png?v=1620924874612"
+                             alt="Facebook icon"></a>
+                    <a class="social-link" href="https://www.google.com" target="_blank">
+                        <img class="footer-right-img"
+                             src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fgoogleplus.png?v=1621043139242"
+                             alt="Google icon"></a>
+                   <!--<a class="social-link" href="https://www.Youtube.com" target="_blank">
+                        <img class="footer-right-img"
+                             src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_youtube.png?v=1620924844472"
+                             alt="you tube icone"></a>--> 
+                </li>
+            </ul>
+        </div>
+        <p id="Portal_Last_Updated"><span id="Date_Modified"></span></p>
+    </footer>
+    
+    <script src="js/currentDate.js"></script>
+    
+</header>
+
+<div class="subheading">
+    <!-- <date><em>friday, january 28, 2022</em></date> -->
+  <aside><em> Friday, 28 January 2022</em></aside>
+  <script id="rendered-js">
+
+  
+      // select the elements to manipulate (output to)
+const datefield = document.querySelector("date");
+const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+
+// derive the current date using a date object
+const now = new Date();
+const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+  now
+);
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full"
+}).format(now);
+// long, medium, short options ... try them
+
+datefield.innerHTML = `<em>${fulldate}</em>`;
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+  </script>
+  </div> 
+  <nav>
+    <ul class="navigation">
+    
+        <li><a href="index.html">home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="discovery.html">Discovery</a></li>
+        <li><a href="join.html">Join</a></li>
+
+    </ul>
+</nav>
+<main>
+
+
+</main>
+
+
+
+
+     <section class="location">
+
+   
+        <div class="picture">
+
+            <div class="contact">
+                <h4>Contact Info<br>
+                <p><Strong>Adress:</Strong>
+                <br> 1141 Naradiwas
+                <br> Rajanagarindra
+                <br> Bangrak,Bangkok 10500
+            </p>
+        </h4>
+        <a href="tel: +66859221143"><b> 66859221143 <span class="icon 
+            flaticon-phone-call-1">
+                  <!-- <div class="phone"> <img src="images/icone.png" alt="Phone"></span></a>
+                    <img class="email" src="images/iconmail.png" alt="Email">-->
+                
+            </div>
+          <div class="paragrah-map" p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62014.65540280279!2d100.49322777910153!3d13.723537500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298d29976351b%3A0x4ea0c13ed9fa8674!2sKing%20Power%20Mahanakhon!5e0!3m2!1sen!2sth!4v1643424647313!5m2!1sen!2sth"
+                     width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p> </div>
+        </div>
+      
+        
+    </section>
+    <div class="footer">
+      
+            <div class="logo">
+                <picture>
+                    <img src="images/logo.jpg" alt="My logo">
+                </picture>
+                <section class="footersh5">
+                    <h2>Enjoy your journey</h2>
+                        <q class="m">Global Agent</q>   
+               
+               
+            </section>
+        </div>
+         <p>&copy; <span id="currentYear">2022</span>| Alain Solohery | Bangkok Thailand |  <a 
+          href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a> 
+          
+          
+          
+          
+          <a href="https://alainsol.github.io/index.html">Assignment Portal</a></p>
+        
+          <p id="Portal_Last_Updated">Last Modified: <span id="Date_Modified"></span></p>
+        </footer>
+        
+        <script src="js/currentDate.js"></script>
+        
+        </div>
+        <script src="js/currentDate.js"></script>
+        </body>
+        </html>
+        
+    
