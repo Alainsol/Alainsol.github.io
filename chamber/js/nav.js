@@ -1,3 +1,5 @@
+//Nav Menu
+
 const navbutton = document.querySelector('.ham');
 const navbars = document.querySelector('.fa-bars');
 const navclose = document.querySelector('.fa-window-close');
@@ -37,7 +39,7 @@ const months = [
 
 const date = new Date();
 const dayOfMonth = date.getDate();
-const year = date.getFullYear();
+//const year = date.getFullYear();
 const day = days[date.getDay()];
 const month = months[date.getMonth()];
 const currentDate = `${day}, ${dayOfMonth} ${month} ${year}`;
