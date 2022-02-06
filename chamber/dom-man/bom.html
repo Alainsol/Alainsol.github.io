@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber </title>
+    <title>Dom Manupulation</title>
     <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Russo+One&display=swap" rel="stylesheet" />
@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/dom.css">
+    <link rel="stylesheet" href="./lesson/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <script defer src="js/dom.js"></script>
 
 
 </head>
@@ -62,65 +67,35 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+    <h1>📘 Book of Mormon  Top 25 </h1>
 <main>
-    
-<div class="hero-image">
+
+
     <div class="container">
+        <h3 class="heading"><i class="fas fa-book"></i> </h3>
+       
+    <div id="newtask">
+     <label>Enter Book and Chapter</label>
+        <input id="task" type="text" placeholder="add your books..">
+        <button id="add">Add Chapter</button>
 
-
-        <h1><span> 
-            webpage
-        </span></h1>
-        <span class="hi"></span>
-        <a class="btn" href="#">Join me</a>
-        <img src="images/hero1100.jpg" width="" height="" alt="hero-image">
-    </div>
-</div>
-
-
-
-<div class="home-grid">
-
-    <div class="home-headline-1">
-    <h2> lalalalal</h2>
-
-    <p class="home-=pagraph-1"></p>
-</div>
-<div class="home-left-img"><img src=""/>
-</div>
-
-<div class="home-right-img"><img src=""/>
-</div>
-
-<p>paragrp2</p>
-
-</div>
-
-<div class="contactdiv">
-            <section>
-                <h4>Sabai Voyage</h4>
-                <p><i class="fa fa-map-marker"></i> 5465465 <br> Bangkok, 10250</p>
-                <p><i class="fa fa-phone-square"></i> 0812345678 <br><i class="fa fa-envelope"></i> sabaivoyage@gmail.com</p>
-            </section>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.905695161807!2d100.52610391534704!3d13.724159001629774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298d29976351b%3A0x4ea0c13ed9fa8674!2sKing%20Power%20Mahanakhon!5e0!3m2!1sen!2sus!4v1643603339511!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-        </div>
-    </main>
-
-
-
-
-
-
-
-
-
-
-
+        <div id="new-tasks">
+            <ul class="collection">
     
-
-
+              
+                
+            </ul>
+            
+            <button class="btn">Clear All</button>
+    
+        
+    
+        </div>
+    </div>
+    
+    </div>
+ 
+</main>
     <footer>
         <section class="footer-section-1">
             <div class="element-1">
@@ -179,5 +154,7 @@
         datefield.innerHTML = `<em>${fulldate}</em>`;
         datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
     </script>
+    <script defer src="js/dom.js"></script>
+  
 </body>
 </html>
