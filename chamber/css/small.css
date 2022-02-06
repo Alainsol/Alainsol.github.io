@@ -17,7 +17,7 @@ footer,img {
     
         max-width: 56em;
         margin: 0 auto;
-        text-align: none;
+     
     }
 
 img{
@@ -161,9 +161,9 @@ nav li:hover {
     display: inline-block;
 }
 
-.hide {
-    display: none;
-}
+
+ 
+
 
 .responsive li {
     display: block;
@@ -171,10 +171,10 @@ nav li:hover {
 
 .social ul li {
     display: flex;
-    flex-direction: none;
+    
     display: flex;
     justify-content: center;
-    align-items: none;
+   
     margin-left: 0.5rem;
     margin-right: 2rem;
     border-radius: 20px;
@@ -187,9 +187,9 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: none;
+  
     align-items: right;
-    border: radius 20px;
+    border-radius:20px;
 }
 
 .social {
@@ -248,19 +248,19 @@ body{
 
   
     font-size: .3em;
-    width: none;
+  
     border: 0.1em solid grey;
     border-radius: 1em;
     box-shadow: 0 0 2em 0.2em grey;
     background-color: rgba(250, 234, 9, 0.7);
-    white-space: none;
+
 }
 
 
 .newsdiv{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     border: #5e77da;
 
 }
@@ -304,7 +304,7 @@ body{
 .box-container-2{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
 }
 p{
     color:blue;
@@ -312,11 +312,11 @@ p{
 
 .hero-text-2 {
     position: absolute;
-    top: none;
+ 
     right: 5px;
     text-align: center;
     font-size: .6em;
-    width:none;
+ 
     border: 0.1em solid grey;
     border-radius: 1em;
     box-shadow: 0 0 2em 0.2em grey;
@@ -331,48 +331,48 @@ max-width: 50px;
 max-width: 50px;
 }
 .container1 {
-    width: none;
+  
     display: flex;  
     flex-direction: column;
     background-color:green;
-    border: none;
+ 
     padding: 30px;
 
 }
 .container2 {
     display: flex;
-    width: none;
+    
     padding:10px 10px 10px 10px;
-    border-bottom-left-radius:none;
+ 
     padding: 30px;
     background-color: yellow;
     flex-direction: column;
 }
 
 .container3{
-    width: none;
+ 
     display: flex;
     padding:10px 10px 10px 10px;
-    border-bottom-left-radius:none;
+  
     padding: 30px;
     background-color: rgb(255, 94, 0);
     flex-direction: column;
 }
 .container4{
-    width: none;
+   
     display: flex;
     padding:10px 10px 10px 10px;
-    border-bottom-left-radius: none;
+    
     padding: 30px;
     background-color: rgb(255, 0, 64);
     flex-direction: column;
     
 }
 .reales{
-    width: none;
+  
     display: flex;
     padding:10px 10px 10px 10px;
-    border-bottom-left-radius:none;
+ 
     padding: 30px;
     background-color: rgb(32, 32, 29);
 
@@ -395,7 +395,7 @@ h2 {
         background-color: rgb(114, 114, 114);
         grid-auto-columns: minmax(100px);
         justify-items: stretch;
-        border: none;
+    
         grid-template-rows: 25px 50px 25px;
         gap: 10px;
     }
@@ -413,7 +413,7 @@ h2 {
    .box-container-3{
        display: grid;
        grid-template-columns: 70%  30%;
-       grid-template-rows: 1;
+       grid-template-rows: 1fr;
    }
 
 .banner {
@@ -531,9 +531,6 @@ p{
     grid-template-rows: 1/1;
     background-color: rgb(133, 131, 131);
     border: rgb(241, 210, 37);
-    padding: none;
-    border: 10px;
-    margin: none;
     grid-gap: .2em;
     border-right-color: 10px solid ;
     
@@ -555,7 +552,7 @@ p{
 .box-container-2 {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     background-color: rgb(171, 171, 182);
     padding: 10px 10px 10px 10px;
     border: 10px;
@@ -568,11 +565,11 @@ p{
 
     display: grid;
     grid-template-columns: 55% 45%;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     background-color: rgb(171, 171, 182);
-    padding: none;
+
     border: 10px;
-    margin:none;
+ 
     grid-gap: .2em;
 }
 .weatherSum{
@@ -636,7 +633,7 @@ img{
 .parent-container{
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 3;
+    grid-template-rows: 3fr;
 
 
 
