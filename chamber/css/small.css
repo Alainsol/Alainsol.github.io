@@ -4,6 +4,10 @@ body {
     font-weight: 500;
     background-color: rgba(27, 31, 32, 0.3);
 }
+.images{
+
+    width: 1200px;
+}
 header,
 nav,
 main,
@@ -383,7 +387,7 @@ h2 {
 }
 
 
-
+/*
 @media  screen and (min-width:1200px) {
     body{
         background-color: rgb(250, 246, 245);
@@ -402,7 +406,7 @@ h2 {
     .clip-circle {
         clip-path: circle(60px at center);
     }  
-}
+}*/
 
 
 @media only screen and (min-width: 768px){
@@ -428,6 +432,9 @@ h2 {
     display: block;
 }
 
+.images{
+    width:1200px
+}
 
 .contactdiv {
     margin: .5em .5em 0 .5em;
@@ -626,24 +633,111 @@ img{
 }
 @media only screen and (min-width: 1200px){
     body{
-        background-color: rgb(43, 41, 54);
+        background-color: rgb(100, 86, 47);
     }
 
 
-.parent-container{
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 3fr;
+
+    header,
+nav,
+main,
+footer   {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+    .parent-container {
+        display: flex;
+        flex-direction: row;
+        height: 600px;
+        width: 1280px;
+        margin: 0 auto;
+    }
 
 
+.box-container-3,
+.box-container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 0 8px;
+}
 
+.box-container-1 {
+    background-color: darkblue;
+}
+
+.newsdiv {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 0 18px;
+    height: 100%;
+}
+
+
+/*element*/
+
+.element-text-6 {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 25%;
+    margin: 8px 8px;
+}
+
+.element-text-5 {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 25%;
+    margin: 8px 8px;
 }
 
 
 
 
+.element-text-7 {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 50%;
+    margin: 8px 8px;
+}
 
+.images {
+    width: 600px;
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 75%;
+    margin: 8px 8px;
+}
 
+.newsdiv {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 25%;
+    margin: 8px 8px;
+}
 
+.element-text-3,
+.element-text-4 {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 33.3%;
+    margin: 8px 8px;
+}
 
-    }
+.element-2-right {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 33.3%;
+    margin: 8px 8px;
+}
+
+}
