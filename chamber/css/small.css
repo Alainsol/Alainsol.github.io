@@ -256,7 +256,7 @@ body{
     border: 0.1em solid grey;
     border-radius: 1em;
     box-shadow: 0 0 2em 0.2em grey;
-    background-color: rgba(250, 234, 9, 0.7);
+    background-color: rgba(228, 228, 225, 0.7);
 
 }
 
@@ -570,13 +570,12 @@ p{
 
 .box-container-2 {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr;
-
-    padding: 10px 10px 10px 10px;
-    border: 10px;
-    margin: 10px 10px;
-    grid-gap: 2em;
+    grid-column: 1;
+    grid-row: 3fr;
+    border-color:#eee;
+    margin: 10px;
+    grid-gap:none;
+    background-color: rgb(3, 3, 250);
     
 }
 
@@ -607,6 +606,7 @@ p{
     color:rgb(241, 210, 37);
     font-size: 20px;
     background-color: blue;
+    padding: 67px;
 
 
 }
@@ -615,6 +615,7 @@ p{
     text-align: center;
     color:rgb(241, 210, 37);
     background-color: blue;
+    padding: 67px;
 
 
 }
@@ -626,18 +627,9 @@ h3{
         color:rgb(255, 255, 255)
     }
 
-.element-text-5 {
-    color: rgb(14, 9, 9);
-    background-color: blue;
-    padding: 2px;
-    background-color: green;
-    padding: 20px;
-    margin-top: 2em;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    font-size: 50px;
-}
+
+    
+
 img{
     max-width: 40px;
 }
@@ -645,7 +637,7 @@ img{
 
 @media only screen and (min-width: 1200px){
     body{
-        background-color: rgb(100, 86, 47);
+        background-color: rgb(255, 187, 1);
     }
 
 
@@ -743,11 +735,12 @@ footer   {
     grid-row: 2;
     border: 10px solid white;
 
-    width: 100%;
+    width: 98%;
     text-align: center;
      padding: 1px;
      overflow: hidden;
     margin-right: 5px;
+    height: 88%;
  
     
   }
@@ -761,9 +754,9 @@ footer   {
  
     width: 100%;
     text-align: center;
-     padding: 70px;
+ 
      overflow: hidden;
-    height: 50px;
+    height: 300px;
    
   
   }
@@ -774,27 +767,29 @@ footer   {
   
     width: 100%;
     text-align: center;
-     padding: 70px;
+ 
      overflow: hidden;
-    height: 50px;
+    height: 300px;
     }
   
   .box-container-2{
-    grid-column: 1;
-    grid-row: 3;
     
+        grid-template-columns: 1;
+        background-color: blue;
+        text-align: 3;
+        border: 10px solid white;
+        width: 100%;
+        text-align: center;
+  
+        overflow: hidden;
+      }
   }
   .element-text-5 {
-    grid-column: 1;
-      grid-column: 1;
-    border: 10px solid white;
-  
+     
     width: 100%;
     text-align: center;
      padding: 3px;
-     overflow: hidden;
-    height: 20px;
-    margin-top: -200px;
+
   }
   .element-6{
      width: 100%;
@@ -817,16 +812,17 @@ footer   {
      grid-row: 1;
     grid-column: 1;
     border: 10px solid white;
-    height: 10px;
+    height: 280px;
     width: 100%;
     text-align: center;
      padding: 60px;
      overflow: hidden;
+     background-color: blue;
   }
   .weatherSum{
     grid-column: 1;
     border: 10px solid white;
- 
+ height: 350px;
     width: 100%;
     text-align: center;
      padding: 60px;
@@ -844,5 +840,5 @@ footer   {
   
 }
 
-}
+
 
