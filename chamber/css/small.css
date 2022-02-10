@@ -465,16 +465,7 @@ h2 {
 	opacity: .9;
 
 }
-.box-container-1{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1/1;
-    background-color: rgb(133, 131, 131);
-    border: rgb(255, 217, 0);
-    grid-gap: .2em;
-    border-right-color: 10px solid ;
-    
-}
+
 
 
 /* Nav Section */
@@ -576,16 +567,7 @@ p{
     grid-row:2/3;
 }
 
-.box-container-2 {
-    display: grid;
-    grid-column: 1;
-    grid-row: 3fr;
-    border-color:#eee;
-    margin: 10px;
-    grid-gap:none;
-    background-color: rgb(3, 3, 250);
-    
-}
+
 
 .box-container-3{
 
