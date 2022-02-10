@@ -2,5 +2,7 @@
     header section {
         font-size: 1em;
     }
-    
+    .box-container-1 {
+        display: block;
+    }
     }

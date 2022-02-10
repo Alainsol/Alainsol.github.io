@@ -48,6 +48,8 @@ header {
     background-color: lightslategray;
 }
 
+
+
 header img,
 footer img {
     width: 5em;
@@ -210,9 +212,7 @@ nav li:hover {
     clip-path: circle(60px at center);
 }
 
-.contactdiv {
-    display: block;
-}
+
 
 
 .contactdiv iframe {
@@ -236,12 +236,7 @@ body{
     background-color: rgb(9, 247, 247);
 }
      
-.herodiv {
-  
-    position: relative;
-    margin: .5em;
-    
-}
+
 .hero-text-1 {
     text-align: center;
     position: absolute;
@@ -262,55 +257,9 @@ body{
 }
 
 
-.newsdiv{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr;
-    border: #5e77da;
-
-}
-
-.element-text-3 {
-    text-align: center;
-    color:rgb(241, 210, 37);
-    font-size: 30px;
-    background-color: blue;
 
 
-}
-.element-text-4 {
-    font-size:30px;
-    text-align: center;
-    color:rgb(241, 210, 37);
-    background-color: blue;
 
-
-}
-.element-text-3 {
-    text-align: center;
-    color:rgb(241, 210, 37);
-    font-size: 30px;
-    background-color: blue;
-
-
-}
-.element-text-4 {
-    font-size:30px;
-    text-align: center;
-    color:rgb(241, 210, 37);
-}
-.element-text-5{
-    font-size:30px;
-    text-align: center;
-    color:rgb(241, 210, 37);
-}
-
-}
-.box-container-2{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr;
-}
 p{
     color:blue;
 }
@@ -410,16 +359,6 @@ h2 {
 }*/
 
 
-@media only screen and (min-width: 768px){
-    body{
-        background-color: rgb(18, 3, 105);
-    }
-
-   .box-container-3{
-       display: grid;
-       grid-template-columns: 70%  30%;
-       grid-template-rows: 1fr;
-   }
 
 .banner {
     display: none;
@@ -433,14 +372,8 @@ h2 {
     display: block;
 }
 
-
-.contactdiv {
-    margin: .5em .5em 0 .5em;
-}
-
 .herodiv {
     position: relative;
-    margin: .3em;
     
 }
 .hero-text-1 {
@@ -532,27 +465,9 @@ p{
 }
     
 
-.newsdiv{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color:  blue;
-    background-color: #5e77da;
-}
 
 
-.box-container-1{
-    display: grid;
-  
-    grid-template-rows: 1/1;
-    background-color: rgb(133, 131, 131);
-    border: rgb(255, 217, 0);
-    grid-gap: .2em;
-    border-right-color: 10px solid ;
-    
-}
+
 
 .van{
     max-width: 50px;
@@ -569,46 +484,12 @@ p{
 
 
 
-.box-container-3{
-
-    display: grid;
-    grid-template-columns: 55% 45%;
-    grid-template-rows: 1fr;
-    background-color: rgb(171, 171, 182);
-
-    border: 10px;
- 
-    grid-gap: .2em;
-}
-.weatherSum{
-    display: grid;
-    background-color: blue;
-
-}
-.element-text-7{
-    display: grid;
-    background-color: blue;
-}
 
 
-.element-text-3 {
-    text-align: center;
-    color:rgb(241, 210, 37);
-    font-size: 20px;
-    background-color: blue;
-    padding: 67px;
 
 
-}
-.element-text-4 {
-    font-size:20px;
-    text-align: center;
-    color:rgb(241, 210, 37);
-    background-color: blue;
-    padding: 67px;
 
 
-}
 h3{
     color:rgb(0, 81, 255);
 }
@@ -640,9 +521,7 @@ footer   {
 }
 
 
-/*.box-container-1 {
-    background-color: darkblue;
-}
+/*
 
 .newsdiv{
     display: flex;
@@ -705,191 +584,26 @@ footer   {
 
 
 .parent-box {
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 1fr 2fr 1f;
-    
-  }
 
-  .herodiv{
-    display: grid;
-    grid-column: 2;
-    grid-row: 1;  
-  }
-  
-  .newsdiv{
-    display: grid;
-    grid-column: 2;
-    grid-row: 2;
-    border: 10px solid white;
-
-    width: 98%;
-    text-align: center;
-     padding: 1px;
-     overflow: hidden;
-    margin-right: 5px;
-    height: 88%;
- 
-    
-  }
-  .box-container-1{
-    display: grid;
-    grid-column: 3;
-    grid-row: 1;
-  }
-  .element-text-3{
-    border: 10px solid white;
- 
-    width: 100%;
-    text-align: center;
- 
-     overflow: hidden;
-    height: 300px;
-   
-  
-  }
-  
-  .element-text-4 {
-    grid-row: 2;
-    border: 10px solid white;
-  
-    width: 100%;
-    text-align: center;
- 
-     overflow: hidden;
-    height: 300px;
-    }
-  
-  .box-container-2{
-    
-        grid-template-columns: 1;
-        background-color: blue;
-        text-align: 3;
-        border: 10px solid white;
-        width: 100%;
-        text-align: center;
-  
-        overflow: hidden;
-      }
-  }
-  .element-text-5 {
-     
-    width: 100%;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-    text-align: center;
-     padding: 3px;
-
-  }
-  .element-6{
-     width: 100%;
-    text-align: center;
-     padding: 5px;
-   border: 10px solid white;
-    margin-top: -450px;
-    margin-bottom: 10px;
-  }
-  
-  .box-container-3{
-    grid-column: 1;
-    grid-row: 1;
-    
-  }
-
-    
-  
-  .element-text-6{
-     grid-row: 1;
-    grid-column: 1;
-    border: 10px solid white;
-    height: 280px;
-    width: 100%;
-    text-align: center;
-     padding: 60px;
-     overflow: hidden;
-     background-color: blue;
-  }
-  .weatherSum{
-    grid-column: 1;
-    border: 10px solid white;
- height: 350px;
-    width: 100%;
-    text-align: center;
-     padding: 60px;
-     overflow: hidden;
-  }
-  
-.contactdiv{
-  grid-column: 3;
-   border: 10px solid white;
-
-    width: 100%;
-    text-align: center;
-     margin-right: 10px;
-     overflow: hidden;
-  
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
 }
 
+.box-container-3{ grid-area: 1 / 1 / 3 / 2; }
+.box-container-2 { grid-area: 3 / 1 / 4 / 2; }
+.herodiv { grid-area: 1 / 2 / 3 / 4; }
+.newsdiv { grid-area: 3 / 2 / 4 / 4; }
+.box-container-1 { grid-area: 1 / 4 / 3 / 5; }
+.contactdiv { grid-area: 3 / 4 / 4 / 5; }
 
-
+.box-container-1, .box-container-2, .box-container-3,
+    .newsdiv, .contactdiv, .herodiv{
+    background-color:#0000ff;
+    border-style:solid;
+    border-color:white;
+    border-width: 5px;
+}
+}
