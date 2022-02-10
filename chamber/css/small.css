@@ -231,12 +231,13 @@ nav li:hover {
 p, b, a { color:rgb(255, 255, 255);
 }
 @media screen and (min-width: 576px){
-   
 
+   
 }
      
 @media only screen and (max-width: 600px){
 .hero-text-1 {
+    color: white;
     text-align: center;
     position: absolute;
     top: 15px;
@@ -244,10 +245,11 @@ p, b, a { color:rgb(255, 255, 255);
     font-size: .3em;
     padding: 12px 24px;
     border-radius: 1em;
-    background: radial-gradient(#eee, #044d6e);
+    background: radial-gradient(rgb(184, 50, 50), #044d6e);
     opacity: .9;
    }
     .hero-text-2 {
+    color: white;
     text-align: center;
     position: absolute;
     bottom: 15px;
@@ -255,7 +257,7 @@ p, b, a { color:rgb(255, 255, 255);
     font-size: .3em;
     padding: 12px 24px;
     border-radius: 1em;
-    background: radial-gradient(#eee, #044d6e);
+    background: radial-gradient(rgb(255, 238, 3), #c81243);
     opacity: .9;
 
 }
@@ -273,6 +275,31 @@ max-width: 50px;
 }
 .pen{
 max-width: 50px;
+}
+
+
+.newsdiv{
+    background-color: rgb(14, 235, 235);
+    
+}
+.element-text-3{
+    background-color: rgb(14, 240, 127);
+
+}
+.element-text-4{
+    background-color: rgb(14, 240, 127);
+  
+
+
+}
+.element-text-5{
+background-color: rgb(14, 240, 127);
+
+}
+.element-text-6, .weatherSum{
+
+background-color: rgb(14, 240, 127);
+
 }
 
 

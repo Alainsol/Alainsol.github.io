@@ -44,8 +44,9 @@
         font-size: .3em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(#eee, #044d6e);
+        background: radial-gradient(rgb(3, 104, 255), #fadd3a);
         opacity: .9;
+        color: white;;
        }
         .hero-text-2 {
         text-align: center;
@@ -55,10 +56,30 @@
         font-size: .3em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(#eee, #044d6e);
+        background: radial-gradient(rgb(32, 30, 30), rgb(255, 72, 0));
         opacity: .9;
+        color: white;
     
-    
-    
-    }
+        }
+
+        .newsdiv{
+            background-color: blue;
+            
+        }
+        .element-text-3{
+            background-color: rgb(119, 119, 228);
+
+        }
+        .element-text-4{
+            background-color: rgb(119, 119, 228);
+
+
+}
+.element-text-5{
+    background-color: rgb(119, 119, 228);
+}
+.element-text-6, .weatherSum{
+    background-color: rgb(119, 119, 228);
+
+}
 }
