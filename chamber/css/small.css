@@ -5,13 +5,14 @@ body {
     background-color: rgba(27, 31, 32, 0.3);
 }
 .images{
-      height: 100%;
-    width: 1200px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 header,
 nav,
 main,
-footer,img {
+footer {
     max-width: 576px;
     margin: 0 auto;
     text-align: center;
@@ -24,9 +25,7 @@ footer,img {
      
     }
 
-img{
-    max-width: 40px;
-}
+
 h1,
 h2,
 h3,
@@ -57,9 +56,7 @@ footer img {
     font-size: 1.2em;
 }
 
-.images {
-    max-width: 100%;
-}
+
 
 .externalimage {
     width: 100%;
@@ -166,7 +163,9 @@ nav li:hover {
 }
 
 
- 
+ .icon{
+     max-width: 40px;
+ }
 
 
 .responsive li {
@@ -432,9 +431,6 @@ h2 {
     display: block;
 }
 
-.images{
-    width:1200px
-}
 
 .contactdiv {
     margin: .5em .5em 0 .5em;
@@ -640,9 +636,7 @@ h3{
 
     
 
-img{
-    max-width: 40px;
-}
+
 
 
 @media only screen and (min-width: 1200px){
@@ -724,16 +718,6 @@ footer   {
     height: 33.3%;
     margin: 8px 8px;
 }*/
-.box-container-1{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1/1;
-    background-color: rgb(133, 131, 131);
-    border: rgb(255, 217, 0);
-    grid-gap: .2em;
-    border-right-color: 10px solid ;
-    
-}
 
 
 .parent-box {
