@@ -194,8 +194,6 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
-    align-items: right;
     border-radius:20px;
 }
 
@@ -539,5 +537,5 @@ grid-row-gap: 20px;
     border-width: 5px;
     }
 
-    
+
 }
