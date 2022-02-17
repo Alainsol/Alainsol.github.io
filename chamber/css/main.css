@@ -1,0 +1,41 @@
+/* gallery */
+body{ 
+    display:block;
+}
+.parentbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+    margin-bottom: 1em;
+}
+
+img[data-src] {
+    filter: blur(0.1em);
+}
+
+.imageholder {
+    filter: blur(0em);
+    transition: filter 1s;
+    border-radius: 1em 1em 0 0;
+    margin: 0;
+}
+
+.imagebox {
+    max-width: 400px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 1.3em;
+    border-color: rgb(28, 4, 247);
+    justify-self: center;
+    box-shadow:0px 0px 2px 2px rgb(250, 225, 3);
+}
+
+.imagecaption {
+    background-color: rgb(255, 255, 255);
+    margin: -.2em 0 0 0;
+    padding: 0.5em;
+    border-radius: 0 0 1em 1em;
+    max-width: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
