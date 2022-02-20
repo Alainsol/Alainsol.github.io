@@ -27,11 +27,11 @@ picture {
 }
 h1 {
     display: block;
-    font-size: 15px;
+    font-size: 8px;
     margin: block start 5em;
     margin-block-end: 1em;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
     font-weight: bold;
     text-align: center;
     color:rgb(19, 13, 37);
@@ -53,6 +53,7 @@ img{
     border: 5px inset;
     border-radius: 40px;
     border-style: initial;
+    
 }
 picture{
     margin-left:50px;
@@ -60,7 +61,7 @@ picture{
 
 img {
     filter: blur(0em);
-    transition: filter 0.3s;
+    transition: filter 0.5s;
 }
 
 
@@ -70,11 +71,27 @@ picture {
     margin: 0 auto;
 }
 
-img[data-src] {
-    filter: blur(0.2em);
+
+@media only screen and (min-width: 848px) {
+    header picture img {
+        width: 8em;
+    }
+
+.parentbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
+
+
+
+    }
+
+    @media only screen and (min-width: 472px) {
+        header picture img {
+            width: 8em;
+        }
+    .parentbox{
+        grid-template-columns: 1fr ;
+    }
+    }

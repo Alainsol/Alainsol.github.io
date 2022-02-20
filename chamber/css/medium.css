@@ -1,8 +1,19 @@
 @media only screen and (min-width: 34.7em) {
     header picture img {
-        width: 8em;
+        width: 10em;
+        
     }
 
+    
+    header img, footer img {
+        width: 5em;
+        margin: 0.5em  0em;
+    }
+
+    .clip-circle {
+        clip-path: circle(60px at center);
+    }
+    
     header section {
         font-size: .8em;
     }
@@ -81,5 +92,8 @@
 .element-text-6, .weatherSum{
     background-color: rgb(119, 119, 228);
 
+}
+.parentbox{
+    grid-template-columns: 1fr 1fr;
 }
 }

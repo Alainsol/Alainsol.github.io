@@ -15,7 +15,7 @@ header,
 nav,
 main,
 footer {
-    max-width: 576px;
+    max-width: 889px;
     margin: 0 auto;
     text-align: center;
 }
@@ -53,7 +53,7 @@ header {
 header img,
 footer img {
     width: 5em;
-    margin: 0.5em 0.5em 0.5em 0em;
+    margin: 0.5em 0.1em;
 }
 
 .social {
@@ -68,9 +68,12 @@ footer img {
 
 header,
 footer {
+    max-width: 889px;
     background-color: #5e77da;
     color: white;
+    
 }
+
 
 header h1,
 footer h1 {
@@ -207,7 +210,7 @@ nav li:hover {
 }
 
 .clip-circle {
-    clip-path: circle(60px at center);
+    clip-path: circle(19px at center);
 }
 
 
@@ -575,4 +578,87 @@ img[data-src] {
     max-width: 100%;
     white-space: nowrap;
     text-align: center;
+}
+
+/* gallery */
+body{ 
+    display:block;
+}
+.parentbox {
+    display: grid;
+    grid-template-columns: 1fr ;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 1em;
+  
+}
+
+
+.parentbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-bottom: 1em;
+}
+
+img[data-src] {
+    filter: blur(0.5em);
+}
+
+.imageholder {
+    filter: blur(0em);
+    transition: filter 10s;
+    border-radius: 1em 1em 0 0;
+    margin: 0;
+   
+}
+
+.imagebox {
+    max-width: 400px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 1.3em;
+    border-color: rgb(28, 4, 247);
+    justify-self: center;
+    box-shadow:0px 0px 10px 10px rgb(250, 250, 246);
+    
+}
+
+.imagecaption {
+    background-color: rgb(255, 255, 255);
+    margin: -.2em 0 0 0;
+    padding: 0.5em;
+    border-radius: 0 0 1em 1em;
+    max-width: 100%;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+
+
+/* Gallery Page */
+
+.parentbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-bottom: 1em;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+
+
+
+.imagecaption {
+    background-color: white;
+    margin: -.2em 0 0 0;
+    padding: 0.5em;
+    border-radius: 0 0 1em 1em;
+    max-width: 100%;
+    white-space: nowrap;
 }
