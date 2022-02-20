@@ -604,7 +604,7 @@ body {
   }
   
   .clip-circle {
-    clip-path: circle(20px at center);
+    clip-path: circle(50px at center);
   }
   
   .contactdiv {
