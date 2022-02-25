@@ -63,38 +63,204 @@
         </ul>
     </nav>
 <main>
-    
-<div class="hero-image">
-    <div class="container">
 
 
-        <h1><span> 
-            webpage
-        </span></h1>
-        <span class="hi"></span>
-        <a class="btn" href="#">Join me</a>
-        <img src="images/hero1100.jpg" width="" height="" alt="hero-image">
+    <h2>Join the Page of Sabai Voyage</h2>
+    <form action="thankyou.html">
+        <fieldset class="custinfo">
+            <legend>Personal Information</legend>
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <!--<label class="top">Business Title* <input class="top" type="text" name="title" pattern="[A-Za-z. -]{7,}" required> </label>
+            <label class="top">First Name* <input class="top" type="text" name="fullname" pattern="[A-Za-z. -]{5,}" required> </label>
+            <label class="top">Email <input class="top" type="email" name="email" placeholder="someone@gmail.com"> </label>
+            <label class="top">Phone* <input class="top" type="tel" name="phone" pattern="[0-9]{10}" placeholder="1112223333" required> </label>-->
+            
+            <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Business Name*<input type="text" name="bname" required></label>
+            <label class="top">website<input type="url" name="email" placeholder="http://"></label>
+            <label class="top">Zip Code* <input class="top" type="number" name="zip" placeholder="12345" required> </label>
+        </fieldset>
+       <!-- <fieldset class="storminfo">
+            <legend>Storm Information</legend>
+            <label class="stormInfo">Storm Date <input class="custinput" type="date"> </label>
+            <label class="stormInfo">Storm Type
+                <input list="weather" class="custinput" placeholder="Select Storm Type ...">
+                    
+                <datalist id="weather">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                    <option value="Lightning"></option>
+                    <option value="Blizzard"></option>
+                </datalist>
+            </label>
+            <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+                    <input type="range" name="stormseverity" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)"
+                    onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+            </label>
+                <datalist id="tickmarks">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+            <label class="stormInfo">Storm Region
+                <select class="custinput" name="stormRegion">
+                    <option value="" disabled selected>Select Region ...</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodaSprings">Soda Springs</option>
+                    <option value="fishHaven">Fish Haven</option>
+                </select>    
+            </label>-->
+           
+        </fieldset>
+        <fieldset>
+            <div class="radio">
+                <p class="">Are you willing to join us?</p>     
+                <label class="radiolabel"><input type="radio" name="danger" value="yes">Yes</label> 
+                <label class="radiolabel"><input type="radio" name="danger" value="maybe">Maybe</label> 
+                <label class="radiolabel"><input type="radio" name="danger" value="no">No</label> 
+            </div>
+            <legend>Membership Level</legend>
+            
+            <labe class="top"> Membership Level
+             <select name="subject">
+                 <option value="">Please Select your option</option>
+                 <option value="1st Membership">Free: $0.00</option>
+                 <option value="2nd Membership">Bronze:$1 500.00</option>
+                 <option value="3rd Membership">Silver:$2 500.00</option>
+                 <option value="4th Membership">Gold:$3 500.00</option>
+               </select>
+
+               <label class="sbs"><input type="radio"name="member" value="fr"><span class="yes"></span>Beginner</label>
+            <label class="sbs"><input type="radio"name="Audience" value="intermediate">Intermediate</label>
+            <label class="sbs"><input type="radio"name="Audience" value="advance">Advance</label>
+
+
+             <label class="top">Starting Date <input type="date" name="completeDate"></label>
+            </labe>
+           <!-- <label>How authors <input type="number" name="authors"></label>
+
+          <section class="price-plan">
+            <div class="pricing-plan">
+                <section class="pricing-planfree">
+
+                <div class="pricing-planheader">
+                    <label class="sbs"><input type="radio"name="Audience" value="beginner">New Membership</label>
+                    <h1 class="pricing-plantitle">Non profit</h1>
+                    <h2 lcass="pricing-plansummary">for those getting started</h2>
+                </div>
+                <div class="pricing-plandescription">
+                    <ul class="pricing-planlist">
+                        <li clss="pricing-planfeature">feature1</li>
+                        <li clss="pricing-planfeature">feature2</li>
+                        <li clss="pricing-planfeature">feature3</li>
+                    </ul>
+                </div>
+                <div class="pricing-planActions">
+                    <p class="pricing-planCost">$0.00</p>
+                    <p class="pricing-plantext">per month</p>
+                </div>
+            </section>
+              
+            <section class="pricing-planbronze">
+
+            <div class="pricing-planheader">
+                <h1 class="pricing-plantittle">Bronze</h1>
+                <h2 lcass="pricing-plansummary">for those getting started</h2>
+            </div>
+            <div class="pricing-plandescription">
+                <ul class="pricing-planlist">
+                    <li clss="pricing-planfeature">feature1</li>
+                    <li clss="pricing-planfeature">feature2</li>
+                    <li clss="pricing-planfeature">feature3</li>
+                </ul>
+            </div>
+            <div class="pricing-planActions">
+                <p class="pricing-planCost">$0.00</p>
+                <p class="pricing-plantext">per month</p>
+            </div>
+        </section>
+        <section class="pricing-plansilver">
+
+        <div class="pricing-planheader">
+            <h1 class="pricing-plantittle">Silver</h1>
+            <h2 lcass="pricing-plansummary">for those getting started</h2>
+        </div>
+        <div class="pricing-plandescription">
+            <ul class="pricing-planlist">
+                <li clss="pricing-planfeature">feature1</li>
+                <li clss="pricing-planfeature">feature2</li>
+                <li clss="pricing-planfeature">feature3</li>
+            </ul>
+        </div>
+        <div class="pricing-planActions">
+            <p class="pricing-planCost">$0.00</p>
+            <p class="pricing-plantext">per month</p>
+        </div>
+        </section>
+
+        <section class="pricing-plangold">
+
+        <div class="pricing-planheader">
+            <h1 class="pricing-plantittle">Gold</h1>
+            <h2 lcass="pricing-plansummary">for those getting started</h2>
+        </div>
+        <div class="pricing-plandescription">
+            <ul class="pricing-planlist">
+                <li clss="pricing-planfeature">feature1</li>
+                <li clss="pricing-planfeature">feature2</li>
+                <li clss="pricing-planfeature">feature3</li>
+            </ul>
+        </div>
+        <div class="pricing-planActions">
+            <p class="pricing-planCost">$0.00</p>
+            <p class="pricing-plantext">per month</p>
+        </div>
     </div>
-</div>
+</section>
+
+                   <!--<fieldset>
+                        <label class="subhead"><input type="sbd" name="member" value="free"><span class="level"></span>$0.00</label>
+                        <label class="subhead"><input type="sbd" name="member" value="Bronze"><span class="level"></span>$1 500.00</label>
+                        <label class="subhead"><input type="sbd" name="member" value="Silver"><span class="level"></span>$ 2 500.00</label>
+                        <label class="subhead"><input type="sbd" name="member" value="Gold"><span class="level"></span>$ 3 500.00</label>
+                    </fieldset>--> 
 
 
+       
+            </section>
+        </fieldset>
+        <fieldset class="addinfo">
+            <legend>Additional Information</legend>
+            <label class="additionalInfo">Please share your relevant thoughts <br>
+                that may help us to improve. 
+                <textarea name="comments" cols="30" rows="10"></textarea> </label>
+        </fieldset>
+        <label for="tac">
+            <input id="tac" type="checkbox" name="terms-and-conditions">
+            I agree to the Terms and Conditions
+          </label>
+          <p>
+            <a href="terms-and-conditions.html">Read our Terms and Conditions</a>
+          </p>
+        <input id="submitBtn" type="submit" value="Send your Information">
+    </form>
+    
 
-<div class="home-grid">
-
-    <div class="home-headline-1">
-    <h2> lalalalal</h2>
-
-    <p class="home-=pagraph-1"></p>
-</div>
-<div class="home-left-img"><img src=""/>
-</div>
-
-<div class="home-right-img"><img src=""/>
-</div>
-
-<p>paragrp2</p>
-
-</div>
+   
 
 <div class="contactdiv">
             <section>
@@ -106,22 +272,8 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
         </div>
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-    <footer>
+</main>
+<footer>
         <section class="footer-section-1">
             <div class="element-1">
                 <picture class="clip-circle"><img src="images/sky-logo.jpg" alt="sky logo"></picture>
