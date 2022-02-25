@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +14,7 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/tablebuilt.css">
-    
-
-
-
-
-</head>
+    </head>
 
 <body>
     <header>
@@ -29,7 +23,7 @@
                 <picture class="clip-circle"><img src="images/sky-logo.jpg" alt="sky logo"></picture>
                 <div class="flexwrap">
                     <h1>Sabai Voyage</h1>
-                    Global Agent
+                   <span> Global Agent</span>
                 </div>
             </div>
 
@@ -66,9 +60,9 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main>
-<h1>Table formating</h1>
 
+<h1>Table formating</h1>
+<body>
 <table>
 
 	<thead>
@@ -101,47 +95,33 @@
 		<tr>
 			<td scope="row">November</td>
 			<td>$8,610</td>
-            <td>$7,500</td>
+            <td id="extra">$7,500</td>
 		</tr>
 		<tr>
-			<td scope="row">Black Friday</td>
-			<td>$3,200</td>
-            <td></td>
-		</tr>
+                <td id="style">Black Friday</td>
+                <td colspan="2">$3,200</td>
+            </tr>
+		
         <tr>
 			<td scope="row">December</td>
 			<td>$8,610</td>
             <td>$7,500</td>
 		</tr>
-        
-	</tbody>
-     <tr>
-<th colspan="3" scope="colgroup"> COMPILED 12.20.2020 by bRauls</th>
-    </tr>
+    </tbody>   
+
+   
+   <th colspan="3" id="last"> Compiled || Alain</th>
+
+    <caption id="lastmod"></caption>
+    
 </table>
 
-
-<!--<table style="width:100%">
-    <tr>
-      <th>Period</th>
-      <th>Sales</th>
-      <th>Sales Goal</th>
-    </tr>
-    <tr>
-      <td>August</td><br>
-      <td>September</td><br>
-      <td>October</td><br>
-      <td>November</td><br>
-      <td>Black friday</td>
-    </tr>
-    <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-  </table>-->
-
-    </main>
+<script>
+const lastmod = document.getElementById("last");
+const now = new Date();
+lastmod.textContent = `Compiled ${now} by Alain`;
+</script>
+    
 
     <footer>
         <section class="footer-section-1">
@@ -182,11 +162,10 @@
     
 
     <script id="currentDate.js">
-        // select the elements to manipulate (output to)
+      
         const datefield = document.querySelector("date");
-        const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
-
-        // derive the current date using a date object
+        const datefieldUK = document.querySelector("aside"); 
+        
         const now = new Date();
         const fulldate = new Intl.DateTimeFormat("en-US", {
             dateStyle: "full"
@@ -196,7 +175,7 @@
         const fulldateUK = new Intl.DateTimeFormat("en-UK", {
             dateStyle: "full"
         }).format(now);
-        // long, medium, short options ... try them
+     
 
         datefield.innerHTML = `<em>${fulldate}</em>`;
         datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;

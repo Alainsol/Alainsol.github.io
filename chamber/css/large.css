@@ -1,4 +1,6 @@
 @media only screen and (min-width: 50em) {
+
+
     header section {
         font-size: 1em;
     }
@@ -9,23 +11,24 @@
     .hero-text-1 {
         text-align: center;
         position: absolute;
-        top: 15px;
-        left: 15px;
-        font-size: .3em;
+        top: 75px;
+        left: 50px;
+        font-size: .9em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(#eee, #044d6e);
+        background: radial-gradient(#eee, rgb(252, 172, 1));
         opacity: .9;
+        font-family:cursive;
        }
         .hero-text-2 {
         text-align: center;
         position: absolute;
-        bottom: 15px;
-        right: 10px;
-        font-size: .3em;
+        bottom: 45px;
+        right: 30px;
+        font-size: .9em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(#eee, #044d6e);
+        background: radial-gradient(#eee, rgb(252, 172, 1));
         opacity: .9;
     
     

@@ -1,44 +1,66 @@
 html{
     font-family: 'Ubuntu', sans-serif;}
-
+    
+    tr:first-child th {
+        background-color: rgb(12, 36, 82);
+        color: rgb(246, 252, 252) ;
+    }
 
     table {
         margin: 5px auto;
-        border: 1px solid rgb(231, 228, 228);
+        border: 1px thin solid rgb(19, 17, 17);
         box-shadow: 0 0  40px rgb(22, 22, 22);
         border-collapse: collapse;
        
         
     }
     tr:nth-child(even) {
-        background-color: #f2f2f2;
+        background-color: #7e7a7a;
       }
     
     th, td {
-        padding: 20px 35px;
-        border: 5px solid rgb(252, 252, 251);
+        padding: 40px 55px;
+        border: 1px solid rgb(10, 3, 3);
+       
         
     }
 
     tr:first-child th {
-        background-color: rgb(46, 123, 161);
-        color: rgb(191, 191, 201);
+        
+        color: rgb(249, 249, 255);
         
         
     }
 
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
     td {
         text-align: center;
+      
+        
     }
-    th{
-        background-color: aquamarine;
+    th {
+        background-color: rgb(7, 153, 146);
     }
     .textcaption {
    
         margin-left: 500px;
         padding: 0.1em;
-        border: 10px solid darkgrey;
+        border: 10px solid rgb(231, 10, 10);
         max-width: 50px;
         white-space: nowrap;
         text-align: center;
     }
+    
+   
+ 
+       
+     #extra{
+background-color: rgb(7, 153, 146);
+     }
+
+     #style{
+        font-style: italic;
+     }
