@@ -82,48 +82,7 @@
             <label class="top">website<input type="url" name="email" placeholder="http://"></label>
             <label class="top">Zip Code* <input class="top" type="number" name="zip" placeholder="12345" required> </label>
         </fieldset>
-       <!-- <fieldset class="storminfo">
-            <legend>Storm Information</legend>
-            <label class="stormInfo">Storm Date <input class="custinput" type="date"> </label>
-            <label class="stormInfo">Storm Type
-                <input list="weather" class="custinput" placeholder="Select Storm Type ...">
-                    
-                <datalist id="weather">
-                    <option value="Flash Flood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
-                    <option value="Lightning"></option>
-                    <option value="Blizzard"></option>
-                </datalist>
-            </label>
-            <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
-                    <input type="range" name="stormseverity" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                    oninput="adjustRating(this.value)"
-                    onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
-            </label>
-                <datalist id="tickmarks">
-                    <option value="1"></option>
-                    <option value="2"></option>
-                    <option value="3"></option>
-                    <option value="4"></option>
-                    <option value="5"></option>
-                    <option value="6"></option>
-                    <option value="7"></option>
-                    <option value="8"></option>
-                    <option value="9"></option>
-                    <option value="10"></option>
-                </datalist>
-            <label class="stormInfo">Storm Region
-                <select class="custinput" name="stormRegion">
-                    <option value="" disabled selected>Select Region ...</option>
-                    <option value="preston">Preston</option>
-                    <option value="sodaSprings">Soda Springs</option>
-                    <option value="fishHaven">Fish Haven</option>
-                </select>    
-            </label>-->
+       
            
         </fieldset>
         <fieldset>
@@ -138,106 +97,21 @@
             <labe class="top"> Membership Level
              <select name="subject">
                  <option value="">Please Select your option</option>
-                 <option value="1st Membership">Free: $0.00</option>
-                 <option value="2nd Membership">Bronze:$1 500.00</option>
-                 <option value="3rd Membership">Silver:$2 500.00</option>
-                 <option value="4th Membership">Gold:$3 500.00</option>
+                 <option value="1st Membership">First Option</option>
+                 <option value="2nd Membership">Second Option</option>
+                 <option value="3rd Membership">Third Option</option>
+                 <option value="4th Membership">Fourth Option</option>
                </select>
 
-               <label class="sbs"><input type="radio"name="member" value="fr"><span class="yes"></span>Beginner</label>
-            <label class="sbs"><input type="radio"name="Audience" value="intermediate">Intermediate</label>
-            <label class="sbs"><input type="radio"name="Audience" value="advance">Advance</label>
+               <label class="sbs"><input type="radio"name="member" value="fr"><span class="yes"></span>Non Profit : $0.00</label>
+            <label class="sbs"><input type="radio"name="Audience" value="intermediate">Bronze : $1 500.00</label>
+            
+            <label class="sbs"><input type="radio"name="Audience" value="advance">Gold : $3 500.00</label>
 
 
              <label class="top">Starting Date <input type="date" name="completeDate"></label>
             </labe>
-           <!-- <label>How authors <input type="number" name="authors"></label>
 
-          <section class="price-plan">
-            <div class="pricing-plan">
-                <section class="pricing-planfree">
-
-                <div class="pricing-planheader">
-                    <label class="sbs"><input type="radio"name="Audience" value="beginner">New Membership</label>
-                    <h1 class="pricing-plantitle">Non profit</h1>
-                    <h2 lcass="pricing-plansummary">for those getting started</h2>
-                </div>
-                <div class="pricing-plandescription">
-                    <ul class="pricing-planlist">
-                        <li clss="pricing-planfeature">feature1</li>
-                        <li clss="pricing-planfeature">feature2</li>
-                        <li clss="pricing-planfeature">feature3</li>
-                    </ul>
-                </div>
-                <div class="pricing-planActions">
-                    <p class="pricing-planCost">$0.00</p>
-                    <p class="pricing-plantext">per month</p>
-                </div>
-            </section>
-              
-            <section class="pricing-planbronze">
-
-            <div class="pricing-planheader">
-                <h1 class="pricing-plantittle">Bronze</h1>
-                <h2 lcass="pricing-plansummary">for those getting started</h2>
-            </div>
-            <div class="pricing-plandescription">
-                <ul class="pricing-planlist">
-                    <li clss="pricing-planfeature">feature1</li>
-                    <li clss="pricing-planfeature">feature2</li>
-                    <li clss="pricing-planfeature">feature3</li>
-                </ul>
-            </div>
-            <div class="pricing-planActions">
-                <p class="pricing-planCost">$0.00</p>
-                <p class="pricing-plantext">per month</p>
-            </div>
-        </section>
-        <section class="pricing-plansilver">
-
-        <div class="pricing-planheader">
-            <h1 class="pricing-plantittle">Silver</h1>
-            <h2 lcass="pricing-plansummary">for those getting started</h2>
-        </div>
-        <div class="pricing-plandescription">
-            <ul class="pricing-planlist">
-                <li clss="pricing-planfeature">feature1</li>
-                <li clss="pricing-planfeature">feature2</li>
-                <li clss="pricing-planfeature">feature3</li>
-            </ul>
-        </div>
-        <div class="pricing-planActions">
-            <p class="pricing-planCost">$0.00</p>
-            <p class="pricing-plantext">per month</p>
-        </div>
-        </section>
-
-        <section class="pricing-plangold">
-
-        <div class="pricing-planheader">
-            <h1 class="pricing-plantittle">Gold</h1>
-            <h2 lcass="pricing-plansummary">for those getting started</h2>
-        </div>
-        <div class="pricing-plandescription">
-            <ul class="pricing-planlist">
-                <li clss="pricing-planfeature">feature1</li>
-                <li clss="pricing-planfeature">feature2</li>
-                <li clss="pricing-planfeature">feature3</li>
-            </ul>
-        </div>
-        <div class="pricing-planActions">
-            <p class="pricing-planCost">$0.00</p>
-            <p class="pricing-plantext">per month</p>
-        </div>
-    </div>
-</section>
-
-                   <!--<fieldset>
-                        <label class="subhead"><input type="sbd" name="member" value="free"><span class="level"></span>$0.00</label>
-                        <label class="subhead"><input type="sbd" name="member" value="Bronze"><span class="level"></span>$1 500.00</label>
-                        <label class="subhead"><input type="sbd" name="member" value="Silver"><span class="level"></span>$ 2 500.00</label>
-                        <label class="subhead"><input type="sbd" name="member" value="Gold"><span class="level"></span>$ 3 500.00</label>
-                    </fieldset>--> 
 
 
        
