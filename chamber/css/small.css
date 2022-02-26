@@ -48,18 +48,26 @@ header {
     background-color: lightslategray;
 }
 
+header h6{
+    margin-top: -10px;
+}
 
-
-header img,
-footer img {
+header img {
     width: 5em;
     margin: 0.5em 0.1em;
 }
 
+footer img{
+    width: 15em;
+    margin: 0.5em 0.5em;
+}
+
+footer h2{
+    font-size: 20px;
+}
 .social {
     font-size: 1.2em;
 }
-
 
 
 .externalimage {
@@ -76,8 +84,10 @@ footer {
 
 
 header h1,
-footer h1 {
+
+footer {
     margin: 0;
+    height: 50%;
 }
 
 header div {
@@ -218,14 +228,14 @@ nav li:hover {
 
 .contactdiv iframe {
     display: block;
-    width: 80%;
-    height: 10em;
+    width: 70%;
+    height: 8em;
     margin: 0 auto;
 }
 
 #Portal_Last_Updated{
     padding-top: 0;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
     font-size: 18px;
     color: rgb(255, 255, 255);
 }

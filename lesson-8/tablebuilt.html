@@ -22,15 +22,15 @@
             <div class="element-1">
                 <picture class="clip-circle"><img src="images/sky-logo.jpg" alt="sky logo"></picture>
                 <div class="flexwrap">
-                    <h1>Sabai Voyage</h1>
-                   <span> Global Agent</span>
+                    <h2>Sabai Voyage</h2>
+                   <h6> Global Agent</h6>
                 </div>
             </div>
 
 
             <div class="element-2">
                 <div class="subheading">
-                    <date><em> </em></date>
+                    
                 </div>
             </div>
 
@@ -60,9 +60,7 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
-
-<h1>Table formating</h1>
-<body>
+    <h1>Table formating</h1>
 <table>
 
 	<thead>
@@ -75,65 +73,58 @@
             <th scope="col">Sales Goal</th>
 		</tr>
 	</thead>
-	<tbody>
+
 		<tr>
-			<td scope="row">August</td>
+			<td>August</td>
 			<td>$3,590</td>
             <td>$4,000</td>
             
 		</tr>
 		<tr>
-			<td scope="row">September</td>
+			<td>September</td>
 			<td>$4,420</td>
             <td>$4,000</td>
 		</tr>
 		<tr>
-			<td scope="row">October</td>
+			<td>October</td>
 			<td>$4,870</td>
             <td>$5,000</td>
 		</tr>
 		<tr>
-			<td scope="row">November</td>
+			<td>November</td>
 			<td>$8,610</td>
             <td id="extra">$7,500</td>
 		</tr>
 		<tr>
-                <td id="style">Black Friday</td>
-                <td colspan="2">$3,200</td>
-            </tr>
+            <td id="style">Black Friday</td>
+            <td colspan="2">$3,200</td>
+        </tr>
 		
         <tr>
-			<td scope="row">December</td>
+			<td>December</td>
 			<td>$8,610</td>
             <td>$7,500</td>
 		</tr>
-    </tbody>   
+        <tr>
+            <th colspan="3" id="last"> Compiled || Alain</th>
+        
+        </tr>
+   </table>
 
-   
-   <th colspan="3" id="last"> Compiled || Alain</th>
-
-    <caption id="lastmod"></caption>
-    
-</table>
-
-<script>
-const lastmod = document.getElementById("last");
-const now = new Date();
-lastmod.textContent = `Compiled ${now} by Alain`;
-</script>
-    
-
+        <script>
+            const lastmod = document.getElementById("last");
+            const now = new Date();
+            lastmod.textContent = `Compiled ${now} by Alain`;
+        </script>
     <footer>
         <section class="footer-section-1">
             <div class="element-1">
                 <picture class="clip-circle"><img src="images/sky-logo.jpg" alt="sky logo"></picture>
                 <div class="flexwrap">
-                    <h1>Sabai Voyage</h1>
-                    Global Agent
+                    <h2>Sabai Voyage</h2>
+                   <h6> Global Agent</h6>
                 </div>
             </div>
-
-
             <div class="social">
                 <ul>
                     <li>
@@ -162,10 +153,11 @@ lastmod.textContent = `Compiled ${now} by Alain`;
     
 
     <script id="currentDate.js">
-      
+        // select the elements to manipulate (output to)
         const datefield = document.querySelector("date");
-        const datefieldUK = document.querySelector("aside"); 
+        const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
         
+        // derive the current date using a date object
         const now = new Date();
         const fulldate = new Intl.DateTimeFormat("en-US", {
             dateStyle: "full"
@@ -175,10 +167,10 @@ lastmod.textContent = `Compiled ${now} by Alain`;
         const fulldateUK = new Intl.DateTimeFormat("en-UK", {
             dateStyle: "full"
         }).format(now);
-     
-
+        // long, medium, short options ... try them
+        
         datefield.innerHTML = `<em>${fulldate}</em>`;
         datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-    </script>
+        </script>
 </body>
 </html>

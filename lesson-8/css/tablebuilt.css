@@ -44,18 +44,11 @@ html{
     th {
         background-color: rgb(7, 153, 146);
     }
-    .textcaption {
-   
-        margin-left: 500px;
-        padding: 0.1em;
-        border: 10px solid rgb(231, 10, 10);
-        max-width: 50px;
-        white-space: nowrap;
-        text-align: center;
-    }
     
    
- 
+ h6{
+     margin-top: -2px;
+ }
        
      #extra{
 background-color: rgb(7, 153, 146);
