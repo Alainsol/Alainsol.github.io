@@ -9,7 +9,7 @@ html{
     table {
         margin: 5px auto;
         border: 1px thin solid rgb(19, 17, 17);
-        box-shadow: 0 0  40px rgb(22, 22, 22);
+        box-shadow: 10px 10px 25px rgb(8, 8, 8);
         border-collapse: collapse;
        
         
