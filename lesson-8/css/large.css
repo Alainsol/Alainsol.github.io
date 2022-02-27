@@ -54,4 +54,114 @@ footer   {
     transition: .5s;
     
 }
+/*---join page---*/
+main{
+    padding: 0 2%;
+    min-height: 10rem;
+}
+form {
+    background-color:rgb(46, 45, 58);
+    color: white;
+    text-align: left;
+    padding: 1em;
+    
+    position:relative;
+
+}
+
+form fieldset {
+    margin: 2em 0;
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+fieldset legend {
+    font-size: 1.2em;
+    font-family: 'Russo One', fantasy, sans-serif;
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+.top, .stormInfo, .radio, .additionalInfo, .flexly {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+label {
+    padding: 1em 0 1em 0;
+}
+
+.flexly .rating, .stormInfo, #rating {
+    width: 100%;
+}
+
+
+form label.top input:required{
+    border-left: red solid 6px;
+    border-radius: 5em;
+    border: 0 2px solid rgb(34, 36, 36);
+}
+label:required,
+select:required,
+textarea:required{
+    border-color:rgb(255, 238, 3) solid 10px;
+}
+
+
+input.topinput, textarea {
+    width: 92%;
+}
+
+.radiolabel {
+    padding: 0.8em;
+}
+
+div.radio {
+    padding: 1.2em 0 1em 0;
+}
+
+.topinput, #submitBtn {
+    height: 50px;
+}
+
+select.custinput {
+    height: 60px;
+}
+
+.custinput, #submitBtn, textarea {
+    border: 5px solid gray;
+    border-radius: .8em;
+}
+
+#submitBtn {
+    background-color: rgb(248, 224, 2);
+    color: white;
+    Width: 50px;
+    max-width: 20%;
+}
+
+
+.thankYou {
+    padding: 1em;
+    font-size: 3em;
+    background-color:rgba(30, 17, 106, .8);
+    color: white;
+}
+
+.custinput:required {
+    border-left: 5px solid rgb(4, 153, 252);
+}
+
+.custinput:required:valid {
+    border-left: 5px solid green;
+}
+
+
+
+
 }

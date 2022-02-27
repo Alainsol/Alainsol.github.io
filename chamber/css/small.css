@@ -635,14 +635,14 @@ form fieldset {
 }
 
 fieldset legend {
-    font-size: 1.2em;
+    font-size: 2em;
     font-family: 'Russo One', fantasy, sans-serif;
     color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 
-.top, .stormInfo, .radio, .additionalInfo, .flexly {
+.top, .radio, .additionalInfo {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -659,7 +659,7 @@ label {
 
 
 form label.top input:required{
-    border-left: red solid 6px;
+    border-left: rgb(255, 187, 0) solid 6px;
     border-radius: 5em;
     border: 0 2px solid rgb(34, 36, 36);
 }
@@ -675,7 +675,7 @@ input.topinput, textarea {
 }
 
 .radiolabel {
-    padding: 0.5em;
+    padding: 0.8em;
 }
 
 div.radio {
@@ -696,7 +696,7 @@ select.custinput {
 }
 
 #submitBtn {
-    background-color: rgb(248, 224, 2);
+    background-color: rgb(255, 187, 0);
     color: white;
     Width: 50px;
     max-width: 20%;
@@ -710,85 +710,5 @@ select.custinput {
     color: white;
 }
 
-.custinput:required {
-    border-left: 5px solid rgb(4, 153, 252);
-}
-
-.custinput:required:valid {
-    border-left: 5px solid green;
-}
-.pricing-plan, .price-plan {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1/1 ;
- 
-   justify-content: center;
-   
-    background: #0429fd;
-    text-align: center;
-    
-}
-
-ul > li
-{
-    list-style-type: none;
-}
 
 
-.pricing-planfree, 
-.pricing-planbronze,
-.pricing-plansilver,
-.pricing-plangold 
-{
-    
-    width: 300px;
-    border-radius: 25px;
-    box-shadow: 0 0 5px white;
-    overflow: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    color:#daa85e;
-    padding: 0 10px ;
-    margin: 5px;
-   
-
-
-}
-.pricing-planhead{
-    padding: 25px;
-    background: #04a0fa;
-    color: #ffffff;
-}
-.pricing-plantitle,
-.pricing-plansummary{
-    margin: 0;
-    text-align: center;
-
-}
-.pricing-plantitle{
-    font-size: 1.5em;
-    font-weight: 300;
-}
-.pricing-plansummary{
-    font-size: 1.5em;
-    font-weight: 200;
-}
-.pricing-plandescription{
-    padding:  20px;
-}
-.pricing-planlist{
-    margin: 0;
-    padding: 0;
-}
-.pricing-planfeature{
-    list-style: none;
-    margin: 0;
-    padding-left: 20px;
-    position: relative;
-    font-size: 0.8em;
-}
-
-.pricing-planfeature::before{
-    content: "\2714";
-    color:blue;
-}

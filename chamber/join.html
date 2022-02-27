@@ -71,22 +71,13 @@
             <legend>Personal Information</legend>
             <label class="top">First Name* <input type="text" name="fname" required></label>
             <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <!--<label class="top">Business Title* <input class="top" type="text" name="title" pattern="[A-Za-z. -]{7,}" required> </label>
-            <label class="top">First Name* <input class="top" type="text" name="fullname" pattern="[A-Za-z. -]{5,}" required> </label>
-            <label class="top">Email <input class="top" type="email" name="email" placeholder="someone@gmail.com"> </label>
-            <label class="top">Phone* <input class="top" type="tel" name="phone" pattern="[0-9]{10}" placeholder="1112223333" required> </label>-->
-            
             <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Business Name*<input type="text" name="bname" required></label>
-           <label class="top">Business Title* <input class="top" type="text" name="title" pattern="[A-Za-z. -]{7,}" required> </label>
-            <label class="top">Business Position<input type="text" name="bname" required></label>
+            <label class="top">Business Title* <input class="top" type="text" name="title" pattern="[A-Za-z. -]{7,}" required> </label>
             <label class="top">website<input type="url" name="email" placeholder="http://"></label>
             <label class="top">Zip Code* <input class="top" type="number" name="zip" placeholder="12345" required> </label>
         </fieldset>
        
-           
-        </fieldset>
         <fieldset>
             <div class="radio">
                 <p class="">Are you willing to join us?</p>     
@@ -95,8 +86,9 @@
                 <label class="radiolabel"><input type="radio" name="denied" value="no">No</label> 
             </div>
             <legend>Membership Level</legend>
-            
-            <labe class="top"> Membership 
+        <fieldset>
+                <legend>Packages</legend>
+            <label class="top"> Membership Packages
              <select name="subject">
                  <option value="">Please Select your option</option>
                  <option value="1st Membership">First Option</option>
@@ -105,24 +97,21 @@
                  <option value="4th Membership">Fourth Option</option>
                </select>
 
-               <label class="sbs"><input type="radio"name="member" value="fr"><span class="yes"></span>Non Profit : $0.00</label>
-            <label class="sbs"><input type="radio"name="Audience" value="intermediate">Bronze : $1 500.00</label>
+                <label class="sbs"><input type="radio"name="member" value="fr">fr<span class="level">Free</span>Non Profit : $0.00</label>
+                <label class="sbs"><input type="radio"name="member" value="intermediate">Bronze : $1 500.00</label>
+            `   <label class="sbs"><input type="radio"name="member" value="advance">Gold : $4 500.00</label>
+                <label class="sbs"><input type="radio"name="member" value="advance">Gold : $6 500.00</label>
+                <label class="top">Starting Date <input type="date" name="completeDate"></label>
+            </label>
+        </fieldset>
             
-            <label class="sbs"><input type="radio"name="Audience" value="advance">Gold : $3 500.00</label>
-
-
-             <label class="top">Starting Date <input type="date" name="completeDate"></label>
-            </labe>
-
-
-
        
             </section>
         </fieldset>
         <fieldset class="addinfo">
             <legend>Additional Information</legend>
-            <label class="additionalInfo">Please share your relevant thoughts <br>
-                that may help us to improve. 
+            <label class="additionalInfo">Business Description <br>
+               
                 <textarea name="comments" cols="30" rows="10"></textarea> </label>
         </fieldset>
         <label for="tac">
@@ -132,7 +121,7 @@
           <p>
             <a href="terms-and-conditions.html">Read our Terms and Conditions</a>
           </p>
-        <input id="submitBtn" type="submit" value="Valide">
+        <input id="submitBtn" type="submit" value="Submit">
     </form>
     
 
