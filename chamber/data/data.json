@@ -11,6 +11,7 @@
       "district": "Phayathai",
       "city": "Bangkok",
       "website" :"www.infotech.co.th",
+      "email" : "infocare@gmail.com" ,
       "postalCode": "10400",
       "country": "Thailand"
     },
@@ -32,6 +33,7 @@
       "district": "Prawet",
       "city": "Bangkok",
       "website" :"www.infotech.co.th",
+      "email" : "infocare@gmail.com" ,
       "postalCode": "10250",
       "country": "Thailand"
     },
@@ -110,6 +112,7 @@
       
       "postalCode": "10400",
       "country": "Thailand",
+      "email" : "infocare@gmail.com" ,
       "website": "www.infotech.co.th"
       
     },
@@ -154,6 +157,7 @@
       "city": "Bangkok",
       "postalCode": "10400",
       "country": "Thailand",
+      "email" : "infocare@gmail.com" ,
       "website": "www.infotech.co.th"
     },
     "phoneNumbers": [
@@ -174,6 +178,7 @@
       "district": "Phayathai",
       "city": "Bangkok",
       "postalCode": "10400",
+      "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th"
     },
@@ -196,6 +201,7 @@
       "city": "Bangkok",
       "postalCode": "10400",
       "country": "Thailand",
+      "email" : "infocare@gmail.com" ,
       "website": "www.infotech.co.th"
     },
     "phoneNumbers": [
@@ -216,6 +222,29 @@
       "district": "Phayathai",
       "city": "Bangkok",
       "postalCode": "10400",
+      "email" : "infocare@gmail.com" ,
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th"
     },
@@ -238,27 +267,7 @@
       "city": "Bangkok",
       "postalCode": "10400",
       "country": "Thailand",
-      "website": "www.infotech.co.th"
-    },
-    "phoneNumbers": [
-      {
-        "type": "office",
-        "number": "026319402"
-      }
-    ]
-  } ,
-  {
-    "companyName": "InfoTech co ltd",
-    "nemberOfEployees": 25,
-    "rating": 6.8,
-    "isalive": true,
-    "activity": "Freight Forwarder",
-    "address": {
-      "streetAdress": "soi 15 Petchburi rd",
-      "district": "Phayathai",
-      "city": "Bangkok",
-      "postalCode": "10400",
-      "country": "Thailand",
+      "email" : "infocare@gmail.com" ,
       "website": "www.infotech.co.th"
     },
     "phoneNumbers": [
