@@ -10,6 +10,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
+      "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand"
     },
@@ -21,7 +22,7 @@
     ]
   },
   {
-    "comapanyName": "Lazada",
+    "companyName": "Lazada",
    
     "isAlive": true,
     "age": 44,
@@ -30,6 +31,7 @@
       "streetAdress": "soi 76 Pattanakarn Rd",
       "district": "Prawet",
       "city": "Bangkok",
+      "website" :"www.infotech.co.th",
       "postalCode": "10250",
       "country": "Thailand"
     },
@@ -61,6 +63,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
+      "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand"
     },
@@ -81,6 +84,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
+      "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand"
     },
@@ -101,6 +105,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
+      
       "postalCode": "10400",
       "country": "Thailand",
       "website": "www.infotech.co.th"
