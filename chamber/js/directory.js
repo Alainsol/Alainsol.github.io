@@ -22,12 +22,16 @@ fetch(requestURL)
       section.appendChild(addresss);
       //tel company
       let phoneNumbers = document.createElement('p');
-      phoneNumbers.innerHTML = companies[i].phoneNumbers[0].number;
+      phoneNumbers.innerHTML = '<i class="fa fa-phone-square"> ' + companies[i].phoneNumbers[0].number;
       section.appendChild(phoneNumbers);
       //website
       let website =  document.createElement('p');
       website.innerHTML = companies[i].address.website;
       section.appendChild(website);
+      //email
+      let email =  document.createElement('p');
+      email.innerHTML = '<i class="fa fa-envelope"></i> ' +  companies[i].address.email;
+      section.appendChild(email);
 
       // let birthDate = document.createElement('p');
       // let birthPlace = document.createElement('p');

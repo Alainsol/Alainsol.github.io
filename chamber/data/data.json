@@ -63,6 +63,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
+      "email" : "infocare@gmail.com" ,
       "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand"
@@ -84,6 +85,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
+      "email" : "infocare@gmail.com" ,
       "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand"
@@ -109,6 +111,7 @@
       "postalCode": "10400",
       "country": "Thailand",
       "website": "www.infotech.co.th"
+      
     },
     "phoneNumbers": [
       {
@@ -128,6 +131,7 @@
       "district": "Phayathai",
       "city": "Bangkok",
       "postalCode": "10400",
+      "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th"
     },
