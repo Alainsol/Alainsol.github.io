@@ -1,0 +1,276 @@
+
+[
+  {
+    "companyName": "Care freight co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  },
+  {
+    "comapanyName": "Lazada",
+   
+    "isAlive": true,
+    "age": 44,
+    "gender": "man",
+    "address": {
+      "streetAdress": "soi 76 Pattanakarn Rd",
+      "district": "Prawet",
+      "city": "Bangkok",
+      "postalCode": "10250",
+      "country": "Thailand"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "0859221143"
+      },
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ],
+    "children": [
+      "Allinah",
+      "Steev",
+      "Allinah"
+    ],
+    "spouse": "Fara",
+    "pets": null
+  },
+  {
+    "companyName": "Tara Agent co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  },
+  {
+    "companyName": "Worldwide trade Center",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  },
+  {
+    "companyName": "Davida Style Co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  } ,
+  {
+    "companyName": "InfoTech co ltd",
+    "nemberOfEployees": 25,
+    "rating": 6.8,
+    "isalive": true,
+    "activity": "Freight Forwarder",
+    "address": {
+      "streetAdress": "soi 15 Petchburi rd",
+      "district": "Phayathai",
+      "city": "Bangkok",
+      "postalCode": "10400",
+      "country": "Thailand",
+      "website": "www.infotech.co.th"
+    },
+    "phoneNumbers": [
+      {
+        "type": "office",
+        "number": "026319402"
+      }
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
