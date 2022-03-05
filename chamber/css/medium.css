@@ -96,6 +96,14 @@
 .parentbox{
     grid-template-columns: 1fr 1fr;
 }
+/*----directory----*/
+.companylist {
+    margin: 0 auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
 }
 
 .flexly .rating, select.custinput, input.custinput, textarea, #submitBtn, #rating {
