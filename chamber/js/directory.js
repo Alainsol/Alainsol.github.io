@@ -64,3 +64,14 @@ fetch(requestURL)
       companylist.appendChild(section);
   }
 });// temporary checking for valid response and data parsing
+
+
+let cardView = function(){
+  document.querySelector('.companylist').classList.remove('list-view');
+  document.querySelector('.companylist').classList.add('card-view');
+};
+
+let listView = function(){
+  document.querySelector('.companylist').classList.add('list-view');
+  document.querySelector('.companylist').classList.remove('card-view');
+};
