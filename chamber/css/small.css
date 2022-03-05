@@ -223,7 +223,9 @@ nav li:hover {
     clip-path: circle(19px at center);
 }
 
-
+.clip-circle2 {
+    clip-path: circle(60px at center);
+}
 
 
 .contactdiv iframe {
@@ -448,7 +450,7 @@ h3{
 
 @media only screen and (min-width: 1200px){
     body{
-        background-color: rgb(255, 187, 1);
+        background-color: rgb(255, 217, 0);
     }
 
 
@@ -710,5 +712,35 @@ select.custinput {
     color: white;
 }
 
+input{
+    padding: 5px;
+    margin: 5px;
+}
+.last{
+    max-width: 1200px;
+    font-size: 50px;
+    background: darkblue;
+    background-image: rgb(255, 208, 0);
+}
+.memo{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color:#06073a;
+}
+.imagethk{
+    max-width: 100%;
+    margin-top: 5px;
 
+}
 
+#banner-2{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color:#0004ff;
+}
