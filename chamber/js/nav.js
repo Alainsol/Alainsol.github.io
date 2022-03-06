@@ -1,12 +1,14 @@
 //Nav Menu
 
-const navbutton = document.querySelector('.ham');
-const navbars = document.querySelector('.fa-bars');
-const navclose = document.querySelector('.fa-window-close');
-const mainnav = document.querySelector('.navigation');
+// const navbutton = document.querySelector('.ham');
+// const navbars = document.querySelector('.fa-bars');
+// const navclose = document.querySelector('.fa-window-close');
+// const mainnav = document.querySelector('.navigation');
 
-navbutton.addEventListener('click', () => {mainnav.classList.toggle('responsive');
-navbars.classList.toggle('open'); navbars.classList.toggle('hide'); navclose.classList.toggle('close')}, false);
+
+
+// navbutton.addEventListener('click', () => {mainnav.classList.toggle('responsive');
+// navbars.classList.toggle('open'); navbars.classList.toggle('hide'); navclose.classList.toggle('close')}, false);
 
 window.onresize = () => {if (window.innerWidth > 550) mainnav.classList.remove('responsive'); navclose.classList.remove('close'); navbars.classList.remove('hide')};
 
@@ -39,7 +41,7 @@ const months = [
 
 const date = new Date();
 const dayOfMonth = date.getDate();
-//const year = date.getFullYear();
+const year = date.getFullYear();
 const day = days[date.getDay()];
 const month = months[date.getMonth()];
 const currentDate = `${day}, ${dayOfMonth} ${month} ${year}`;

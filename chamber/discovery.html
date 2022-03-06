@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="../favicon.ico" />
-    <script defer src="js/lazyload.js"></script>
-    <script defer src="js/nav.js"></script>
     <script defer src="js/lastvisit.js"></script>
     <script defer src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script defer src="js/webfontload.js"></script>
@@ -182,7 +180,9 @@
         </div>
     </main>
 <footer>
-        
+        <!--<div id="currentDate"></div>
+        <div id="Current_Year"></div>
+        <aside></aside>-->
         
         <section class="footer-section-1">
             <div class="element-1">
@@ -223,6 +223,7 @@
     <script src="js/lazyload.js"></script>
 
     <script id="current_Date.js">
+
         // select the elements to manipulate (output to)
         const datefield = document.querySelector("date");
         const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
