@@ -1,14 +1,14 @@
 //Nav Menu
 
-// const navbutton = document.querySelector('.ham');
-// const navbars = document.querySelector('.fa-bars');
-// const navclose = document.querySelector('.fa-window-close');
-// const mainnav = document.querySelector('.navigation');
+const navbutton = document.querySelector('.ham');
+const navbars = document.querySelector('.fa-bars');
+const navclose = document.querySelector('.fa-window-close');
+const mainnav = document.querySelector('.navigation');
 
 
 
-// navbutton.addEventListener('click', () => {mainnav.classList.toggle('responsive');
-// navbars.classList.toggle('open'); navbars.classList.toggle('hide'); navclose.classList.toggle('close')}, false);
+navbutton.addEventListener('click', () => {mainnav.classList.toggle('responsive');
+navbars.classList.toggle('open'); navbars.classList.toggle('hide'); navclose.classList.toggle('close')}, false);
 
 window.onresize = () => {if (window.innerWidth > 550) mainnav.classList.remove('responsive'); navclose.classList.remove('close'); navbars.classList.remove('hide')};
 

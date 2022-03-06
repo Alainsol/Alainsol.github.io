@@ -386,7 +386,7 @@ nav li:hover {
 }
 
 .active {
-    background-color:rgba(255, 210, 63, 1);
+    background-color:rgb(255, 255, 255);
 }
 
 .ham {
@@ -776,5 +776,9 @@ input{
         font-size: 50px;
         background: darkblue;
         background-image: rgb(255, 208, 0);
+    }
+    footer img{
+        width: 5em;
+        margin: 3em 0.5em;
     }
 }

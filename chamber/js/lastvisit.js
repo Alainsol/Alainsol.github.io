@@ -1,5 +1,6 @@
+const today = new Date();
 const prevVisit = new Date(localStorage.getItem('lastVisit'));
-const difference = date.getTime() - prevVisit.getTime();
+const difference = today.getTime() - prevVisit.getTime();
 const daysSinceVisit = difference / (1000 * 3600 * 24);
 
 if ('lastVisit' in localStorage) {
@@ -15,5 +16,5 @@ const storeVisit = storeDate();
  
 
 function storeDate() {
-      localStorage.setItem('lastVisit', date);
+      localStorage.setItem('lastVisit', today);
 } 
