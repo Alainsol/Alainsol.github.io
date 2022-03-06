@@ -2,7 +2,7 @@
 
 /// b62f04b1ceca4f5ec863d97451c67d75
 
-const apiURL = 'http://api.openweathermap.org/data/2.5/weather?q=Bangkok&units=metric&appid=8ce342ec0bef6453a2de8960f69f0afa'
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Bangkok&units=metric&appid=8ce342ec0bef6453a2de8960f69f0afa'
 
 fetch(apiURL)
   .then((response) => response.json())
