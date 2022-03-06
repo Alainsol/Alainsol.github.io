@@ -84,4 +84,20 @@ footer   {
 .button-container button img {
     max-width: 100%;
 }
+
+/* thank you */
+.thank-you {
+    max-width: 1350px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+
+.last{
+    max-width: 1350px;
+    font-size: 50px;
+    background: darkblue;
+    background-image: rgb(255, 208, 0);
+}
 }

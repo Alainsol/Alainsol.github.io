@@ -28,13 +28,7 @@ footer {
     }
 
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Russo One', fantasy, sans-serif;
-    font-weight: 400;
-}
+
 
 header {
     display: flex;
@@ -487,6 +481,7 @@ grid-row-gap: 20px;
     border-style:solid;
     border-color:white;
     border-width: 5px;
+    padding-bottom: 15px;
     }
 
 /* gallery */
@@ -716,12 +711,7 @@ input{
     padding: 5px;
     margin: 5px;
 }
-.last{
-    max-width: 1200px;
-    font-size: 50px;
-    background: darkblue;
-    background-image: rgb(255, 208, 0);
-}
+
 .memo{
     font-size: 40px;
     font-weight: 300;
@@ -744,35 +734,47 @@ input{
     font-style: italic;
     color:#0004ff;
 }
-/*----directory----*/
-.companylist {
-    margin: 0 auto;
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 1fr;
-    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
-}
-.companylist.card-view {
-    margin: 0 auto;
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 1fr;
-    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
-    background-color: blue;
-}
 
-.companylist.list-view {
-    display: block;
-    background-color: gray;
-}
-.button-container {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.button-container button {
-    width: 50px;
-    padding: 15px;
-}
-.button-container button img {
-    max-width: 100%;
+
+@media only screen and (max-width: 34.7em) {
+
+    /*----directory----*/
+    .companylist {
+        margin: 0 auto;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+    }
+    .companylist.card-view {
+        margin: 0 auto;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+        background-color: blue;
+    }
+
+    .companylist.list-view {
+        display: block;
+        background-color: gray;
+    }
+    .button-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .button-container button {
+        width: 50px;
+        padding: 15px;
+    }
+    .button-container button img {
+        max-width: 100%;
+    }
+
+    .last{
+        max-width: 1200px;
+        font-size: 50px;
+        background: darkblue;
+        background-image: rgb(255, 208, 0);
+    }
 }
