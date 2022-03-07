@@ -17,7 +17,7 @@ main,
 footer {
     max-width: 889px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 .home-grid{
@@ -762,6 +762,7 @@ input{
     .button-container {
         margin-top: 25px;
         margin-bottom: 25px;
+        text-align: center;
     }
     .button-container button {
         width: 50px;
@@ -780,5 +781,12 @@ input{
     footer img{
         width: 5em;
         margin: 3em 0.5em;
+    }
+
+
+    .contactdiv-home{
+        display: block;
+        background-color: darkblue;
+        border: 1px solid white;
     }
 }

@@ -1,7 +1,5 @@
 const requestURL   = 'https://alainsol.github.io/chamber/data/data.json';
 const companylist = document.querySelector('.companylist');
-
-
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -32,34 +30,6 @@ fetch(requestURL)
       let email =  document.createElement('p');
       email.innerHTML = '<i class="fa fa-envelope"></i> ' +  companies[i].address.email;
       section.appendChild(email);
-
-      // let birthDate = document.createElement('p');
-      // let birthPlace = document.createElement('p');
-      // let deathDate = document.createElement('p');
-      // let image = document.createElement('img');
-      
-
-      // h2.textContent = `${prophets[i].name} ${prophets[i].lastname}`;
-      // birthDate.textContent = `Date of Birth: ${prophets[i].birthdate}`;
-      // birthPlace.textContent = `Place of Birth: ${prophets[i].birthplace}`;
-      
-
-      // card.appendChild(h2);
-      // card.appendChild(birthDate);
-      // card.appendChild(birthPlace);
-
-      // if (prophets[i].death != null) {
-      //     deathDate.textContent = `Date of Death: ${prophets[i].death}`;
-      //     card.appendChild(deathDate);
-      // }else {
-      //     deathDate.textContent = `This is our living Prophet`;
-      //     card.appendChild(deathDate);
-      // };
-
-      // card.appendChild(image);
-
-      // image.setAttribute('src', prophets[i].imageurl);
-      // image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`);
 
       companylist.appendChild(section);
   }

@@ -5,3 +5,19 @@ h4 {
     font-family: 'Syne Mono', fantasy, sans-serif;
     font-weight: 400;
 }
+
+.newsdiv, .contactdiv-home{
+    background-color: blue;
+    
+}
+.contactdiv-home{
+    border:white solid 5px;
+    
+}
+.contactdiv iframe {
+    display: block;
+    width: 70%;
+    height: 8em;
+    margin: 0 auto;
+    margin-top: 32px;
+}

@@ -57,7 +57,26 @@ footer   {
     transition: .5s;
     
 }
+.contactdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/1;
+}
+.address{
+    grid-column: 1/2;
+    grid-row: 1/1;
+ 
+    border-top: 10px;
 
+}
+.map{
+    grid-column: 2/2;
+    grid-row: 1/1;
+  
+    margin-top: 10px;
+
+
+}
 
 /*----directory----*/
 .companylist.card-view {
