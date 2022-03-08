@@ -78,31 +78,9 @@ footer   {
 
 }
 
-/*----directory----*/
-.companylist.card-view {
-    margin: 0 auto;
-    padding: 1em;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    box-shadow: 0 0 20px 5px rgb(255, 255, 255);
-    background-color: blue;
-}
 
-.companylist.list-view {
-    display: block;
-    background-color: gray;
-}
-.button-container {
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.button-container button {
-    width: 50px;
-    padding: 15px;
-}
-.button-container button img {
-    max-width: 100%;
-}
+
+
 
 /* thank you */
 .thank-you {
@@ -119,4 +97,5 @@ footer   {
     background: darkblue;
     background-image: rgb(255, 208, 0);
 }
+
 }
