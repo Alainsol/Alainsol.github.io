@@ -106,7 +106,27 @@ img {
     margin-top: 1.5em;
 }
 
+companylist.card-view section h4 {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    width: 50%;
+    color: brown;
+     
+    
+    margin: auto;
+}
 
+.companylist.card-view section p {
+    width: 60px;
+    display: grid;
+
+}
+
+.companylist.card-view section img {
+    width: 60px;
+    display: block;
+}
 
 @media only screen and (min-width: 35em) {
     .cards {
