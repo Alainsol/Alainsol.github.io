@@ -118,8 +118,10 @@ img {
 }
 
 .companylist.card-view section p {
-    width: 60px;
-    display: grid;
+    width: 100%;
+    display: block;
+    text-align: center;
+
 
 }
 
