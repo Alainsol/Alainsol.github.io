@@ -108,10 +108,12 @@ img {
 
 .companylist.card-view section h4 {
     text-align: center;
-    display: block;
+    display: grid;
+
     font-weight: bold;
    width: 100%;
     color: rgb(250, 6, 6);
+
      
     
     margin: auto;
@@ -120,8 +122,12 @@ img {
 .companylist.card-view section p {
     width: 100%;
     display: block;
+    grid-column-start: 1;
+    grid-column-end: 1;
     text-align: center;
-    color: blue;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-weight: bold;
 
 
 }
