@@ -106,7 +106,7 @@ img {
     margin-top: 1.5em;
 }
 
-companylist.card-view section h4 {
+.companylist.card-view section h4 {
     text-align: center;
     display: block;
     font-weight: bold;
