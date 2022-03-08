@@ -30,6 +30,11 @@ fetch(requestURL)
       let email =  document.createElement('p');
       email.innerHTML = '<i class="fa fa-envelope"></i> ' +  companies[i].address.email;
       section.appendChild(email);
+      //images
+      let image = document.createElement('img');
+      image.innerHTML = '<i class="fa fa-envelope"></i> ' +  companies[i].address.image;
+      section.appendChild(image);
+        
 
       companylist.appendChild(section);
   }

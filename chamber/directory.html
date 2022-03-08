@@ -65,11 +65,21 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+   
     <main>
+        <h1>Business Directory</h1>
+     
+        <section class="directory">
         <div class="button-container">
-            <button onclick="cardView();"><img src="./images/apps.png"/></button>
-            <button onclick="listView();"><img src="./images/list-2.png"/></button>
+            <div class="cardviewlistbtn">
+            <button onclick="cardView();"><img src="./images/apps.png" alt="Card View" width="40"></button>
+        
+            <button onclick="listView();"><img src="./images/list-2.png" alt="list View" width="40"></button>
         </div>
+        
+    </section>
+          
+        
         
     <div class="companylist card-view">
     </div>
@@ -93,7 +103,7 @@
 
 
     <footer>
-        <section class="footer-section-1">
+        <div class="footer-section-1">
             <div class="element-1">
                 <picture class="clip-circle"><img src="images/sky-logo.jpg" alt="sky logo"></picture>
                 <div class="flexwrap">
@@ -105,7 +115,7 @@
 
             <div class="social">
                 <ul>
-                    <li>
+                    <li>  <a href="https://linkedin.com" target="_blank"><img src="images/in.png" alt="LinkedIn logo" class="icon"></a>
                         <a class="social-link" href="https://www.facebook.com" target="_blank">
                             <img class="footer-right-img" src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_facebook.png?v=1620924874612" alt="Facebook icon"></a>
                         <a class="social-link" href="https://www.google.com" target="_blank">
@@ -115,14 +125,15 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="footer-section-2">
+        </div>
+        <div class="footer-section-2">
+          <p><span id="daysSinceVisit"></span></p>
             <p>&copy; <span id="currentYear">2022</span>"| Alain Solohery | Bangkok Thailand |  <a 
                 href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a>  | 
                 <a href="https://alainsol.github.io/index.html">Assignment Portal</a></p>
               
                 <p id="Portal_Last_Updated">Last Modified: <span id="Date_Modified"></span></p>
-        </section>
+        </div>
     </footer>
     <script src="js/nav.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

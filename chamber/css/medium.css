@@ -101,6 +101,18 @@
     grid-template-columns: 1fr 1fr;
 }
 /*----directory----*/
+
+@media only screen and (min-width: 34em){
+
+.listview section {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cardview{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
 .companylist {
     margin: 0 auto;
     padding: 1em;
@@ -112,15 +124,26 @@
     margin: 0 auto;
     padding: 1em;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
     box-shadow: 0 0 20px 5px rgb(255, 255, 255);
     background-color: blue;
 }
-
-.companylist.list-view {
-    display: block;
-    background-color: gray;
-    text-align: center;
+ .companylist.list-view {
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        color: white;
+        background-color: rgba(255, 174, 0, 0.8);
+        box-shadow: rgb(200, 198, 207) 0px 1px 5px 2px;
+        margin: 1.2em;
+        padding: 1.5em 0px;
+        border-radius: 1em;
+        border-width: 0.6em;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-image: initial;
+    }
 }
 .button-container {
     margin-top: 25px;
@@ -136,8 +159,12 @@
 .button-container button img {
     max-width: 100%;
 }
-}
+
+
+
+
 
 .flexly .rating, select.custinput, input.custinput, textarea, #submitBtn, #rating {
     width: 75%;
 }
+
