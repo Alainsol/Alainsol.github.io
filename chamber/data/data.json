@@ -152,7 +152,8 @@
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th" ,
+      "image":"./images/.png"
     },
     "phoneNumbers": [
       {
@@ -174,7 +175,8 @@
       "postalCode": "10400",
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th" ,
+      "image":"./images/dadd.png"
     },
     "phoneNumbers": [
       {
@@ -196,7 +198,8 @@
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th" ,
+      "image":"./images/bateau.png"
     },
     "phoneNumbers": [
       {
@@ -218,7 +221,9 @@
       "postalCode": "10400",
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th",
+      "image":"./images/agent.jpg" 
+      
     },
     "phoneNumbers": [
       {
@@ -240,7 +245,8 @@
       "postalCode": "10400",
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th",
+      "image":"./images/fret.jpg"
     },
     "phoneNumbers": [
       {
@@ -262,7 +268,8 @@
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th",
+      "image":"./images/gdgd.jpg"
     },
     "phoneNumbers": [
       {
