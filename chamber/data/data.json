@@ -31,7 +31,8 @@
       "website" :"www.infotech.co.th",
       "email" : "infocare@gmail.com" ,
       "postalCode": "10250",
-      "country": "Thailand"
+      "country": "Thailand" ,
+      "image":"./images/lazada.png"
     },
     "phoneNumbers": [
       {
@@ -57,7 +58,8 @@
       "email" : "infocare@gmail.com" ,
       "website" :"www.infotech.co.th",
       "postalCode": "10400",
-      "country": "Thailand"
+      "country": "Thailand",
+      "image":"./images/company3.png"
     },
     "phoneNumbers": [
       {
@@ -79,7 +81,8 @@
       "email" : "infocare@gmail.com" ,
       "website" :"www.infotech.co.th",
       "postalCode": "10400",
-      "country": "Thailand"
+      "country": "Thailand" ,
+      "image":"./images/company4.png"
     },
     "phoneNumbers": [
       {
@@ -102,6 +105,7 @@
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
+      "image":"./images/company5.png" ,
       "website": "www.infotech.co.th"
       
     },
@@ -125,7 +129,8 @@
       "postalCode": "10400",
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th"
+      "website": "www.infotech.co.th" ,
+      "image":"./images/company6.png"
     },
     "phoneNumbers": [
       {
