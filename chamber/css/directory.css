@@ -53,17 +53,17 @@ h1 {
     font-size: 0.7em;
 }
 
-.companylist {
+/*.companylist {
     margin: 0 auto;
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr;
     box-shadow: 0 0 20px 5px rgb(255, 255, 255);
-}
+}*/
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     margin: 1.2em;
     color: white;
@@ -110,7 +110,7 @@ img {
     text-align: center;
    display: grid;
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     font-weight: bold;
    width: 100%;
     color: rgb(250, 6, 6);
@@ -125,7 +125,7 @@ img {
     display: block;
  display: grid;
  grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     text-align: center;
     color: rgb(255, 255, 255);
     margin-left: 10px;
@@ -133,11 +133,25 @@ img {
 
 
 }
+.companylist.list-view section h4{
+   display: grid;
 
-.companylist.card-view section img {
+    padding: 0.5em;
+    color:red;
+    text-align: left;
+}
+.companylist.list-view section p{
+
+    display: grid;
+    grid-template-columns: 2;
+    padding: 0.2em;
+    color:rgb(255, 255, 255);
+}
+/*.companylist.card-view section img {
+
     width: 60px;
     display: block;
-}
+}*/
 
 @media only screen and (min-width: 35em) {
     .cards {
