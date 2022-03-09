@@ -81,11 +81,28 @@ section {
     box-shadow: 0 0 20px 5px rgb(255, 255, 255);
     background-color: blue;
 }
+.companylist.card-view img {
+    text-align: center;
+    display: grid;
+     grid-column-start: 1;
+     grid-column-end: 5;
+    height: 100px;
+    margin-bottom: 10px;
+
+   
+}
+
+
 
 .companylist.list-view {
     display: block;
     background-color: gray;
 }
+
+.companylist.list-view img {
+    display: none;
+}
+
 .companylist.list-view section:nth-child(2n){
     background-color: rgb(19, 174, 226);
 }
@@ -94,9 +111,8 @@ section {
 
 }
 
-.zebra{
-    background-color: brown;
-}
+
+
 section p {
     margin: 0;
 }
@@ -120,7 +136,7 @@ img {
     grid-column-end: 5;
     font-weight: bold;
    width: 100%;
-    color: rgb(250, 6, 6);
+    color: rgb(12, 49, 73);
 
      
     

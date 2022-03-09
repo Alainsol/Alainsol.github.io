@@ -9,7 +9,15 @@ fetch(requestURL)
     const companies = jsonObject;
 
     for (let i=0; i < companies.length; i++ ) {
+
       let section = document.createElement('section');
+
+      //images
+      let image = document.createElement('img');
+      image.src = companies[i].address.image; //'<i class="fa fa-envelope"></i> <img src="'+ companies[i].address.image +'"/>';
+      section.appendChild(image);
+
+      
       let h4 = document.createElement('h4');
       h4.innerHTML = companies[i].companyName;
       section.appendChild(h4);
@@ -25,10 +33,7 @@ fetch(requestURL)
       website.innerHTML = companies[i].address.website + '<br/>' + companies[i].address.email;
       section.appendChild(website);
  
-      //images
-      let image = document.createElement('img');
-      image.src = companies[i].address.image; //'<i class="fa fa-envelope"></i> <img src="'+ companies[i].address.image +'"/>';
-      section.appendChild(image);
+      
         
 
       companylist.appendChild(section);
