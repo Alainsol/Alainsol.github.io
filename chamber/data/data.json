@@ -2,9 +2,6 @@
 [
   {
     "companyName": "Care freight co ltd",
-    "nemberOfEployees": 25,
-    "rating": 6.8,
-    "isalive": true,
     "activity": "Freight Forwarder",
     "address": {
       "streetAdress": "soi 15 Petchburi rd",
@@ -12,8 +9,8 @@
       "city": "Bangkok",
       "website" :"www.infotech.co.th",
       "email" : "infocare@gmail.com" ,
-      "postalCode": "10400",
-      "country": "Thailand"
+      "country": "Thailand",
+      "image":"./images/logofreight.png"
     },
     "phoneNumbers": [
       {
@@ -30,7 +27,6 @@
     "gender": "man",
     "address": {
       "streetAdress": "soi 76 Pattanakarn Rd",
-      "district": "Prawet",
       "city": "Bangkok",
       "website" :"www.infotech.co.th",
       "email" : "infocare@gmail.com" ,
@@ -46,20 +42,13 @@
         "type": "office",
         "number": "026319402"
       }
-    ],
-    "children": [
-      "Allinah",
-      "Steev",
-      "Miah"
-    ],
-    "spouse": "Fara",
-    "pets": null
+    ]
+    
+    
   },
   {
     "companyName": "Tara Agent co ltd",
-    "nemberOfEployees": 25,
-    "rating": 6.8,
-    "isalive": true,
+
     "activity": "Freight Forwarder",
     "address": {
       "streetAdress": "soi 15 Petchburi rd",

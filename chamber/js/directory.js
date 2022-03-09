@@ -16,23 +16,18 @@ fetch(requestURL)
 
       // street name
       let addresss =  document.createElement('p');
-      addresss.innerHTML = companies[i].address.streetAdress;
+      addresss.innerHTML = companies[i].address.streetAdress + '<br/>' 
+      + '<i class="fa fa-phone-square"> ' + companies[i].phoneNumbers[0].number;;
       section.appendChild(addresss);
-      //tel company
-      let phoneNumbers = document.createElement('p');
-      phoneNumbers.innerHTML = '<i class="fa fa-phone-square"> ' + companies[i].phoneNumbers[0].number;
-      section.appendChild(phoneNumbers);
+    
       //website
       let website =  document.createElement('p');
-      website.innerHTML = companies[i].address.website;
+      website.innerHTML = companies[i].address.website + '<br/>' + companies[i].address.email;
       section.appendChild(website);
-      //email
-      let email =  document.createElement('p');
-      email.innerHTML = '<i class="fa fa-envelope"></i> ' +  companies[i].address.email;
-      section.appendChild(email);
+ 
       //images
       let image = document.createElement('img');
-      image.innerHTML = '<i class="fa fa-envelope"></i> ' +  companies[i].address.image;
+      image.src = companies[i].address.image; //'<i class="fa fa-envelope"></i> <img src="'+ companies[i].address.image +'"/>';
       section.appendChild(image);
         
 

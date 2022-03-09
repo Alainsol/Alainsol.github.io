@@ -63,7 +63,7 @@ h1 {
 
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     margin: 1.2em;
     color: white;
@@ -85,11 +85,18 @@ section {
 .companylist.list-view {
     display: block;
     background-color: gray;
-}.companylist.card-view{
+}
+.companylist.list-view section:nth-child(2n){
+    background-color: rgb(19, 174, 226);
+}
+.companylist.card-view{
     margin: 0;
 
 }
 
+.zebra{
+    background-color: brown;
+}
 section p {
     margin: 0;
 }
