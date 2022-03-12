@@ -12,10 +12,15 @@ fetch(requestURL)
 
       let section = document.createElement('section');
 
+      let imgbox = document.createElement('div');
+      imgbox.classList.add('img-box');
+
       //images
       let image = document.createElement('img');
       image.src = companies[i].address.image; //'<i class="fa fa-envelope"></i> <img src="'+ companies[i].address.image +'"/>';
-      section.appendChild(image);
+      imgbox.appendChild(image);
+
+      section.appendChild(imgbox);
 
       
       let h4 = document.createElement('h4');
