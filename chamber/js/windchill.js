@@ -13,6 +13,10 @@ fetch(apiURL)
     const currenttemp = jsObject.main.temp; //document.querySelector('#currenttemp').innerHTML;
     document.querySelector('#windspeed').innerHTML = wind;
 
+    document.querySelector('#temperature').innerHTML = currenttemp;
+    document.getElementById('weather-description').innerHTML = jsObject.weather[0].description;
+
+
     if(wind >2 && currenttemp <= 50) {
         const chill = ((35.74 + (0.6215 * currenttemp)) - (35.75 * (Math.pow(wind,0.16))) + (0.4275 * currenttemp * (Math.pow(wind, 0.16)))).toFixed(0);
     

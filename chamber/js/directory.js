@@ -33,9 +33,14 @@ fetch(requestURL)
       + '<i class="fa fa-phone-square"> ' + companies[i].phoneNumbers[0].number;;
       section.appendChild(addresss);
     
+      //email
+      let email =  document.createElement('p');
+      email.innerHTML = companies[i].address.email;
+      section.appendChild(email);
+
       //website
       let website =  document.createElement('p');
-      website.innerHTML = companies[i].address.website + '<br/>' + companies[i].address.email;
+      website.innerHTML = companies[i].address.website;
       section.appendChild(website);
  
       

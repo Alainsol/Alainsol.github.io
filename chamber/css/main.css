@@ -127,7 +127,7 @@ header div {
 header section {
     display: flex;
     flex-direction: row;
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 .footer-section-1 {
@@ -151,6 +151,7 @@ header section {
     justify-content: center;
     align-items: center;
     padding: 0 25px;
+    padding-top: 60px;
 }
 
 .italic {
@@ -240,11 +241,13 @@ nav li:hover {
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
+  
 }
 
 .social {
     display: flex;
     align-items: center;
+    margin-left: 50px;
 }
 
 .footer-right-img {
@@ -281,6 +284,10 @@ a {
     color: rgb(255, 255, 255);
 }
 
+.tempet{ 
+    display: flex;
+    flex-direction: row;
+}
 
 
 p {
@@ -304,11 +311,15 @@ p {
 
 .element-text-3 {
     background-color: rgb(14, 240, 127);
+    padding-top: 5px;
+    text-align: center;
 
 }
 
 .element-text-4 {
     background-color: rgb(14, 240, 127);
+    padding-top: 5px;
+    text-align: center;
 
 
 
@@ -361,7 +372,12 @@ nav ul {
     white-space: nowrap;
 }
 
-
+ul{
+ 
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+}
 nav a {
     color: black;
     text-decoration: none;
@@ -720,3 +736,10 @@ textarea,
 #rating {
     width: 75%;
 }
+.tempet {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    }

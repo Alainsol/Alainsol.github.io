@@ -33,18 +33,17 @@ h1 {
     font-size: 0.7em;
 }
 
-.companylist section {
+/*.companylist section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     margin: 1.2em;
     color: white;
     background-color: rgba(255, 174, 0, 0.8);
     padding: 1.5em 0;
     border-radius: 1em;
-    /*border: .6em solid rgb(255, 255, 255);*/
     box-shadow: 0 1px 5px 2px rgb(200, 198, 207);
-}
+}*/
 
 /*.companylist {
     margin: 0 auto;
@@ -79,7 +78,7 @@ h1 {
     background-color: gray;
 }
 
-.companylist.list-view img {
+.companylist.list-view .img-box {
     display: none;
 }
 
@@ -89,12 +88,6 @@ h1 {
 .companylist.card-view{
     margin: 0;
 
-}
-
-
-
-section p {
-    /*margin: 0;*/
 }
 
 section:nth-child(10) :nth-child(4) {
@@ -136,7 +129,7 @@ section:nth-child(10) :nth-child(4) {
 .companylist.list-view section h4{
     display: grid;
     padding: 0.5em;
-    color:red;
+    color:rgba(71, 15, 15, 0.973);
     text-align: left;
 }
 
