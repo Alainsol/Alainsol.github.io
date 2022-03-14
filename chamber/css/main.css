@@ -421,7 +421,7 @@ nav li:hover {
 
 p {margin-left: 20px;
     color: rgb(253, 253, 253);
-    text-align: center;
+  
 
 }
 
@@ -641,6 +641,7 @@ form label.top input:required {
     border-left: rgb(255, 187, 0) solid 6px;
     border-radius: 5em;
     border: 0 2px solid rgb(34, 36, 36);
+    width: 200px;
 }
 
 label:required,
