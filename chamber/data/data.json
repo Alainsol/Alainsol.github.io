@@ -82,7 +82,7 @@
       "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand" ,
-      "image":"./images/company4.jpg"
+      "image":"./images/bateau-removebg-peview(1).png"
     },
     "phoneNumbers": [
       {
@@ -105,7 +105,7 @@
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
-      "image":"./images/asa.png" ,
+      "image":"./images/truck.png" ,
       "website": "www.infotech.co.th"
       
     },
@@ -130,7 +130,7 @@
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th" ,
-      "image":"./images/company6.png"
+      "image":"./images/003.1-copy-300x275.png"
     },
     "phoneNumbers": [
       {
@@ -153,7 +153,7 @@
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
       "website": "www.infotech.co.th" ,
-      "image":"./images/io.jpg"
+      "image":"./images/company.jpg"
     },
     "phoneNumbers": [
       {
@@ -222,7 +222,7 @@
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th",
-      "image":"./images/agent.jpg" 
+      "image":"/images/freightlogo.png" 
       
     },
     "phoneNumbers": [
@@ -246,7 +246,7 @@
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th",
-      "image":"./images/fret.jpg"
+      "image":"./images/fret1.png"
     },
     "phoneNumbers": [
       {
