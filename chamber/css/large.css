@@ -3,6 +3,9 @@
     body {
         background-color: rgb(255, 217, 0);
     }
+    .clip-circle {
+        clip-path: circle(50px at center);
+    }
 
 
     header section {

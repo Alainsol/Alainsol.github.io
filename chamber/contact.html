@@ -20,7 +20,7 @@
             <header>
                 <section>
                     <div class="element-1">
-                        <picture class="clip-circle"><img src="images/logo-2.webp" alt="sky logo"></picture>
+                        <picture class="clip-circle"><img src="images/logo.jpg" alt="sky logo"></picture>
                         <div class="flexwrap">
                             <h2>Sabai Voyage</h2>
                             <h6> Global Agent</h6>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="element-2">
                         <div class="subheading">
-                            <date><em> </em></date>
+                            <date></date>
                         </div>
                     </div>
                     <div class="social">
@@ -119,12 +119,26 @@
                     <label class="formCityy">City</label> 
                     <input class="formcontrol" id="contactCity" name="City" placeholder="Bangkok" type="text" value>
                     <label for ="country"></label> Country</label>-->
-            <fieldset>
-                    <label class="top">State Name* <input type="text" name="state" placeholder="bangkok" required> </label>
-                    <label class="top">City Name* <input type="text" name="city" placeholder="bangkok" required> </label>
-                    <label class="top">Zip Code* <input class="top" type="number" name="zip" placeholder="12345" required> </label>
-                    
-                    <select id="country" name="country">
+            <fieldset class="contact-box">
+                    <div class="namecity">
+                        <label class="top">City Name* </label>
+                        <input type="text" name="city" placeholder="bangkok" required> 
+                    </div>
+
+                    <div class="state">
+                   
+                    <label class="top">State Name*</label> 
+                        <input type="text" name="state" placeholder="bangkok" required> 
+                    </div>  
+                    <div class="codepostal">
+                    <label class="top">Zip Code* </label>
+                    <input class="top" type="number" name="zip" placeholder="12345" required> 
+                    </div>
+                    <div class="nation">
+                        <label class="top">Country  </label>
+                       <!-- <input  type="text" name="country" placeholder="bangkok" required>-->
+                       
+                    <select id="countrylist" name="country">
                         <option>select country</option>
                         <option value="AF">Afghanistan</option>
                         <option value="AX">Aland Islands</option>
@@ -378,10 +392,18 @@
                         <option value="YE">Yemen</option>
                         <option value="ZM">Zambia</option>
                         <option value="ZW">Zimbabwe</option>
-                    </select>       
-                    <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label class="top">Email 1* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                       
+                    </select>  
+                </div>
+                    
+                    <div class="phoneoption">
+                    <label class="top">Phone </label>
+                    <input type="tel" name="phone" placeholder="1235551234">
+                    </div>
+                    <div class="emailoption">
+                    <label class="top">Email 1* </label>
+                    <input type="email" name="email" placeholder="someone@gmail.com" required>
+                    </div> 
+
                     <select name="subject">
                         <option value="">Please Select </option>
                         <option value="phone">Phone</option>
@@ -389,7 +411,7 @@
                         <option value="mail">Mail</option>
                         
                         </select>
-                        </fieldset>
+            </fieldset>
                     <fieldset class="addinfo">
                         <legend>Comments/Questions</legend>
                     <textarea name="comments" cols="30" rows="10"></textarea>
@@ -404,7 +426,7 @@
 
                         <div class="contain">
                             <input text="text" id="capt" readonly="readonly">
-                            <div id="refresh"><img src="refresh.png" width="60" onclick="cap()"></div>
+                           <!--<div id="refresh"><img src="refresh.png" width="60" onclick="cap()"></div>-->
                             <input type="text" id="textinput">
                             <button>Check</button>
                             
@@ -529,7 +551,7 @@
             }).format(now);
             // long, medium, short options ... try them
             datefield.innerHTML = `<em>${fulldate}</em>`;
-            datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+            //datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
         </script>
     </body>
 </html>

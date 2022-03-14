@@ -11,7 +11,7 @@
     }
 
     .clip-circle {
-        clip-path: circle(60px at center);
+        clip-path: circle(40px at center);
     }
 
     header section {
@@ -142,7 +142,7 @@
     
     /*----directory----*/
 
-    @media only screen and (min-width: 34em) {
+   /* @media only screen and (min-width: 34em) {
 
         .listview section {
             grid-template-columns: repeat(4, 1fr);
@@ -152,7 +152,7 @@
             grid-template-columns: repeat(3, 1fr);
         }
 
-    }
+    }*/
 
     .companylist {
         margin: 0 auto;

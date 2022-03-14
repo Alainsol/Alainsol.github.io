@@ -612,8 +612,19 @@ fieldset legend {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
+    text-align: start;
 
 }
+
+.namecity, .state, .codepostal, .nation{
+    display: inline-block;
+    
+}
+.phoneoption, .emailoption {
+    display: inline-block;
+
+}
+
 
 label {
     padding: 1em 0 1em 0;

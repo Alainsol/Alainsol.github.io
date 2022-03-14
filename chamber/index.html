@@ -21,7 +21,7 @@
             <header>
             <section>
                 <div class="element-1">
-                <picture class="clip-circle"><img src="images/logo-2.webp" alt="sky logo"></picture>
+                <picture class="clip-circle"><img src="images/logo.jpg" alt="sky logo"></picture>
                 <div class="flexwrap">
                     <h2>Sabai Voyage</h2>
                     <h6> Global Agent</h6>
@@ -29,7 +29,7 @@
             </div>
             <div class="element-2">
                 <div class="subheading">
-                    <date><em> </em></date>
+                    <time></time>
                 </div>
             </div>
             <div class="social">
@@ -152,7 +152,7 @@
     <footer>
         <section class="footer-section-1">
             <div class="element-1">
-            <picture class="clip-circle"><img src="images/logo-2.webp" alt="sky logo"></picture>
+            <picture class="clip-circle"><img src="images/logo.jpg" alt="sky logo"></picture>
             <div class="flexwrap">
                 <h2>Sabai Voyage</h2>
                 Global Agent
@@ -171,7 +171,7 @@
             </ul>
         </div>
     </section>
-<aside></aside>
+<!--<aside></aside>-->
 <section class="footer-section-2">
     <p>&copy; <span id="currentYear">2022</span>"| Alain Solohery | Bangkok Thailand |  <a
 href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a>  |
@@ -189,8 +189,8 @@ href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a>  |
 <script src="js/windchill.js"></script>
 <script id="current_Date.js">
 // select the elements to manipulate (output to)
-const datefield = document.querySelector("date");
-const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+const datefield = document.querySelector("time");
+//const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 // derive the current date using a date object
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", {
@@ -203,7 +203,7 @@ dateStyle: "full"
 }).format(now);
 // long, medium, short options ... try them
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+//datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 </script>
 </body>
 </html>

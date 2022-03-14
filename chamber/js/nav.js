@@ -51,7 +51,7 @@ const month = months[date.getMonth()];
 const currentDate = `${day}, ${dayOfMonth} ${month} ${year}`;
 
 document.querySelector('#currentYear').innerHTML = year;
-document.querySelector('#currentDate').innerHTML = currentDate;
+//document.querySelector('#currentDate').innerHTML = currentDate;
 
 
 
