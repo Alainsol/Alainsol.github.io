@@ -156,8 +156,12 @@ h1{
     margin-top: 5px;
 }
 
+p {
+    margin-left: 20px;
+    color: rgb(253, 253, 253);
+    text-align: center;
 
     }
 
-
+}
 
