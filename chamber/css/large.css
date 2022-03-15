@@ -24,7 +24,7 @@
         font-size: .9em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(#eee, rgb(252, 172, 1));
+        background: rgb(252, 172, 1);
         opacity: .9;
         font-family: cursive;
     }
@@ -37,7 +37,7 @@
         font-size: .9em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(#eee, rgb(252, 172, 1));
+        background:  rgb(252, 172, 1);
         opacity: .9;
 
 
@@ -183,8 +183,8 @@
             grid-template-columns: 1fr 1fr 1fr 1fr;
             justify-items: center;
             margin: 1.2em;
-            color: white;
-            background-color: rgba(255, 174, 0, 0.8);
+            color: rgb(255, 255, 255);
+            background-color: rgba(255, 174, 0);
             padding: 1.5em 0;
             border-radius: 1em;
             box-shadow: 0 1px 5px 2px rgb(200, 198, 207);

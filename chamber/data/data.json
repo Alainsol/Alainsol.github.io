@@ -69,7 +69,7 @@
     ]
   },
   {
-    "companyName": "Worldwide trade Center",
+    "companyName": "Worldwide Trade Center",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
@@ -82,7 +82,7 @@
       "website" :"www.infotech.co.th",
       "postalCode": "10400",
       "country": "Thailand" ,
-      "image":"./images/company4.png"
+      "image":"./images/logoworlw.png"
     },
     "phoneNumbers": [
       {
