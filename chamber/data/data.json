@@ -153,7 +153,7 @@
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
       "website": "www.infotech.co.th" ,
-      "image":"./images/company.jpg"
+      "image":"./images/company.png"
     },
     "phoneNumbers": [
       {
@@ -222,7 +222,7 @@
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th",
-      "image":"/images/freightlogo.png" 
+      "image":"./images/freightlogo.png" 
       
     },
     "phoneNumbers": [
