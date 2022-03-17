@@ -113,7 +113,7 @@
         margin: 0 auto;
         text-align: center;
     }
-
+    
     .parent-box {
 
         display: grid;
@@ -157,9 +157,20 @@
         border-style: solid;
         border-color: white;
         border-width: 5px;
-        padding-bottom: 15px;
+      
     }
-
+    .element-text-6
+    .weatherSum {
+        background-color: rgb(119, 119, 228);
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .weatherSum {
+        background-color: rgb(119, 119, 228);
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-top: 19px;
+    }
     /*  Directory */
     .companylist.card-view {
         display: grid;
@@ -184,7 +195,7 @@
             justify-items: center;
             margin: 1.2em;
             color: rgb(255, 255, 255);
-            background-color: rgba(255, 174, 0);
+            background-color: rgb(100, 98, 93);
             padding: 1.5em 0;
             border-radius: 1em;
             box-shadow: 0 1px 5px 2px rgb(200, 198, 207);
@@ -194,6 +205,106 @@
             margin-left: 20px;
             color: rgb(253, 253, 253);
             text-align: center;
+            padding-bottom: 10px;
         }
 
+
+        .element-text-5 {
+            border-radius: 1em;
+         
+            opacity: .9;
+            grid-row: 2;
+            max-height: 50px;
+            margin: 20px 20px 0 20px;
+        }
+        .button {
+            background-color: rgb(252, 172, 1);
+            color: white;
+            border-radius: 20px;
+            max-height: 200px;
+            height: 100px;
+            width:250px;
+        }
+
+        /*--Join---*/
+        input {
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px 20px;
+            width: 90%;
+        }
+              
+    form label.top input:required {
+        border-left: rgb(255, 187, 0) solid 6px;
+        border-radius: 5em;
+        border: 0 2px solid rgb(34, 36, 36);
+        width: 90%;
+        }
+        
+        tr:first-child th {
+            background-color: rgb(12, 36, 82);
+            color: rgb(246, 252, 252) ;
+        }
+    
+        table {
+            margin: 5px auto;
+            border: 1px thin solid rgb(19, 17, 17);
+            box-shadow: 10px 10px 25px rgb(8, 8, 8);
+            border-collapse: collapse;
+            width: 50%;
+           
+            
+        }
+        tr:nth-child(even) {
+            background-color: #7e7a7a;
+          }
+        
+        th, td {
+            padding: 40px 55px;
+            border: 1px solid rgb(10, 3, 3);
+           
+            
+        }
+    
+        tr:first-child th {
+            
+            color: rgb(249, 249, 255);
+            
+            
+        }
+    
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+          }
+    
+        td {
+            text-align: center;
+          
+            
+        }
+        th {
+            background-color: rgb(7, 153, 146);
+            text-align: center;
+        }
+        
+       
+     h6{
+         margin-top: -2px;
+     }
+           
+         #extra{
+    background-color: rgb(7, 153, 146);
+         }
+    
+         #style{
+            font-style: italic;
+         }
+
+         /*--contact--*/
+         .imgcontact {
+            width: 20%;
+            float: left;
+            margin: 0 1em 1em 1em;
+            clear: both;
+         }
     }

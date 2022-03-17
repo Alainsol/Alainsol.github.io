@@ -34,7 +34,7 @@
     }
 
     footer p {
-        font-size: 1em;
+        font-size: medium;
     }
 
     .box-container-1 {
@@ -96,6 +96,7 @@
         grid-column-start: 1;
         grid-column-end: 3;
         text-align: center;
+        background-color: beige;
         
    }
    
@@ -112,27 +113,68 @@
     .element-text-3 {
         background-color: rgb(119, 119, 228);
         text-align: center;
+        
 
     }
 
     .element-text-4 {
         background-color: rgb(119, 119, 228);
         text-align: center;
-
-
+        
     }
 
     .element-text-5 {
+        display: grid;
+        grid-row: 1;
+        background-color: darkkhaki;
+        
+        
+      
+   
+    }
+
+    .button {
+        grid-row: 1;
+        background-color: rgb(252, 172, 1);
+        color: white;
+        border-radius: 20px;
+        max-height: 100px;
+      
+    }
+
+    .button p {
+        grid-row: 2;
+        margin-top: 10px;
+    }
+
+   /* .element-text-5 {
+        border-radius: 1em;
+     
+        opacity: .9;
+        grid-row: 2;
+        max-height: 50px;
+        margin: 20px 20px 0 20px;
+    }
+    .button {
+        background-color: rgb(252, 172, 1);
+        color: white;
+        border-radius: 20px;
+        max-height: 200px;
+        height: 100px;
+        width:250px;
+    }*/
+    /*.element-text-5 {
         background-color: rgb(119, 119, 228);
         padding-bottom: 15px;
         padding-top: 15px;
-    }
+    }*/
 
     .element-text-6,
     .weatherSum {
         background-color: rgb(119, 119, 228);
         padding-bottom: 15px;
         padding-top: 15px;
+     
 
     }
 
@@ -201,7 +243,77 @@
         text-align: center;
 }
 
+/*--Join--*/
+input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px 20px;
+    width: 70%;
+}
+        
+form label.top input:required {
+    border-left: rgb(255, 187, 0) solid 6px;
+    border-radius: 5em;
+    border: 0 2px solid rgb(34, 36, 36);
+}
 
+tr:first-child th {
+    background-color: rgb(12, 36, 82);
+    color: rgb(246, 252, 252) ;
+}
+
+table {
+    margin: 5px auto;
+    border: 1px thin solid rgb(19, 17, 17);
+    box-shadow: 10px 10px 25px rgb(8, 8, 8);
+    border-collapse: collapse;
+   width: 25%;
+    
+}
+tr:nth-child(even) {
+    background-color: #7e7a7a;
+  }
+
+th, td {
+    padding: 40px 55px;
+    border: 1px solid rgb(10, 3, 3);
+   
+    
+}
+
+tr:first-child th {
+    
+    color: rgb(249, 249, 255);
+    
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+td {
+    text-align: center;
+  
+    
+}
+th {
+    background-color: rgb(7, 153, 146);
+    text-align: center;
+}
+
+
+h6{
+ margin-top: -2px;
+}
+   
+ #extra{
+background-color: rgb(7, 153, 146);
+ }
+
+ #style{
+    font-style: italic;
+ }
 
 
 }

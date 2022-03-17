@@ -79,8 +79,6 @@
     .companylist {
         margin: 0 auto;
         padding: 1em;
-        /* display: grid;
-        grid-template-columns: 1fr; */
         box-shadow: 0 0 20px 5px rgb(255, 255, 255);
     }
 
@@ -163,5 +161,94 @@ p {
 
     }
 
+    .element-text-5 {
+        display: grid;
+        grid-row: 1;
+        
+
+    }
+
+    .button {
+        grid-row: 1;
+        background-color: rgb(252, 172, 1);
+        color: white;
+        border-radius: 20px;
+        max-height: 100px;
+      
+    }
+
+    /*--Join--*/
+    input {
+        padding: 5px;
+        margin: 5px;
+        border-radius: 20px 20px;
+        width: 60%;
+    }
+
+    orm label.top input:required {
+        border-left: rgb(255, 187, 0) solid 6px;
+        border-radius: 5em;
+        border: 0 2px solid rgb(34, 36, 36);
+        width: 60%;
+    }
+
+    tr:first-child th {
+        background-color: rgb(12, 36, 82);
+        color: rgb(246, 252, 252) ;
+    }
+
+    table {
+        margin: 5px auto;
+        border: 1px thin solid rgb(19, 17, 17);
+        box-shadow: 10px 10px 25px rgb(8, 8, 8);
+        border-collapse: collapse;
+        width: 20%;
+       
+        
+    }
+    tr:nth-child(even) {
+        background-color: #7e7a7a;
+      }
+    
+    th, td {
+        padding: 40px 55px;
+        border: 1px solid rgb(10, 3, 3);
+       
+        
+    }
+
+    tr:first-child th {
+        
+        color: rgb(249, 249, 255);
+        
+        
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+    td {
+        text-align: center;
+      
+        
+    }
+    th {
+        background-color: rgb(7, 153, 146);
+        text-align: center;
+    }
+    
+   
+ h6{
+     margin-top: -2px;
+ }
+       
+     #extra{
+background-color: rgb(7, 153, 146);
+     }
+
+     #style{
+        font-style: italic;
+     }
 }
 

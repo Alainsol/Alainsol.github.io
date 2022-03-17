@@ -64,11 +64,17 @@ footer {
 
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+header{
+   display: grid;
+   grid-template-columns: 1fr auto;
+   text-align: center;
+
+}
+.subheading{
+    display: grid;
+    grid-column: auto;
+    grid-row: 2;
+    padding-top: 80px;
 }
 
 .contactdiv {
@@ -118,6 +124,7 @@ footer {
     margin: 0 auto;
     height: 50%;
     text-align: center;
+    
 }
 
 header div {
@@ -136,6 +143,7 @@ header section {
     justify-content: space-between;
     font-size: 0.5em;
     padding: 0 25px;
+    padding-top: 15px;
 }
 
 .element-1 {
@@ -143,21 +151,24 @@ header section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 
 .element-2 {
+    margin-right: 20px;
+    
+}
+
+ li {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0 25px;
-    padding-top: 60px;
+
 }
 
 .italic {
     color: white;
     font-style: italic;
 }
+
 
 
 /* Nav Section */
@@ -216,15 +227,15 @@ nav li:hover {
 }
 .plant{
     text-align: center;
+  
 }
 
 .responsive li {
     display: block;
 }
 
-.social ul li {
-    display: flex;
-
+/*.social ul li {
+  
     display: flex;
     justify-content: center;
 
@@ -242,12 +253,37 @@ nav li:hover {
     justify-content: center;
     border-radius: 20px;
   
-}
+}*/
+/*.date {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1;
+}*/
 
-.social {
+/*.social {
     display: flex;
     align-items: center;
     margin-left: 50px;
+}*/
+.headsection{
+    display: grid;
+    grid-template-columns: 2fr 2fr auto;
+    grid-template-rows: 2;
+
+}
+
+
+.social {
+    grid-column: 4;
+    grid-row: 1;
+    display: grid;
+   
+    margin-left: auto;
+}
+
+.social img {
+    border-radius: 50px;
+    max-width: 40px;
 }
 
 .footer-right-img {
@@ -325,10 +361,10 @@ p {
 
 }
 
-.element-text-5 {
+/*.element-text-5 {
     background-color: rgb(14, 240, 127);
 
-}
+}*/
 
 .element-text-6,
 .weatherSum {
@@ -377,6 +413,7 @@ ul{
         display: flex;
         flex-direction: row;
         padding-top: 40px;
+        margin-right: 40px;
 }
 nav a {
     color: black;
@@ -441,14 +478,16 @@ p {margin-left: 20px;
 }
 
 
-h3 {
-    color: rgb(0, 81, 255);
+h3, h4 {
+    color: rgb(255, 255, 255);
 }
 
 h6 {
     font-size: 20px;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
+
 
 
 .galleryGrid {
@@ -641,7 +680,7 @@ form label.top input:required {
     border-left: rgb(255, 187, 0) solid 6px;
     border-radius: 5em;
     border: 0 2px solid rgb(34, 36, 36);
-    width: 200px;
+   
 }
 
 label:required,
@@ -686,8 +725,6 @@ textarea {
     Width: 50px;
     max-width: 20%;
 }
-
-
 .thankYou {
     padding: 1em;
     font-size: 3em;
@@ -698,6 +735,8 @@ textarea {
 input {
     padding: 5px;
     margin: 5px;
+    border-radius: 20px 20px;
+    width: 100%;
 }
 
 .memo {
@@ -755,3 +794,5 @@ textarea,
     width: 200px;
     margin: 0 auto;
     }
+    /*--join--*/
+   
