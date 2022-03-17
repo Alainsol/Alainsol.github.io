@@ -204,7 +204,7 @@
         p {
             margin-left: 20px;
             color: rgb(253, 253, 253);
-            text-align: center;
+            text-align: left;
             padding-bottom: 10px;
         }
 
@@ -231,14 +231,14 @@
             padding: 5px;
             margin: 5px;
             border-radius: 20px 20px;
-            width: 90%;
+            width: 100%;
         }
               
     form label.top input:required {
         border-left: rgb(255, 187, 0) solid 6px;
         border-radius: 5em;
         border: 0 2px solid rgb(34, 36, 36);
-        width: 90%;
+        width: 100%;
         }
         
         tr:first-child th {
@@ -279,6 +279,7 @@
     
         td {
             text-align: center;
+            color:black;
           
             
         }

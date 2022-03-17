@@ -620,7 +620,7 @@ main {
 }
 
 form {
-    background-color: rgb(9, 5, 95);
+    background-color: rgb(12, 0, 250);
     color: white;
     text-align: left;
     padding: 1em;
@@ -640,7 +640,7 @@ form fieldset {
 fieldset legend {
     font-size: 2em;
     font-family: 'Russo One', fantasy, sans-serif;
-    color: #445ba9;
+    color: #ffe601;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -649,7 +649,7 @@ fieldset legend {
 .radio,
 .additionalInfo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 10px;
     text-align: start;
 
@@ -663,8 +663,20 @@ fieldset legend {
     display: inline-block;
 
 }
+fieldset.contact-box{
+    display: grid;
+}
 
+.joinmap{
+    width: 100%;
+}
 
+select#countrylist{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px 20px;
+    width: 100%
+}
 label {
     padding: 1em 0 1em 0;
 }
@@ -795,4 +807,15 @@ textarea,
     margin: 0 auto;
     }
     /*--join--*/
+    #tac{
+        width: 30px;
+    }
+    .ok, .condition {
+        text-align: left;
+    }
+    .addinfo{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    } 
    
