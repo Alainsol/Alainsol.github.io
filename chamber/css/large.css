@@ -67,7 +67,10 @@
         transition: .5s;
 
     }
-
+    .newsdiv p{
+        margin-left:10px;
+        margin-right: 10px;
+    }
     .contactdiv {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -203,9 +206,10 @@
 
         p {
             margin-left: 20px;
-            color: rgb(253, 253, 253);
-            text-align: left;
+            color: rgb(255, 255, 255);
+            text-align: center;
             padding-bottom: 10px;
+            margin-right: 5px;
         }
 
 
@@ -231,14 +235,16 @@
             padding: 5px;
             margin: 5px;
             border-radius: 20px 20px;
-            width: 100%;
+            width: 90%;
+            border: 5px solid rgb(146, 138, 121);
+         
         }
               
     form label.top input:required {
         border-left: rgb(255, 187, 0) solid 6px;
         border-radius: 5em;
         border: 0 2px solid rgb(34, 36, 36);
-        width: 100%;
+        width: 90%;
         }
         
         tr:first-child th {
@@ -308,4 +314,11 @@
             margin: 0 1em 1em 1em;
             clear: both;
          }
+
+         select#countrylist{
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px 20px;
+            width: 90%;
+        }
     }

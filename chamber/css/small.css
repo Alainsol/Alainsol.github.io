@@ -250,5 +250,11 @@ background-color: rgb(7, 153, 146);
      #style{
         font-style: italic;
      }
+     select#countrylist{
+        padding: 5px;
+        margin: 5px;
+        border-radius: 20px 20px;
+        width: 50%;
+    }
 }
 
