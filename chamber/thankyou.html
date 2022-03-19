@@ -31,8 +31,8 @@
             <div class="element-1">
                 <picture class="clip-circle"><img src="images/logo-removebg-preview.png" alt="sky logo"></picture>
             <div class="flexwrap">
-            <h2>Sabai Voyage</h2>
-            <h6> Global Agent</h6>
+                <h2>Sabai Group</h2>
+                <h6> Chamber of Commerce</h6>
             </div>
             </div>
    
@@ -46,7 +46,7 @@
         </section>
             <div class="element-2">
                 <div class="subheading">
-                     <time></time>
+                    <span id="date"></span> 
             </div>
                 </div>
                 <div class="social">
@@ -94,7 +94,7 @@
 
 <script id="current_Date.js">
 // select the elements to manipulate (output to)
-const datefield = document.querySelector("date");
+const datefield = document.getElementById("date");
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 // derive the current date using a date object
 const now = new Date();

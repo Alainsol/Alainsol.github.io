@@ -14,7 +14,18 @@ navbutton.addEventListener('click', () => {
     // navclose.classList.toggle('close');
 }, false);
 
-window.onresize = () => {if (window.innerWidth > 550) mainnav.classList.remove('responsive'); navclose.classList.remove('close'); navbars.classList.remove('hide')};
+window.onresize = () => {
+    if (window.innerWidth > 550) {
+        mainnav.classList.remove('responsive'); 
+    }
+    if(navclose) {
+        navclose.classList.remove('close'); 
+    }
+    // if(navbars) {
+    //     navbars.classList.remove('hide')
+    // }
+    
+};
 
 //Date Section
 
