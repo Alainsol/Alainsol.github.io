@@ -76,12 +76,12 @@ header{
    text-align: center;
 
 }
-.subheading{
+/*.subheading{
     display: grid;
     grid-column: auto;
     grid-row: 2;
     padding-top: 80px;
-}
+}*/
 
 .contactdiv {
     display: block;
@@ -168,11 +168,12 @@ header section {
     margin-left: 50px;
 }
 
-.element-2 {
+/*.element-2 {
     margin-right: 20px;
     padding-top: 25px;
+    margin-left: 140px;
     
-}
+}*/
 
  li {
     display: flex;
@@ -255,8 +256,8 @@ nav li:hover {
 }
 .headsection{
     display: grid;
-    grid-template-columns: 2fr 2fr auto;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 
 }
 
@@ -821,3 +822,47 @@ textarea,
     .containerPack h6{
         margin-top: 20px;
    }
+
+
+   /*----redo----*/
+  headersection {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      margin: 0 auto;
+      align-items: center;
+
+
+  }
+
+
+
+
+
+
+.footer-section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* font-size: 0.5em; */
+    /* padding: 0 25px; */
+    /* padding-top: 15px; */margin: 0 auto;
+    padding: 5px;
+    border-radius: 0.5em;
+ 
+    font-size: 10px;
+    color: white;
+    align-items: center;
+}
+    div .element-1 {
+        grid-column: 1;
+    }
+    
+    div .flexwrap {
+        grid-column: 2;
+    }
+    
+    div .element-2 {
+        grid-column: 3;
+    
+}

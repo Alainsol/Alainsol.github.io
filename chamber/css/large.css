@@ -432,6 +432,81 @@
         .containerPack h6{
              margin-top: 20px;
         }
-    
+     /*---redo---*/
+     /*footer
+        div .element-1 {
+            grid-column: 1;
+        }
+        
+        div .flexwrap {
+            grid-column: 2;
+        }
+        
+        div .element-2 {
+            grid-column: 3;
+        }
+    /*header*/
 
+    nav {
+        grid-column: 3;
+        grid-row: 1/2;
+        margin-top: 50px;
     }
+    .subheading {
+       
+            text-align: center;
+            background-color: #3f51b5;
+            color: white;
+            padding: 10px;
+          }
+    }
+    header {
+        width: 1400px;
+        margin: 0 auto;
+      }
+
+      .headsection {
+  display: grid;
+  grid-template-columns: 150px 250px auto 150px;
+  background-color: #000051;
+  color: white;
+}
+.top-header .logo {
+  margin-top: 20px;
+  text-align: center;
+}
+.top-header .company-name {
+  padding: 15px
+}
+.headsection .navigation {
+  margin-top: 40px;
+}
+.headsection .social {
+  margin-top: 40px;
+}
+.headsection .navigation ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+} 
+.headsection .navigation ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.headsection .social ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.headsection .social ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.subheading {
+  text-align: center;
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px;
+}
