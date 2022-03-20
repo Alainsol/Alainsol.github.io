@@ -433,3 +433,10 @@ div .social{
     display: flex;
     flex-direction: inherit;
 }
+
+
+
+div.headsection {
+    width: 100%;
+
+}
