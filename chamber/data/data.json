@@ -7,7 +7,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
-      "website" :"www.infotech.co.th",
+      "website" :"www.carefreight.co.th",
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "image":"./images/cf.png"
@@ -28,7 +28,7 @@
     "address": {
       "streetAdress": "soi 76 Pattanakarn Rd",
       "city": "Bangkok",
-      "website" :"www.infotech.co.th",
+      "website" :"www.lazada.co.th",
       "email" : "infocare@gmail.com" ,
       "postalCode": "10250",
       "country": "Thailand" ,
@@ -37,7 +37,7 @@
     "phoneNumbers": [
       {
         "type": "home",
-        "number": "0859221143"
+        "number": "08592211843"
       },
       {
         "type": "office",
@@ -106,7 +106,7 @@
       "country": "Thailand",
       "email" : "Davidacare@gmail.com" ,
       "image":"./images/truck.png" ,
-      "website": "www.infotech.co.th"
+      "website": "www.davidadealer.co.th"
       
     },
     "phoneNumbers": [
@@ -209,7 +209,7 @@
     ]
   } ,
   {
-    "companyName": "Express Logistic co ltd",
+    "companyName": "Cargo Trasnport Express co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
@@ -219,7 +219,7 @@
       "district": "Swangluan",
       "city": "Bangkok",
       "postalCode": "10200",
-      "email" : "expresslog@gmail.com" ,
+      "email" : "cargoexpresslog@gmail.com" ,
       "country": "Thailand",
       "website": "www.expresslog.co.th",
       "image":"./images/freightlogo.png" 
@@ -233,19 +233,19 @@
     ]
   } ,
   {
-    "companyName": "Food trace co ltd",
+    "companyName": "Used Truck Co ltd ",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Baverage",
+    "activity": "dealer used car",
     "address": {
       "streetAdress": "soi 46 Srinakarin rd",
       "district": "PPrawet",
       "city": "Bangkok",
       "postalCode": "10900",
-      "email" : "foodtracecare@gmail.com" ,
+      "email" : "usetrcukcare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.foodtrace.co.th",
+      "website": "www..co.th",
       "image":"./images/fret1.png"
     },
     "phoneNumbers": [
@@ -256,11 +256,11 @@
     ]
   } ,
   {
-    "companyName": "InfoTech co ltd",
+    "companyName": "Food trace co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "Baverage",
     "address": {
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
@@ -268,7 +268,7 @@
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
-      "website": "www.infotech.co.th",
+      "website": "www.foodtrace.co.th",
       "image":"./images/gdg.png"
     },
     "phoneNumbers": [
