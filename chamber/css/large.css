@@ -465,12 +465,7 @@
         margin: 0 auto;
       }
 
-      .headsection {
-  display: grid;
-  grid-template-columns: 150px 250px auto 150px;
-  background-color: #000051;
-  color: white;
-}
+
 .top-header .logo {
   margin-top: 20px;
   text-align: center;
@@ -478,35 +473,23 @@
 .top-header .company-name {
   padding: 15px
 }
-.headsection .navigation {
-  margin-top: 40px;
-}
-.headsection .social {
-  margin-top: 40px;
-}
-.headsection .navigation ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-} 
-.headsection .navigation ul li {
-  display: inline-block;
-  text-align: center;
-  padding: 5px;
-}
-.headsection .social ul {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.headsection .social ul li {
-  display: inline-block;
-  text-align: center;
-  padding: 5px;
-}
+
+
 .subheading {
   text-align: center;
   background-color: #3f51b5;
   color: white;
   padding: 10px;
+}
+/*--date--*/
+
+.subheading1{
+ margin-top: 25px;
+ box-shadow: 0 0 40px #1b2f58d1;
+
+}
+
+ .nav navigation {
+    margin-left: 5px;
+    border-left: 1px solid rgba(230, 223, 223, 0.3);
 }
