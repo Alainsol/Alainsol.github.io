@@ -122,8 +122,8 @@
         margin-bottom: 5px;
         padding-bottom: 5px;
         background-color: rgb(51, 51, 108);
-}
-
+    }
+  
    .weatherSum{
        text-align: center;
        border-top: rgb(252, 172, 1) solid 5px;
@@ -418,7 +418,7 @@ div .element-2 {
 }
 
 
-}
+
 /*..header--*/
 .subheading1{
     text-align: center;
@@ -435,8 +435,9 @@ div .social{
 }
 
 
-
-div.headsection {
+header {
     width: 100%;
+    margin: 0 auto;
+}
 
 }
