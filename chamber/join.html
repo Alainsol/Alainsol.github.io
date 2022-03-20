@@ -1,234 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <title>Chamber </title>
-        <meta name="description" content="">
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Russo+One&family=Syne+Mono&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-    </head>
-    <body>
-        <div class="main">
-            <header>
-                <section class="headsection">
-                   
-                    <div class="element-1">
-                        <picture class="clip-circle"><img src="images/logo-removebg-preview.png" alt="sky logo"></picture>
-                    <div class="flexwrap">
-                        <h2>Sabai Group</h2>
-                        <h6> Chamber of Commerce</h6>
-                    </div>
-                    </div>
-           
-            
-                <section class="date">
-                <div class="element-2">
-                <div class="subheading">
-                    <span id="date"></span>
-                </div>
-                </div>
-                </section>
-                    <div class="element-2">
-                        <div class="subheading">
-                             <time></time>
-                    </div>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+      <title>Chamber </title>
+      <meta name="description" content="">
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Russo+One&family=Syne+Mono&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+   </head>
+   <body>
+      <div class="main">
+         <header>
+            <section class="headsection">
+               <div class="element-1">
+                  <picture class="clip-circle"><img src="images/logo-removebg-preview.png" alt="sky logo"></picture>
+                  <div class="flexwrap">
+                     <h2>Sabai Group</h2>
+                     <h6> Chamber of Commerce</h6>
+                  </div>
+               </div>
+               <section class="date">
+                  <div class="element-2">
+                     <div class="subheading">
+                        <span id="date"></span>
+                     </div>
+                  </div>
+               </section>
+               <div class="social">
+                  <ul>
+                     <li>
+                        <a class="social-link" href="https://www.facebook.com" target="_blank">
+                        <img class="footer-right-img" src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_facebook.png?v=1620924874612" alt="Facebook icon"></a>
+                        <a class="social-link" href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+         </header>
+         <nav>
+            <ul class="navigation">
+               <li class="ham"><a href="#">&#9776; Menu</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="discovery.html">Discovery</a></li>
+               <li><a href="directory.html">Directory</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li  class="active"><a href="join.html">Join</a></li>
+            </ul>
+         </nav>
+         <main class="change">
+            <h2>Join the Page of Sabai Voyage</h2>
+            <form action="thankyou.html">
+               <fieldset class="custinfo">
+                  <legend>Personal Information</legend>
+                  <div>
+                     <label class="top">First Name*</label>
+                     <input type="text" name="fname" required>
+                  </div>
+                  <div>
+                     <label class="top">Last Name* </label>
+                     <input type="text" name="lname" required>
+                  </div>
+                  <div>
+                     <label class="top">Phone </label>
+                     <input type="tel" name="phone" placeholder="1235551234">
+                  </div>
+                  <div>
+                     <label class="top">Email* </label>
+                     <input type="email" name="email" placeholder="someone@gmail.com" required>
+                  </div>
+                  <div>
+                     <label class="top">Business Title* 
+                     <input class="top" type="text" name="title" pattern="[A-Za-z. -]{7,}" required> </label>
+                  </div>
+                  <div>
+                     <label class="top">website</label>
+                     <input type="url" name="email" placeholder="http://">
+                  </div>
+                  <div>
+                     <label class="top">Zip Code*</label>
+                     <input class="top" type="number" name="zip" placeholder="12345" required> 
+                  </div>
+                  <fieldset>
+                     <legend>Packages</legend>
+                     <select name="subject">
+                        <option value="">Please Select your option</option>
+                        <option value="1st Membership">First </option>
+                        <option value="2nd Membership">Second</option>
+                        <option value="3rd Membership">Third </option>
+                        <option value="4th Membership">Fourth</option>
+                     </select>
+                     <div class="containerPack">
+                        <div class="nonprof">
+                           <h6>First Option</h6>
+                           <p>Non Profit</p>
+                           <p>$ 0.00</p>
+                           <p>You pay free charge of our service</p>
                         </div>
-                        <div class="social">
-                    <ul>
-                 <li>
-                <a class="social-link" href="https://www.facebook.com" target="_blank">
-                <img class="footer-right-img" src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_facebook.png?v=1620924874612" alt="Facebook icon"></a>
-               
-                    <a class="social-link" href="https://www.linkedin.com" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
-
-                </li>
-             </ul>
-             </div>
-        </section>
-</header>
-<nav>
-    <ul class="navigation">
-    <li class="ham"><a href="#">&#9776; Menu</a></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="discovery.html">Discovery</a></li>
-    <li><a href="directory.html">Directory</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li  class="active"><a href="join.html">Join</a></li>
-     </ul>
-    </nav>
-    <main class="change">
-        <h2>Join the Page of Sabai Voyage</h2>
-        <form action="thankyou.html">
-    <fieldset class="custinfo">
-
-                <legend>Personal Information</legend>
-                <div>
-                <label class="top">First Name*</label>
-                 <input type="text" name="fname" required>
-                </div>
-            <div>
-                <label class="top">Last Name* </label>
-                <input type="text" name="lname" required>
-            </div>
-             <div>
-                <label class="top">Phone </label>
-                <input type="tel" name="phone" placeholder="1235551234">
-            </div>
-            <div>
-                <label class="top">Email* </label>
-                <input type="email" name="email" placeholder="someone@gmail.com" required>
-            </div>
-           <div>
-                <label class="top">Business Title* 
-                    <input class="top" type="text" name="title" pattern="[A-Za-z. -]{7,}" required> </label>
-            </div>
-            <div>
-                <label class="top">website</label>
-                    <input type="url" name="email" placeholder="http://">
-            </div>
-            <div>
-                <label class="top">Zip Code*</label>
-                    <input class="top" type="number" name="zip" placeholder="12345" required> 
-            </div>
-         
-            
-       
-        <fieldset>
-                    <legend>Packages</legend>
-                   
-                        <select name="subject">
-                            <option value="">Please Select your option</option>
-                            <option value="1st Membership">First </option>
-                            <option value="2nd Membership">Second</option>
-                            <option value="3rd Membership">Third </option>
-                            <option value="4th Membership">Fourth</option>
-                        </select>
-                     
-                         <div class="containerPack">
-                            <div class="nonprof">
-                                <h6>First Option</h6>
-                                <p>Non Profit</p>
-                                <p>$ 0.00</p>
-                                <p>You pay free charge of our service</p>
-
-                            </div>
-
-                            <div class="bronze">
-                                <h6>Second Option</h6>
-                                <p>Bronze</p>
-                                <p>$ 1 500.00</p>
-                                <p>We provide Company logo and link on website</p>
-                               
-                            </div>
-                            
-                            <div class="silver">
-                                <h6>Third Option</h6>
-                                <p>Silver</p>
-                                <p>$ 3 500.00</p>
-                                <p>We provide Company name and link on website</p>
-                            </div>
-
-                            <div class="gold">
-                                <h6>Fourth Option</h6>
-                                <p>Gold</p>
-                                <p>$ 5 000.00</p>
-                                <p> Bronze + Silver packages + benefits</p>
-                            </div>
+                        <div class="bronze">
+                           <h6>Second Option</h6>
+                           <p>Bronze</p>
+                           <p>$ 1 500.00</p>
+                           <p>We provide Company logo and link on website</p>
                         </div>
-                        
-                           
-                      
-                                  
-        </fieldset>
-                
-                
-         
-    </fieldset>
-        <fieldset class="addinfo">
-            <legend>Additional Information</legend>
-            <label class="additionalInfo">
-            <textarea name="comments" cols="30" rows="10"></textarea> 
-            </label>
-        </fieldset>
+                        <div class="silver">
+                           <h6>Third Option</h6>
+                           <p>Silver</p>
+                           <p>$ 3 500.00</p>
+                           <p>We provide Company name and link on website</p>
+                        </div>
+                        <div class="gold">
+                           <h6>Fourth Option</h6>
+                           <p>Gold</p>
+                           <p>$ 5 000.00</p>
+                           <p> Bronze + Silver packages + benefits</p>
+                        </div>
+                     </div>
+                  </fieldset>
+               </fieldset>
+               <fieldset class="addinfo">
+                  <legend>Additional Information</legend>
+                  <label class="additionalInfo">
+                  <textarea name="comments" cols="30" rows="10"></textarea> 
+                  </label>
+               </fieldset>
+               <label for="tac"></label>
+               <div class="addinfo">
+                  <label for="tac"></label>
+                  <input id="tac" type="checkbox" name="terms-and-conditions">
+                  <p class="ok">I agree to the Terms and Conditions</p>
+                  <p>
+                     <a href="terms-and-conditions.html">Read our Terms and Conditions</a>
+                  </p>
+                  <input id="submitBtn" type="submit" value="Submit">
+               </div>
+            </form>
+         </main>
+         <div id="banner-2"> Please join us on meeting at 9:00 o'clock Am </div>
+         <footer>
+        
+            <section class="footer-section-1">
+               <div class="element-1">
+                  <picture class="clip-circle"><img src="images/logo-removebg-preview.png" alt="sky logo"></picture>
+                  <div class="flexwrap">
+                     <h1>Sabai Voyage</h1>
+                     <p> Soi 20 Silom Rd<br>
+                        <i class="fa fa-phone-square"></i> 0812345678
+                     </p>
+                  </div>
+               </div>
+               <div class="element-2">
+                  <h1>Sabai Voyage</h1>
+                  <p><i class="fa fa-envelope"></i> sabaivoyage@gmail.com<br>
+                     <i class="fa fa-map-marker"><map name="Mahanakorn"></map></i> 5465465 <br> 10250, Bangkok, Thailand
+                  </p>
+               </div>
+            </section>
+            <!--<aside></aside>-->
+            <section class="footer-section-2">
+               <p>&copy; <span id="currentYear">2022</span>"| Alain Solohery | Bangkok Thailand |  <a
+                  href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a>  |
+                  <a href="https://alainsol.github.io/index.html">Assignment Portal</a>
+               </p>
+               <p id="Portal_Last_Updated">Last Modified: <span id="Date_Modified"></span></p>
+            </section>
+         </footer>
       
-        <label for="tac"></label>
-        <div class="addinfo">
-            <label for="tac"></label>
-            <input id="tac" type="checkbox" name="terms-and-conditions">
-            <p class="ok">I agree to the Terms and Conditions</p>
-        <p>
-            <a href="terms-and-conditions.html">Read our Terms and Conditions</a>
-        </p>
-        <input id="submitBtn" type="submit" value="Submit">
-    </div>
-    </form>
-    
-</main>
-<div id="banner-2"> Please join us on meeting at 9:00 o'clock Am </div>
-<footer>
-    <footer>
-       
-        <section class="footer-section-1">
-          
-
-            <div class="element-1">
-            <picture class="clip-circle"><img src="images/logo-removebg-preview.png" alt="sky logo"></picture>
-            <div class="flexwrap">
-                <h1>Sabai Voyage</h1>
-               <p> Soi 20 Silom Rd<br>
-               <i class="fa fa-phone-square"></i> 0812345678</p> 
-
-            </div>
-        </div>
-            <div class="element-2">
-            <h1>Sabai Voyage</h1>
-           <p><i class="fa fa-envelope"></i> sabaivoyage@gmail.com<br>
-            <i class="fa fa-map-marker"><map name="Mahanakorn"></map></i> 5465465 <br> 10250, Bangkok, Thailand</p>
-           
-        </div>
-    </section>
-<!--<aside></aside>-->
-<section class="footer-section-2">
-    <p>&copy; <span id="currentYear">2022</span>"| Alain Solohery | Bangkok Thailand |  <a
-href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a>  |
-<a href="https://alainsol.github.io/index.html">Assignment Portal</a></p>
-
-<p id="Portal_Last_Updated">Last Modified: <span id="Date_Modified"></span></p>
-</section>
-</footer>
-            </div>
-            
-    <script src="js/nav.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontload.js"></script>
-    <script src="js/current_Date.js"></script>
-    <!--<script src="js/windchill.js"></script>-->
-    <script id="current_Date.js">
-    // select the elements to manipulate (output to)
-    const datefield = document.getElementById("date");
-    //const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
-    // derive the current date using a date object
-    const now = new Date();
-    const fulldate = new Intl.DateTimeFormat("en-US", {
-    dateStyle: "full"
-    }).format(
-    now
-    );
-    const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-    dateStyle: "full"
-    }).format(now);
-    // long, medium, short options ... try them
-    datefield.innerHTML = `<em>${fulldate}</em>`;
-    //datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-    </script>
-    </body>
-    </html>
+      <script src="js/nav.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/webfontload.js"></script>
+      <script src="js/current_Date.js"></script>
+      <!--<script src="js/windchill.js"></script>-->
+      <script id="current_Date.js">
+         // select the elements to manipulate (output to)
+         const datefield = document.getElementById("date");
+         //const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+         // derive the current date using a date object
+         const now = new Date();
+         const fulldate = new Intl.DateTimeFormat("en-US", {
+         dateStyle: "full"
+         }).format(
+         now
+         );
+         const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+         dateStyle: "full"
+         }).format(now);
+         // long, medium, short options ... try them
+         datefield.innerHTML = `<em>${fulldate}</em>`;
+         //datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+      </script>
+   </body>
+</html>

@@ -372,6 +372,7 @@ p {
 
 .contactdiv section {
     overflow: hidden;
+    background-color: rgb(51, 51, 108);
 }
 
 .herodiv {
@@ -573,7 +574,7 @@ img[data-src] {
 
 
 
-/* Gallery Page */
+/*--Gallery Page--*/
 
 .parentbox {
     display: grid;
@@ -637,6 +638,7 @@ fieldset legend {
 .additionalInfo {
     display: grid;
     text-align: start;
+    color:white;
 
 }
 
