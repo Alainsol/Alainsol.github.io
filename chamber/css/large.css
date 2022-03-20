@@ -391,8 +391,7 @@
 		margin-top: 25px;
 		box-shadow: 0 0 40px #1b2f58d1;
 	}
-	.nav navigation {
-		margin-left: 5px;
-		border-left: 1px solid rgba(230, 223, 223, 0.3);
+	nav button{
+		display:none;
 	}
 }

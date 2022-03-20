@@ -442,5 +442,30 @@ background-color: rgb(7, 153, 146);
         margin-top: 20px;
         box-shadow: 0 0 40px #1b2f58d1;
     }
-}
 
+    ul {
+        display: grid;
+            
+    }
+    nav button {
+        margin: .2rem 2vw;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        color: white;
+
+    }
+    nav ul li a {
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
+    
+  av ul {
+    display: block;
+    background-color: rgba(241, 80, 37, 1);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    }
+}

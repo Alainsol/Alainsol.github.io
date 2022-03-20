@@ -790,11 +790,9 @@ textarea,
 .footer-section-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* flex-direction: row; */
+    
     justify-content: space-between;
-    /* font-size: 0.5em; */
-    /* padding: 0 25px; */
-    /* padding-top: 15px; */margin: 0 auto;
+    margin: 0 auto;
     padding: 5px;
     border-radius: 0.5em;
  
@@ -855,4 +853,11 @@ textarea,
     display: inline-block;
     text-align: center;
     padding: 5px;
+}
+
+button{
+  background-color: #011640;
+    color: white;
+    border: none;
+    font-size: 2em;
 }

@@ -432,12 +432,15 @@ div .element-2 {
 div .social{
     display: flex;
     flex-direction: inherit;
-}
+    }
 
 
 header {
     width: 100%;
     margin: 0 auto;
-}
+    }
 
+nav button{
+    display:none;
+    }
 }
