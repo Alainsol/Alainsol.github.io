@@ -70,18 +70,6 @@ footer {
     color:rgb(252, 172, 1);
 }
 
-header{
-   display: grid;
-   grid-template-columns: 1fr auto;
-   text-align: center;
-
-}
-/*.subheading{
-    display: grid;
-    grid-column: auto;
-    grid-row: 2;
-    padding-top: 80px;
-}*/
 
 .contactdiv {
     display: block;
@@ -132,8 +120,6 @@ footer {
 }
 
 
-header h1,
-
 footer {
     margin: 0 auto;
     height: 50%;
@@ -145,11 +131,6 @@ header div {
     font-style: italic;
 }
 
-header section {
-    display: flex;
-    flex-direction: row;
-    font-size: 0.6em;
-}
 
 .footer-section-1 {
     display: flex;
@@ -160,13 +141,6 @@ header section {
     padding-top: 15px;
 }
 
-.element-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 50px;
-}
 
 /*.element-2 {
     margin-right: 20px;
@@ -217,9 +191,6 @@ nav li:hover {
     background-color: rgb(255, 63, 63);
 }
 
-.active {
-    background-color: rgb(131, 163, 138);
-}
 
 .ham {
     display: block;
@@ -254,21 +225,9 @@ nav li:hover {
 .responsive li {
     display: block;
 }
-.headsection{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  
-
-}
 
 
-.social {
-    grid-column: 4;
-    grid-row: 1;
-    display: grid;
-   
-    margin-left: auto;
-}
+
 
 .social img {
     border-radius: 50px;
@@ -411,9 +370,7 @@ nav li:hover {
     background-color: rgba(255, 210, 63, 1);
 }
 
-.active {
-    background-color: rgb(255, 255, 255);
-}
+
 
 .ham {
     display: block;
@@ -824,15 +781,6 @@ textarea,
    }
 
 
-   /*----redo----*/
-  headersection {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr ;
-      margin: 0 auto;
-      align-items: center;
-
-
-  }
 
 
 
@@ -854,15 +802,57 @@ textarea,
     color: white;
     align-items: center;
 }
-    div .element-1 {
-        grid-column: 1;
-    }
-    
-    div .flexwrap {
-        grid-column: 2;
-    }
-    
-    div .element-2 {
-        grid-column: 3;
-    
+
+/* New css header*/
+.headsection {
+    display: flex;
+    align-items: center;
+    background-color: #000051;
+    color: white;
+    width: 100%;
+}
+
+.element-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 33%;
+    margin-left: 50px;
+}
+
+.flexwrap{
+    margin: 20px 20px 0 20px;
+}
+
+.headsection .navigation{ 
+    margin-top: 0;
+}
+
+.headsection .social {
+    margin-top: 0;
+}
+
+.social {
+    margin-left: auto;
+}
+
+.social img {
+    border-radius: 50px;
+    max-width: 32px; 
+}
+
+.headsection-2{
+    height: 50px;
+}
+
+.headsection .navigation ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
+  
+.headsection .social ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
 }

@@ -205,13 +205,13 @@
         overflow: hidden;
         margin-bottom: 5px;
      }
-     .subheading {
+     /*.subheading {
         display: grid;
         grid-column: auto;
         grid-row: 2;
         padding-top: 80px;
         font-size: 15px;
-    }
+    }*/
 
 
      div .weatherSum{
