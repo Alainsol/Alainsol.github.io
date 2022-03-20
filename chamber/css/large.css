@@ -105,8 +105,9 @@
     .last {
         max-width: 1350px;
         font-size: 50px;
-        background: darkblue;
+        background: rgb(51, 51, 108);
         background-image: rgb(255, 208, 0);
+        margin-block-end: 0px;
     }
 
 

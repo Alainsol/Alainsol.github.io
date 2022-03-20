@@ -52,11 +52,11 @@
 
     "activity": "Freight Forwarder",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
+      "streetAdress": "soi 26 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
-      "email" : "infocare@gmail.com" ,
-      "website" :"www.infotech.co.th",
+      "email" : "infoctara@gmail.com" ,
+      "website" :"www.taraAgentth",
       "postalCode": "10400",
       "country": "Thailand",
       "image":"./images/company3.png"
@@ -64,22 +64,22 @@
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "026759432"
       }
     ]
   },
   {
-    "companyName": "Worldwide Trade Center",
+    "companyName": "Worldwide Car Trade Center",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "Car Dealer",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
-      "district": "Phayathai",
+      "streetAdress": "soi 34 Silom rd",
+      "district": "Bangrak",
       "city": "Bangkok",
-      "email" : "infocare@gmail.com" ,
-      "website" :"www.infotech.co.th",
+      "email" : "worldwidee@gmail.com" ,
+      "website" :"www.worldwide.co.th",
       "postalCode": "10400",
       "country": "Thailand" ,
       "image":"./images/logoworlw.png"
@@ -87,24 +87,24 @@
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "026319456"
       }
     ]
   },
   {
-    "companyName": "Davida Style Co ltd",
+    "companyName": "Davida Spare Parts Dealer Co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "Spare parts Dealer",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
-      "district": "Phayathai",
+      "streetAdress": "soi 6 Worachak rd",
+      "district": "Worchak",
       "city": "Bangkok",
       
-      "postalCode": "10400",
+      "postalCode": "10500",
       "country": "Thailand",
-      "email" : "infocare@gmail.com" ,
+      "email" : "Davidacare@gmail.com" ,
       "image":"./images/truck.png" ,
       "website": "www.infotech.co.th"
       
@@ -112,22 +112,22 @@
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "0263194654"
       }
     ]
   } ,
   {
-    "companyName": "InfoTech co ltd",
+    "companyName": " IT InfoTech co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "IT",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
+      "streetAdress": "soi 23 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
       "postalCode": "10400",
-      "email" : "infocare@gmail.com" ,
+      "email" : "itcare@gmail.com" ,
       "country": "Thailand",
       "website": "www.infotech.co.th" ,
       "image":"./images/company5.png"
@@ -135,24 +135,24 @@
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "026319454"
       }
     ]
   } ,
   {
-    "companyName": "InfoTech co ltd",
+    "companyName": "Plaza Company co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "Building Dealer",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
+      "streetAdress": "soi 32 Rachada rd",
       "district": "Phayathai",
       "city": "Bangkok",
       "postalCode": "10400",
       "country": "Thailand",
       "email" : "infocare@gmail.com" ,
-      "website": "www.infotech.co.th" ,
+      "website": "www.plazacompany.co.th" ,
       "image":"./images/company.png"
     },
     "phoneNumbers": [
@@ -186,72 +186,72 @@
     ]
   } ,
   {
-    "companyName": "InfoTech co ltd",
+    "companyName": "Ship link co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "shipping",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
+      "streetAdress": "soi 12 pattaya rd",
       "district": "Phayathai",
       "city": "Bangkok",
-      "postalCode": "10400",
+      "postalCode": "10300",
       "country": "Thailand",
-      "email" : "infocare@gmail.com" ,
-      "website": "www.infotech.co.th" ,
+      "email" : "shipcare@gmail.com" ,
+      "website": "www.ahiplink.co.th" ,
       "image":"./images/bateau1.png"
     },
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "02631987602"
       }
     ]
   } ,
   {
-    "companyName": "InfoTech co ltd",
+    "companyName": "Express Logistic co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
     "activity": "Freight Forwarder",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
-      "district": "Phayathai",
+      "streetAdress": "soi 10 Bobae rd",
+      "district": "Swangluan",
       "city": "Bangkok",
-      "postalCode": "10400",
-      "email" : "infocare@gmail.com" ,
+      "postalCode": "10200",
+      "email" : "expresslog@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th",
+      "website": "www.expresslog.co.th",
       "image":"./images/freightlogo.png" 
       
     },
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "02631940342"
       }
     ]
   } ,
   {
-    "companyName": "InfoTech co ltd",
+    "companyName": "Food trace co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Freight Forwarder",
+    "activity": "Baverage",
     "address": {
-      "streetAdress": "soi 15 Petchburi rd",
-      "district": "Phayathai",
+      "streetAdress": "soi 46 Srinakarin rd",
+      "district": "PPrawet",
       "city": "Bangkok",
-      "postalCode": "10400",
-      "email" : "infocare@gmail.com" ,
+      "postalCode": "10900",
+      "email" : "foodtracecare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th",
+      "website": "www.foodtrace.co.th",
       "image":"./images/fret1.png"
     },
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319402"
+        "number": "0263192425"
       }
     ]
   } ,

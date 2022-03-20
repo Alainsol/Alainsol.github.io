@@ -185,27 +185,6 @@
         padding-top: 80px;
         font-size: 20px;
     }
-   /* .element-text-5 {
-        border-radius: 1em;
-     
-        opacity: .9;
-        grid-row: 2;
-        max-height: 50px;
-        margin: 20px 20px 0 20px;
-    }
-    .button {
-        background-color: rgb(252, 172, 1);
-        color: white;
-        border-radius: 20px;
-        max-height: 200px;
-        height: 100px;
-        width:250px;
-    }*/
-    /*.element-text-5 {
-        background-color: rgb(119, 119, 228);
-        padding-bottom: 15px;
-        padding-top: 15px;
-    }*/
 
     .element-text-6,
     .weatherSum {
@@ -222,17 +201,6 @@
     
     /*----directory----*/
 
-   /* @media only screen and (min-width: 34em) {
-
-        .listview section {
-            grid-template-columns: repeat(4, 1fr);
-        }
-
-        .cardview {
-            grid-template-columns: repeat(3, 1fr);
-        }
-
-    }*/
 
     .companylist {
         margin: 0 auto;
@@ -415,5 +383,21 @@ background-color: rgb(7, 153, 146);
     background-color: rgb(255, 230, 0);
     border-radius: 10px 10px;
 
+}
+
+/*--thank you--*/
+.thank-you {
+  
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+
+}
+.last {
+
+    font-size: 50px;
+    background: rgb(51, 51, 108);
+    background-image: rgb(255, 208, 0);
+    margin-block-end: 0px;
 }
 }
