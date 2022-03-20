@@ -55,8 +55,9 @@ section:nth-child(10) :nth-child(4) {
     grid-column-end: 5;
     font-weight: bold;
     width: 100%;
-    color: rgb(12, 49, 73);
+    color: rgb(255, 217, 0);
     margin: auto;
+    font-size: 20px;
 }
 
 .companylist.card-view section p {
@@ -75,7 +76,7 @@ section:nth-child(10) :nth-child(4) {
 .companylist.list-view section h4{
     display: grid;
     padding: 0.5em;
-    color:rgba(71, 15, 15, 0.973);
+    color:rgbargb(255, 217, 0);
     text-align: left;
 }
 
@@ -95,8 +96,8 @@ section:nth-child(10) :nth-child(4) {
         font-size: .78em;
     }
 
-    h1 {
-        font-size: 1em;
+    h1 { margin: 0.5em;
+         font-size: 25px;
     }
    body{
     background-color: rgb(255, 217, 0);
