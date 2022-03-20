@@ -55,7 +55,7 @@ section:nth-child(10) :nth-child(4) {
     grid-column-end: 5;
     font-weight: bold;
     width: 100%;
-    color: rgb(255, 217, 0);
+    color: rgb(252, 172, 1);
     margin: auto;
     font-size: 20px;
 }

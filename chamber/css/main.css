@@ -20,7 +20,7 @@ h4 {
     font-weight: 400;
     margin-left: 20px;
     text-align: center;
-    color: rgb(255, 208, 0);
+    color: rgb(252, 172, 1);
 }
 
 .newsdiv,
@@ -63,6 +63,11 @@ footer {
     max-width: 56em;
     margin: 0 auto;
 
+}
+
+.flexwrap h6{
+    font-size: 20px;
+    color:rgb(252, 172, 1);
 }
 
 header{
@@ -456,6 +461,9 @@ p {margin-left: 20px;
 
 h3, h4 {
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(252, 172, 1);
 }
 
 h6 {
@@ -464,7 +472,10 @@ h6 {
     text-align: center;
 }
 
-
+.change h2 {
+    font-size: 24px;
+    color:#06073a;
+}
 
 .galleryGrid {
     display: grid;
@@ -616,7 +627,7 @@ form fieldset {
 fieldset legend {
     font-size: 2em;
     font-family: 'lato', sans-serif;
-    color: #ffe601;
+    color: rgb(252, 172, 1);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
