@@ -443,4 +443,100 @@ header {
 nav button{
     display:none;
     }
+
+section.footer-section-2 {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        padding-left: 0;
+    }
+footer p {
+        grid-column: 1;
+        grid-column: 50%;
+        font-size: 15px;
+        
+    }
+
+    /** medium - new header **/
+    header.top {
+        background-color: #000051;
+    }
+    .top-header {
+        display: grid;
+        grid-template-columns: 120px 200px auto 100px;
+        background-color: #000051;
+        color: white;
+        height: 150px;
+    }
+    .top-header .logo {
+        margin-top: 36px;
+        text-align: center;
+        order: 1;
+    }
+    .top-header .company-name {
+        padding: 15px;
+        order: 2;
+        text-align: center;
+    }
+    .top-header .navigation {
+        margin-top: 40px;
+        order: 4;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .top-header .navigation ul {
+        display: block;
+        margin-right: 10px;
+        margin-top: 25px;
+        z-index: 100000;
+        position: relative;
+        width: 180px;
+        float: right;
+        background: transparent;
+    }
+
+    .top-header .navigation ul li {
+        display: none;
+        background-color: rgb(255, 208, 0);
+        border-radius: 15px 15px  15px 15px;
+    }
+
+    .top-header .navigation.responsive ul li {
+        display: block;
+    }
+
+    .top-header .navigation ul li.ham {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    .top-header .navigation ul li.ham a {
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #FFF;
+        color: #FFF;
+        padding: 10px 10px 15px;
+        border-radius: 5px;
+        line-height: 0.6;
+    }
+
+    .top-header .social {
+        margin-top: 8px;
+        order: 3;
+    }
+
+    .top-header .social ul {
+        margin-right: 0;
+    }
+    .last-mmodified-date {
+        font-size: 15px;
+        padding:  10px 15px;
+        text-align: center;
+        background-color: #3f51b5;
+        margin: 10px;
+    }
 }

@@ -270,7 +270,7 @@
         width: 90%;
     }
 
-    orm label.top input:required {
+    form label.top input:required {
         border-left: rgb(255, 187, 0) solid 6px;
         border-radius: 5em;
         border: 0 2px solid rgb(34, 36, 36);
@@ -324,10 +324,10 @@
     }
     
    
- h6{
-     margin-top: -2px;
-     margin-block-end: 0;
- }
+    h6{
+        margin-top: -2px;
+        margin-block-end: 0;
+    }
     
 
     .plant p{
@@ -336,7 +336,7 @@
         padding-right: 20px;
     }
      #extra{
-background-color: rgb(7, 153, 146);
+        background-color: rgb(7, 153, 146);
      }
 
      #style{
@@ -455,17 +455,155 @@ background-color: rgb(7, 153, 146);
         color: white;
 
     }
-    nav ul li a {
-    padding: 0.7rem;
-    font-size: 1rem;
-  }
+        nav ul li a {
+        padding: 0.7rem;
+        font-size: 1rem;
+     }
     
-  av ul {
-    display: block;
-    background-color: rgba(241, 80, 37, 1);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
+  nav ul {
+        display: block;
+        background-color: rgba(241, 80, 37, 1);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;    
+    }
+
+    /*footer*/
+
+    .element-2{
+        display: grid;
+        grid-column: 1fr;
+    }
+    section.footer-section-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+       
+    }
+    section footer div.element-1{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+
+    section footer div.element-1 .clip-circle {
+        clip-path:none;
+    }
+
+    section.footer-section-2 {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50% 50%;
+        padding-left: 0;
+    }
+    footer p {
+        grid-column: 1;
+        grid-row: 50%;
+        font-size: 15px;
+        
+    }
+    
+    .flexwrap {
+        display: none;
+        margin: 20px 20px 0 20px;
+    }
+
+    /** small - new header **/
+    header.top {
+        background-color: #000051;
+    }
+    .top-header {
+        display: grid;
+        grid-template-columns: 75px auto 75px  75px;
+        background-color: #000051;
+        color: white;
+        height: 87px;
+    }
+    .top-header .logo {
+        /*margin-top: 36px;*/
+        text-align: center;
+        order: 1;
+    }
+    .top-header .logo img {
+        width:  65px;
+    }
+    .top-header .company-name {
+        order: 2;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .top-header .company-name h2 {
+        font-size: 15px;
+    }
+    .top-header .company-name h6 {
+        font-size: 12px;
+    }
+    .top-header .navigation {
+        margin-top: -14px;
+        order: 4;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .top-header .navigation ul {
+        display: block;
+        margin-right: 10px;
+        margin-top: 25px;
+        width: 150px;
+        float: right;
+        background: transparent;
+        z-index: 100000;
+        position: relative;
+    }
+
+    .top-header .navigation ul li {
+        display: none;
+        background-color: rgb(255, 208, 0);
+    }
+
+    .top-header .navigation.responsive ul li {
+        display: block;
+    }
+
+    .top-header .navigation ul li.ham {
+        display: block;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    .top-header .navigation ul li.ham a {
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #FFF;
+        color: #FFF;
+        padding: 10px 10px 15px;
+        border-radius: 5px;
+        line-height: 0.6;
+    }
+
+    .top-header .social {
+        margin-top: -4px;
+        order: 3;
+    }
+
+    .top-header .social ul {
+        margin-right: 0;
+        display: block;
+        padding: 0;
+    }
+    .top-header .social ul li {
+        float: left;
+        display: block;
+    }
+    .last-mmodified-date {
+        font-size: 15px;
+        padding:  10px 15px;
+        text-align: center;
+        background-color: #3f51b5;
+        margin: 10px;
     }
 }

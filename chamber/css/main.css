@@ -58,6 +58,18 @@ footer {
     text-align: left;
 }
 
+footer{
+    background-color: #000051;;
+    box-shadow:  rgb(243, 242, 237);
+
+}
+
+
+.element-2 {
+    display: grid;
+    grid-column: 1fr;
+}
+
 .home-grid {
 
     max-width: 56em;
@@ -111,13 +123,7 @@ footer p{
     width: 100%;
 }
 
-header,
-footer {
-    max-width: 889px;
-    background-color: #5e77da;
-    color: white;
 
-}
 
 
 footer {
@@ -142,12 +148,14 @@ header div {
 }
 
 
-/*.element-2 {
+footer div .element-2 {
+    display: grid;
+    grid-column: 3;
     margin-right: 20px;
     padding-top: 25px;
-    margin-left: 140px;
+   /* margin-left: 140px;*/
     
-}*/
+}
 
  li {
     display: flex;
@@ -258,7 +266,7 @@ nav li:hover {
 #Portal_Last_Updated {
     padding-top: 0;
     padding-bottom: 10px;
-    font-size: medium;
+    font-size: 15px;
     color: rgb(255, 255, 255);
 }
 
@@ -860,4 +868,9 @@ button{
     color: white;
     border: none;
     font-size: 2em;
+}
+section.footer-section-2 {
+    display: flex;
+    padding-left: 200px;
+    border-top: #ffd103 solid 5px;
 }
