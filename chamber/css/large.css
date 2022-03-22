@@ -474,5 +474,16 @@
 	section.footer-section-2  p{
 		display: flex;
 	}
-    
+    .footer-section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 0.5em;
+    font-size: 10px;
+    color: white;
+    align-items: center;
+
+}
 }

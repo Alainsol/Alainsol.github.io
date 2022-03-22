@@ -539,4 +539,29 @@ footer p {
         background-color: #3f51b5;
         margin: 10px;
     }
+
+.element-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 33%; */
+    margin-left: 200px;
+}
+
+.flexwrap {
+    
+    margin: 20px 20px 0 20px;
+}
+
+}
+.footer-section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 0.5em;
+    font-size: 10px;
+    color: white;
+    align-items: center;
 }
