@@ -58,7 +58,7 @@
             <span id="date"></span>
          </div>
        </header>	
-       <!--<p class="memo"><span id="daysSinceVisit1"></span></p>-->
+       <p class="memo"><span id="daysSinceVisit1"></span></p>
          <main class="change">
             <h2>Discover the city with its amazing beauty</h2>
             <div class="parentbox">
@@ -137,6 +137,7 @@
                </section>
             </div>-->
          </main>
+         <p><span id="daysSinceVisit"></span></p>
          <footer>
             <section class="footer-section-1">
                <div class="element-1">
@@ -172,16 +173,16 @@
                <p id="Portal_Last_Updated">Last Modified: <span id="Date_Modified"></span></p>
             </section>
          </footer>
-    
+      
       <script src="js/nav.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script src="js/webfontload.js"></script>
       <script src="js/current_Date.js"></script>
-      <script src="js/windchill.js"></script>
+      <script src="js/lazyload.js"></script>
       <script id="current_Date.js">
          // select the elements to manipulate (output to)
          const datefield = document.getElementById("date");
-         //const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
+         const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
          // derive the current date using a date object
          const now = new Date();
          const fulldate = new Intl.DateTimeFormat("en-US", {
