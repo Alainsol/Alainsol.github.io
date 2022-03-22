@@ -55,7 +55,7 @@
         font-size: .9em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(rgb(3, 104, 255), #fadd3a);
+        background: rgb(252, 172, 1);
         opacity: .9;
         color: white;
         ;
@@ -69,7 +69,7 @@
         font-size: .5em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(rgb(32, 30, 30), rgb(255, 72, 0));
+        background:rgb(252, 172, 1) ;
         opacity: .9;
         color: white;
 
@@ -435,6 +435,11 @@ div .social{
     }
 
 
+    .contactdiv-home section {
+		text-align: center;
+	}
+	
+
 header {
     width: 100%;
     margin: 0 auto;
@@ -444,18 +449,6 @@ nav button{
     display:none;
     }
 
-section.footer-section-2 {
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 50% 50%;
-        padding-left: 0;
-    }
-footer p {
-        grid-column: 1;
-        grid-column: 50%;
-        font-size: 15px;
-        
-    }
 
     /** medium - new header **/
     header.top {
@@ -533,18 +526,18 @@ footer p {
         margin-right: 0;
     }
     .last-mmodified-date {
-        font-size: 15px;
+        font-size: 20px;
         padding:  10px 15px;
         text-align: center;
         background-color: #3f51b5;
         margin: 10px;
     }
 
-.element-1 {
+/*.element-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* width: 33%; */
+     width: 33%; 
     margin-left: 200px;
 }
 
@@ -552,11 +545,10 @@ footer p {
     
     margin: 20px 20px 0 20px;
 }
-
-}
+*/
 .footer-section-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     justify-content: space-between;
     margin: 0 auto;
     padding: 5px;
@@ -564,4 +556,43 @@ footer p {
     font-size: 10px;
     color: white;
     align-items: center;
+}
+.footer-section-1 .element-1 {
+
+}
+.footer-section-1 .flexwrap {
+    margin-top: 0;
+}
+.footer-section-1 .flexwrap h2, .footer-section-1 .flexwrap p {
+    text-align: left;
+    margin-left: 0;
+}
+.footer-section-1 .flexwrap h2 {
+    margin-top: 0;
+}
+.footer-section-1 .flexwrap p {
+    margin:  0;
+}
+
+.footer-section-1 .element-2 p {
+    text-align: center;
+    margin:  0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer-section-2 {
+    display: block;
+    color: #FFF;
+    padding: 5px 25px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-section-2 .last_modified {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
 }

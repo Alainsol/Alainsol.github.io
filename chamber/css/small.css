@@ -53,7 +53,7 @@
         font-size: .5em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(rgb(184, 50, 50), #044d6e);
+        background: rgb(252, 172, 1);
         opacity: .9;
     }
 
@@ -66,7 +66,7 @@
         font-size: .3em;
         padding: 12px 24px;
         border-radius: 1em;
-        background: radial-gradient(rgb(255, 238, 3), #c81243);
+        background: rgb(252, 172, 1);
         opacity: .9;
 
     }
@@ -418,6 +418,12 @@
         margin-left: 140px;
     }
 
+
+
+    .contactdiv-home section {
+		text-align: center;
+	}
+	
     div .element-1 {
         display: none;
         grid-column: 1;
@@ -478,7 +484,6 @@
     section.footer-section-1 {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50% 50%;
        
     }
     section footer div.element-1{
@@ -492,7 +497,7 @@
         clip-path:none;
     }
 
-    section.footer-section-2 {
+    /* section.footer-section-2 {
         display:grid;
         grid-template-columns: 1fr;
         grid-template-rows: 50% 50%;
@@ -508,7 +513,7 @@
     .flexwrap {
         display: none;
         margin: 20px 20px 0 20px;
-    }
+    } */
 
     /** small - new header **/
     header.top {
@@ -606,5 +611,56 @@
         background-color: #3f51b5;
         margin: 10px;
     }
-
+    .footer-section-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 5px;
+        border-radius: 0.5em;
+        font-size: 10px;
+        color: white;
+        align-items: center;
+    }
+    .footer-section-1 .element-1 img {
+        width: 10em;
+    }
+    .footer-section-1 .flexwrap {
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer-section-1 .flexwrap h2, .footer-section-1 .flexwrap p {
+        text-align: center;
+        margin-left: 0;
+    }
+    .footer-section-1 .flexwrap h2 {
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .footer-section-1 .flexwrap p {
+        margin:  0;
+        font-size: 14px;
+    }
+   
+    .footer-section-1 .element-2 p {
+        text-align: center;
+        margin:  0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+   
+    .footer-section-2 {
+        display: block;
+        color: #FFF;
+        padding: 5px 25px 15px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+   
+    .footer-section-2 .last_modified {
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+    }
 }

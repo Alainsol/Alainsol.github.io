@@ -117,20 +117,20 @@
     ]
   } ,
   {
-    "companyName": " IT InfoTech co ltd",
+    "companyName": " Lactasoy Company co ltd",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
     "activity": "IT",
     "address": {
-      "streetAdress": "soi 23 Petchburi rd",
-      "district": "Phayathai",
+      "streetAdress": "3532 Sukumuvit rd",
+      "district": "Bang Na",
       "city": "Bangkok",
-      "postalCode": "10400",
+      "postalCode": "10260",
       "email" : "itcare@gmail.com" ,
       "country": "Thailand",
-      "website": "www.infotech.co.th" ,
-      "image":"./images/company5.png"
+      "website": "www.thailandtrustmark.com" ,
+      "image":"./images/lactsoy.png"
     },
     "phoneNumbers": [
       {
