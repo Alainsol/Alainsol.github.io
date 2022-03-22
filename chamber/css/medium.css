@@ -40,10 +40,10 @@
     .box-container-1 {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 1/1;
+        grid-template-rows: 1fr;
 
         grid-gap: .2em;
-        border-right-color: 10px solid;
+       
 
     }
 
@@ -273,7 +273,7 @@ select {
 form label.top input:required {
     border-left: rgb(255, 187, 0) solid 6px;
     border-radius: 5em;
-    border: 0 2px solid rgb(34, 36, 36);
+    border:  2px solid rgb(34, 36, 36);
 }
 
 tr:first-child th {
@@ -283,7 +283,7 @@ tr:first-child th {
 
 table {
     margin: 5px auto;
-    border: 1px thin solid rgb(19, 17, 17);
+    border: 1px  solid rgb(19, 17, 17);
     box-shadow: 10px 10px 25px rgb(8, 8, 8);
     border-collapse: collapse;
    width: 25%;
@@ -343,7 +343,7 @@ background-color: rgb(7, 153, 146);
 .containerPack{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     width: 75%;
     column-gap: 10px;
     margin:0 auto;
@@ -397,7 +397,7 @@ background-color: rgb(7, 153, 146);
 
     font-size: 50px;
     background: rgb(51, 51, 108);
-    background-image: rgb(255, 208, 0);
+    background-color: rgb(255, 208, 0);
     margin-block-end: 0px;
 }
 

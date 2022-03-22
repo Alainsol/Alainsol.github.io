@@ -31,19 +31,7 @@
     width: 100%;
 }
 
-    /*header section .element-1 {
-
-    }
-
-    header section .element-2 {
-        width:  50%;
-    }
-
-    header section .social {
-
-    }
-
-    ---------------------*/
+ 
     .hero-text-1 {
         color: white;
         text-align: center;
@@ -123,7 +111,7 @@
         max-width: 1200px;
         font-size: 50px;
         background: darkblue;
-        background-image: rgb(255, 208, 0);
+        background-color: rgb(255, 208, 0);
     }
 
     footer img {
@@ -257,7 +245,7 @@
     }
 
     .box-container-3{
-        /*border-top: rgb(252, 172, 1) solid 5px;*/
+      
         margin-bottom: 5px;
 
     }
@@ -271,9 +259,9 @@
     }
 
     form label.top input:required {
-        border-left: rgb(255, 187, 0) solid 6px;
+    
         border-radius: 5em;
-        border: 0 2px solid rgb(34, 36, 36);
+        border:  2px solid rgb(34, 36, 36);
         width: 60%;
     }
 
@@ -284,7 +272,7 @@
 
     table {
         margin: 5px auto;
-        border: 1px thin solid rgb(19, 17, 17);
+        border: 1px  solid rgb(19, 17, 17);
         box-shadow: 10px 10px 25px rgb(8, 8, 8);
         border-collapse: collapse;
         width: 20%;
@@ -398,7 +386,7 @@
 
     /*---thank you--*/
     .thank-you {
-        max-width: px;
+      
         margin: 0 auto;
         background-color: white;
         text-align: center;
@@ -407,7 +395,7 @@
     
         font-size: 50px;
         background: rgb(51, 51, 108);
-        background-image: rgb(255, 208, 0);
+    
         margin-block-end: 0px;
     }
 
@@ -479,7 +467,7 @@
 
     .element-2{
         display: grid;
-        grid-column: 1fr;
+        grid-column: 1;
     }
     section.footer-section-1 {
         display: grid;
