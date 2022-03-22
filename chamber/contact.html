@@ -16,45 +16,43 @@
       <link rel="stylesheet" href="css/large.css">
    </head>
    <body>
-      <div class="main">
-         <header>
-            <div class="header-wrap">
-                <div class="headsection">
-                    <div class="element-1">
-                        <picture class="clip-circle"><img src="images/logo-removebg-preview.png" alt="sky logo"></picture>
-                        
-                        <div class="flexwrap">
-                            <h2>Sabai Group</h2>
-                            <h6>Chamber of Commerce</h6>
-                        </div>
-                    </div>
-                    <div class="navigation">
-                        <ul>
-                            <li class="ham"><a href="#">&#9776; Menu</a></li>
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="discovery.html">Discovery</a></li>
-                            <li><a href="directory.html">Directory</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="join.html">Join</a></li>
-                        </ul>
-                    </div>
-                    <div class="social">
-                        <ul>
-                            <li>
-                                <a class="social-link" href="https://www.facebook.com" target="_blank">
-                                <img class="footer-right-img" src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_facebook.png?v=1620924874612" alt="Facebook icon"></a>
-                                <a class="social-link" href="https://www.linkedin.com" target="_blank"><img src="./images/linkendin.png" alt="LinkedIn"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                 <div class="headsection-2">
-                    <div class="subheading1">
-                        <span id="date"></span>
-                    </div>
-                </div>
-            </div>
-         </header>
+      <header class="top">
+         <div class="top-header">
+           <div class="logo">
+             <img src="images/logofix.png" alt="sky logo">
+           </div>
+           <div class="company-name">
+             <h2>Sabai Group</h2>
+             <h6>Chamber of Commerce</h6>
+           </div>
+           <div class="navigation">
+             <nav>
+                <ul id="primaryNav">
+                  <li class="ham"><a href="#">&#9776;</a></li>
+                  <li><a id="active" href="index.html">Home</a></li>
+                  <li><a href="discovery.html">Discovery</a></li>
+                  <li><a href="directory.html">Directory</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="join.html">Join</a></li>
+                </ul>
+             </nav>
+           </div>
+           <div class="social">
+             <ul>
+                  <li>
+                      <a class="social-link" href="https://www.facebook.com" target="_blank">
+                      <img class="footer-right-img" src="https://cdn.glitch.com/e3e3553c-25f9-45a9-824e-bb878f49ff97%2Fbc47e316-5a92-444a-ab06-760b7b307499_facebook.png?v=1620924874612" alt="Facebook icon"></a>  
+                  </li>
+                  <li>
+                   <a class="social-link" href="https://www.linkedin.com" target="_blank"><img src="./images/linkendin.png" alt="LinkedIn"></a>
+                  </li>
+              </ul>
+           </div>
+         </div>
+         <div class="last-mmodified-date">
+            <span id="date"></span>
+         </div>
+       </header>	
         <main class="change">
             <h2>Contact us !</h2>
             <div class="contactchamber">
@@ -363,13 +361,14 @@
                      <input id="submitBtn" type="submit" value="Submit">
                   </section>
              
-        </main>
+        
          <iframe class="joinmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.905695161807!2d100.52610391534704!3d13.724159001629774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298d29976351b%3A0x4ea0c13ed9fa8674!2sKing%20Power%20Mahanakhon!5e0!3m2!1sen!2sus!4v1643603339511!5m2!1sen!2sus"
             style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
+         </main>
          <footer>
             <section class="footer-section-1">
                <div class="element-1">
-                  <picture class="clip-circle"><img src="images/chamberlo.jpg" alt="sky logo"></picture>
+                  <picture class="clip-circle"><img src="images/logofix.png" alt="sky logo"></picture>
 
                 </div>
 
@@ -391,6 +390,7 @@
                   </p>
                </div>
             </section>
+            <hr>
          <section class="footer-section-2">
          <p>&copy; <span id="currentYear">2022</span>"| Alain Solohery | Bangkok Thailand |  <a
             href="htpps://www.byui.edu/online" target="_blank">BYU Online Learning</a>  |

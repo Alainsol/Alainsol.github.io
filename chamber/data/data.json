@@ -7,7 +7,7 @@
       "streetAdress": "soi 15 Petchburi rd",
       "district": "Phayathai",
       "city": "Bangkok",
-      "website" :"www.carefreight.co.th",
+      "website" :"www.care-freight.com",
       "email" : "infocare@gmail.com" ,
       "country": "Thailand",
       "image":"./images/cf.png"
@@ -37,7 +37,7 @@
     "phoneNumbers": [
       {
         "type": "home",
-        "number": "08592211843"
+        "number": "02018000"
       },
       {
         "type": "office",
@@ -69,25 +69,25 @@
     ]
   },
   {
-    "companyName": "Worldwide Car Trade Center",
+    "companyName": "AEC Trade Center Pantip",
     "nemberOfEployees": 25,
     "rating": 6.8,
     "isalive": true,
-    "activity": "Car Dealer",
+    "activity": "Whole sales online",
     "address": {
-      "streetAdress": "soi 34 Silom rd",
+      "streetAdress": "soi 19  rd",
       "district": "Bangrak",
       "city": "Bangkok",
-      "email" : "worldwidee@gmail.com" ,
-      "website" :"www.worldwide.co.th",
+      "email" : "aetrade@gmail.com" ,
+      "website" :"www.aetradecenter-th.com",
       "postalCode": "10400",
       "country": "Thailand" ,
-      "image":"./images/logocar.png"
+      "image":"./images/aeclogo.png"
     },
     "phoneNumbers": [
       {
         "type": "office",
-        "number": "026319456"
+        "number": "022501555"
       }
     ]
   },

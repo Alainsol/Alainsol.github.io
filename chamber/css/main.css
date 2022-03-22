@@ -822,8 +822,8 @@ textarea,
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 33%;
-    margin-left: 50px;
+    /*width: 33%;*/
+    margin-left: 120px;
 }
 
 .flexwrap{
@@ -864,7 +864,7 @@ textarea,
 }
 
 button{
-  background-color: #011640;
+  background-color: rgb(63 81 181);
     color: white;
     border: none;
     font-size: 2em;
@@ -872,5 +872,15 @@ button{
 section.footer-section-2 {
     display: flex;
     padding-left: 200px;
-    border-top: #ffd103 solid 5px;
+    
+}
+
+hr{
+    width: 90%;
+}
+.joinmap{
+    display: grid;
+    grid-template-columns: 1fr;
+
+ 
 }
