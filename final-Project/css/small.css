@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+
+	/* header */
+	header {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	header .hotel-name {
+		width: 100%;
+		padding: 25px 0 10px;
+	}
+
+	header .navigation ul {
+		width: 100%;
+	}
+
+
+	/* footer */
+
+	footer {
+		grid-template-columns: 1fr;
+	}
+
+	footer div.contact-form {
+		grid-column-end: span 2;
+		padding: 0 25px 25px;
+	}
+
+
+}

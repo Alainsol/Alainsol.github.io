@@ -1,0 +1,147 @@
+body {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background-color: #12110f;
+    color:  #dae0b4;
+}
+
+
+a {
+    color:  #dd491b;
+}
+
+/* header  */
+
+header {
+    overflow: hidden;
+    background-color: #12110f;
+    background-image: url("../images/bangkok-thailand-temple.jpeg");
+    background-position: center bottom;
+    height: 250px;
+    position: relative;
+}
+
+header .hotel-name {
+    padding: 25px 25px 10px;
+    text-align: center;
+    width: 478px;
+    margin: 0 auto;
+    background-color: #00000094;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+header .hotel-name h2 {
+    margin-top: 0;
+    color: #edec80;
+}
+
+/* navigation  */
+
+header .navigation {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+header .navigation ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    padding: 14px;
+    background-color: #3d3936;
+}
+
+header .navigation ul li {
+    display: inline-block;
+}
+
+header .navigation ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+header .navigation ul li.active a {
+    color: #fdf684;
+}
+
+header .social-media ul {
+    list-style: none;
+}
+
+header .social-media ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header .social-media ul li img {
+    width:  40px;
+}
+
+/* main */
+
+main {
+    background-color: #3d3936;
+    line-height: 1.5;
+}
+
+main .group-1 div.call-to-action a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9e9b4a;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+main .group-1 div.weather-card table {
+    width: 100%;
+}
+
+main .group-1 div.weather-card table td {
+    width: 33.33%;
+}
+
+/* footer */
+footer {
+    background-color: #302c29;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+}
+
+footer div {
+    padding: 25px;
+}
+
+footer div.hotel-address {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div div {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+footer div.contact-form h3 {
+    margin-top: 0;
+}
+
+footer div.contact-form label {
+    display: block;
+}
+
+footer div.contact-form input, footer div.contact-form textarea {
+    width: 100%;
+    padding: 10px 0;
+}

@@ -1,0 +1,35 @@
+@media only screen and (min-width: 1200px) {
+	/* header */
+	header {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	header .social-media {
+	    position: absolute;
+	    bottom: 2px;
+	    right: 10px;
+	}
+
+	/* main */
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	main .group-1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main .group-1 > div {
+		padding: 15px;
+	}
+
+	/* footer */
+	footer {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+
+}
