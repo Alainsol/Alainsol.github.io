@@ -2,4 +2,223 @@
 	footer {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+     /*---header---*/
+	 div.social-media{
+		text-align: center;
+	}
+	/*--reservation--*/
+	div.elemdetail.inlined {
+		width: 49%;
+		display: inline-block;
+		float:left;
+		margin-left: 1%;
+	  }
+	  
+	  label {
+		display: block;
+		font-family:lato sans-serif;
+		padding-bottom: 10px;
+		font-size: 1.25em;
+		color: #FFF;
+	  }
+	  
+	  input, select, textarea {
+		border-radius: 2px;
+		border: 2px solid #777;
+		box-sizing: border-box;
+		font-size: 1.25em;
+		font-family: 'Nanum Gothic';
+		width: 100%;
+		padding: 10px;
+	  }
+	  
+	  div.elemdetail.inlined input {
+		width: 95%;
+		display: inline-block;
+	  }
+	  
+	  textarea {
+		height: 250px;
+	  }
+	  
+	  hr {
+		border: 1px dotted #ccc;
+	  }
+	  
+	  button {
+		height: 50px;
+		background: #777;
+		border: none;
+		color: white;
+		font-size: 1.25em;
+		font-family: 'Nanum Gothic';
+		border-radius: 4px;
+		cursor: pointer;
+	  }
+	  
+	  button:hover {
+		border: 2px solid rgb(112, 112, 112);
+	  }
+	  .main {
+		max-width: 1200px;
+		margin: 0 auto;
+	  }
+	
+	
+	.main{
+	  display: grid;
+	  grid-template-columns:1fr 1fr 1fr;
+	  grid-template-rows: 1fr 1fr;
+	}
+	.menu1{
+		display:grid;
+		grid-column: 1;
+		grid-row: 1;
+		background-color: #ffd902b3;
+		border-radius: 0.25rem;
+		box-shadow: 0 0.1rem 3rem #00000019;
+		padding: 20px 1rem 10px;
+		border-radius: 16px;
+		height: fit-content;
+		text-align: center;
+	}
+	.menu2{
+		   display:grid;
+		grid-column: 2;
+		grid-row: 1;
+		background-color: #ffd902b3;
+		border-radius: 0.25rem;
+		box-shadow: 0 0.1rem 3rem #00000019;
+		overflow: hidden;
+		padding: 20px 1rem 10px;
+		border-radius: 16px;
+		height: fit-content;
+		  text-align: center;
+		
+	}
+	.menu3{
+		display:grid;
+		grid-column: 3;
+		grid-row:1;
+		background-color: #ffd902b3;
+		border-radius: 0.25rem;
+		box-shadow: 0 0.1rem 3rem #00000019;
+		  overflow: hidden;
+		padding: 20px 1rem 10px;
+		border-radius: 16px;
+		height: fit-content;
+		  text-align: center;
+	  
+	}
+	main h2{
+		color: black;
+	}
+	
+	main p{
+		text-align: center;
+	}
+	
+	img{
+	  width:100%
+	
+	}
+	.price{
+		  position: absolute;
+		bottom: 10px;
+		right: -3px;
+		border-top-left-radius: 500rem;
+		border-bottom-left-radius: 500rem;
+		padding-right: 25px;
+		padding-left: 35px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		font-weight: 700;
+		font-size: 22px;
+		color: #fff;
+	
+	  
+	}
+	.content p{
+	  font-size: 300;
+	  color: rgb(252, 252, 250);
+	  
+	  
+	}
+	
+	
+	div.content{
+		background-color: darkgray;
+		border: rgb(37, 37, 41) solid 10px;
+		box-shadow: #fff silver;
+		border-bottom: 2px 2px;
+	}
+
+	/*---reception----*/
+
+	.recptBox{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.recptBox{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.detbox1{
+	  
+	  grid-column: 1;
+	  border: 5px solid #fefdfd;
+	  
+	}
+  
+	.detbox2{
+	  display: grid;
+	  grid-column: 2;
+	  border: 5px solid #fefdfd;
+	  
+	}
+	.detbox3{
+	
+  
+	  grid-column: 3;
+	  border: 5px solid #fefdfd;
+	  
+	}
+	.detboxA{
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  border: 5px solid #fefdfd;
+  
+	}
+	.roombox1{
+	  display: grid;
+	  grid-column: 1;
+	  border: 5px solid #fefdfd;
+	  
+	}
+	.roombox2{
+	  display: grid;
+	  grid-column: 2;
+	  border: 5px solid #fefdfd;
+	  
+	}
+
+	.mainh{
+		text-align: center;
+	}
+	.mainh p{
+		margin-left: 10px;
+		margin-right: 10px;
+  
+	}
+  main h3{
+	  background-color: #ffd902b3;
+	  border-radius: 0.25rem;
+	  box-shadow: 0 0.1rem 3rem #00000019;
+		overflow: hidden;
+	  padding: 20px 1rem 10px;
+	  border-radius: 10px 10px;
+	  height: fit-content;
+		text-align: center;
+  }
 }

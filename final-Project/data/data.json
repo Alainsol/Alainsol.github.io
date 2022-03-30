@@ -1,0 +1,114 @@
+[
+    {
+      "companyName": "Provo Utah Temple",
+      "activity": "",
+      "address": {
+        "streetAdress": "2200 Temple Hill Dr",
+        "district": "Provo",
+        "city": "Provo",
+        "website" :"www.provo.org",
+        "email" : "infocare@gmail.com" ,
+        "country": "United State ",
+        "image":"./images/Provo-temple-rendering.jpg"
+      },
+      "phoneNumbers": [
+        {
+          "type": "office",
+          "number": "(801)8526000"
+        }
+      ]
+    },
+    {
+      "companyName": "Lazada",
+     
+      "isAlive": true,
+      "age": 44,
+      "gender": "man",
+      "address": {
+        "streetAdress": "72-80 Okpu-Umuobo Rd",
+        "city": "Abu",
+        "website" :"https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng",
+        "email" : "" ,
+        "postalCode": "",
+        "country": "Abia State Nigeria" ,
+        "image":"./images/aba_nigeria_temple-lds.jpeg"
+      },
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "(234) 80-3903-4810"
+        },
+        {
+          "type": "office",
+          "number": "(234) 80-3903-4810"
+        }
+      ]
+      
+      
+    },
+    {
+      "companyName": "Adelaide Australia Temple",
+  
+      "activity": "Freight Forwarder",
+      "address": {
+        "streetAdress": "53-59 Lower Portrush Rd",
+        "district": "Marden SA 5070",
+        "city": "Marden SA 5070",
+        "email" : "" ,
+        "website" :"",
+        "postalCode": "",
+        "country": "Australia",
+        "image":"./images/adelaide_australia_temple.jpeg"
+      },
+      "phoneNumbers": [
+        {
+          "type": "office",
+          "number": "(61) 8-8363-8000"
+        }
+      ]
+    },
+    {
+      "companyName": "Apia Samoa Temple",
+      "nemberOfEployees": 25,
+      "rating": 6.8,
+      "isalive": true,
+      "activity": "Whole sales online",
+      "address": {
+        "streetAdress": "Vaitele Street",
+        "district": "Pesega",
+        "city": "Apia",
+        "email" : "aetrade@gmail.com" ,
+        "website" :"",
+        "postalCode": "10400",
+        "country": " Samoa" ,
+        "image":"./images/manila_alabang_philippines_temple_rendering.png"
+      },
+      "phoneNumbers": [
+        {
+          "type": "office",
+          "number": "022501555"
+        }
+      ]
+    }
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ]

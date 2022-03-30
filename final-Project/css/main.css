@@ -2,7 +2,7 @@ body {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    background-color: #12110f;
+    background-color: #fefdfd;;
     color:  #dae0b4;
 }
 
@@ -85,7 +85,7 @@ header .social-media ul li img {
 /* main */
 
 main {
-    background-color: #3d3936;
+    background-color: #fffefd;
     line-height: 1.5;
 }
 
@@ -106,6 +106,12 @@ main .group-1 div.weather-card table {
 
 main .group-1 div.weather-card table td {
     width: 33.33%;
+}
+
+main.change h2{
+    margin-left: 35px;
+    margin-top: 0;
+    padding-top: 20px;
 }
 
 /* footer */

@@ -31,5 +31,330 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
+   /*--reservation--*/
+  /* input {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 20px 20px;
+	width: 70%;
+	border: 5px solid rgb(146, 138, 121);
+	border-left: rgb(255, 187, 0) solid 8px;
+}
+form label.top input:required {
+	border-left: rgb(255, 187, 0) solid 8px;
+	border-radius: 5em;
+	border: 2px solid rgb(34, 36, 36);
+	width: 90%;
+}
+tr:first-child th {
+	background-color: rgb(12, 36, 82);
+	color: rgb(246, 252, 252);
+}
+table {
+	margin: 5px auto;
+	border: 1px solid rgb(19, 17, 17);
+	box-shadow: 10px 10px 25px rgb(8, 8, 8);
+	border-collapse: collapse;
+	width: 50%;
+}
+tr:nth-child(even) {
+	background-color: #7e7a7a;
+}
+th,
+td {
+	padding: 40px 55px;
+	border: 1px solid rgb(10, 3, 3);
+}
+tr:first-child th {
+	color: rgb(249, 249, 255);
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+td {
+	text-align: center;
+	color: black;
+}
+th {
+	background-color: rgb(7, 153, 146);
+	text-align: center;
+}
+h6 {
+	margin-top: -2px;
+}
+#extra {
+	background-color: rgb(7, 153, 146);
+}
+#style {
+	font-style: italic;
+}
+*/
+div.elemdetail.inlined {
+	width: 49%;
+	display: inline-block;
+	float:left;
+	margin-left: 1%;
+  }
+  
+  label {
+	display: block;
+	font-family:lato sans-serif;
+	padding-bottom: 10px;
+	font-size: 1.25em;
+	color: #FFF;
+  }
+  
+  input, select, textarea {
+	border-radius: 2px;
+	border: 2px solid #777;
+	box-sizing: border-box;
+	font-size: 1.25em;
+	font-family: 'Nanum Gothic';
+	width: 100%;
+	padding: 10px;
+  }
+  
+  div.elemdetail.inlined input {
+	width: 95%;
+	display: inline-block;
+  }
+  
+  textarea {
+	height: 250px;
+  }
+  
+  hr {
+	border: 1px dotted #ccc;
+  }
+  
+  button {
+	height: 50px;
+	background: #777;
+	border: none;
+	color: white;
+	font-size: 1.25em;
+	font-family: 'Nanum Gothic';
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	border: 2px solid rgb(112, 112, 112);
+  }
 
+  /*--reception--*/
+
+  .mainh{
+	  text-align: center;
+  }
+  .mainh p{
+	  margin-left: 10px;
+	  margin-right: 10px;
+
+  }
+main h3{
+	background-color: #ffd902b3;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.1rem 3rem #00000019;
+  	overflow: hidden;
+	padding: 20px 1rem 10px;
+	border-radius: 10px 10px;
+	height: fit-content;
+  	text-align: center;
+}
+  .recptBox{
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+  }
+  .detbox1{
+	
+	grid-column: 1;
+	border: 5px solid #fefdfd;
+	
+  }
+
+  .detbox2{
+	display: grid;
+	grid-column: 2;
+	border: 5px solid #fefdfd;
+	
+  }
+  .detbox3{
+
+	grid-column: 3;
+	border: 5px solid #fefdfd;
+	
+  }
+  .detboxA{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: 5px solid #fefdfd;
+
+  }
+  .roombox1{
+	display: grid;
+	grid-column: 1;
+	border: 5px solid #fefdfd;
+	
+  }
+  .roombox2{
+	display: grid;
+	grid-column: 2;
+	border: 5px solid #fefdfd;
+	
+  }
+/*--reception---*/
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+ }
+ html{
+	 scroll-behavior: smooth;
+ }
+body{
+	line-height: 1.6;
+}
+.btn {
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+	padding: 10px;
+
+	width: 120px;
+	display: block;
+
+}
+img{
+	width: 100%;
+	display: block;
+	box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+}
+/*--rooms---*/
+
+
+.rooms{
+	margin: 45px 0;
+	padding-bottom: 25px;
+	background: var(--dark);
+	color:white;
+	width: 100%;
+
+}
+.room text{
+	padding:5px 20px;
+}
+.room text h3{
+	padding:5px 20px;
+}
+/*--service--*/
+.main {
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+
+
+.main{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.menu1{
+	display:grid;
+	grid-column: 1;
+	grid-row: 1;
+	background-color: #ffd902b3;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.1rem 3rem #00000019;
+	padding: 20px 1rem 10px;
+	border-radius: 16px;
+	height: fit-content;
+	text-align: center;
+}
+.menu2{
+   	display:grid;
+	grid-column: 2;
+	grid-row: 1;
+	background-color: #ffd902b3;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.1rem 3rem #00000019;
+	overflow: hidden;
+	padding: 20px 1rem 10px;
+	border-radius: 16px;
+	height: fit-content;
+  	text-align: center;
+    
+}
+.menu3{
+	display:grid;
+	grid-column: 3;
+	grid-row:1;
+	background-color: #ffd902b3;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.1rem 3rem #00000019;
+  	overflow: hidden;
+	padding: 20px 1rem 10px;
+	border-radius: 16px;
+	height: fit-content;
+  	text-align: center;
+  
+}
+main h2{
+	color: black;
+}
+
+main p{
+	text-align: center;
+}
+
+img{
+  width:100%
+
+}
+.price{
+  	position: absolute;
+	bottom: 10px;
+	right: -3px;
+	border-top-left-radius: 500rem;
+	border-bottom-left-radius: 500rem;
+	padding-right: 25px;
+	padding-left: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: 700;
+	font-size: 22px;
+	color: #fff;
+
+  
+}
+.content p{
+  font-size: 300;
+  color: rgb(252, 252, 250);
+  
+  
+  
+}
+
+
+
+div.content p{
+	border-radius: 5px 5px;
+	box-shadow: #fff silver;
+	border-bottom: 2px 2px;
+}
+
+.weddingroom{
+	display: grid;
+	grid-column: 2;
+	background-color: #ffd902b3;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.1rem 3rem #00000019;
+  	overflow: hidden;
+	padding: 20px 1rem 10px;
+	border-radius: 16px;
+	height: fit-content;
+  	text-align: center;
+
+
+}
 }
