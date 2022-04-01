@@ -37,6 +37,9 @@ header .hotel-name h2 {
     color: #edec80;
 }
 
+div.logohotel img{
+    max-width: 300px;
+}
 /* navigation  */
 
 header .navigation {
