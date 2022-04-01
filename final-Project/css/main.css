@@ -39,7 +39,9 @@ header .hotel-name h2 {
 
 div.logohotel img{
     max-width: 300px;
+    margin:0 auto;
 }
+
 /* navigation  */
 
 header .navigation {
