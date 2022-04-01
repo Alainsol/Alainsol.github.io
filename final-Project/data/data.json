@@ -55,8 +55,8 @@
 		]
 	},
 	{
-    "name" :"Aba Nigeria Temple" ,
-		"address": "",
+    "name" :"Provo Utah Temple" ,
+		"address": "2200 Temple Hill Drive",
 		"telephone": "",
     "state" :"Abu",
     "country" : "Nigeria",
@@ -67,16 +67,16 @@
 		],
 		"history": [
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "August 14, 1967",
+				"description": "Annonce's date "
 			},
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "September 15, 1969",
+				"description": "Ground breaking  "
 			},
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "February 9, 1972",
+				"description": "Dedication "
 			}
 		],
 		"ordinanceSchedule": [
