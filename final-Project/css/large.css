@@ -31,64 +31,7 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-   /*--reservation--*/
-  /* input {
-	padding: 5px;
-	margin: 5px;
-	border-radius: 20px 20px;
-	width: 70%;
-	border: 5px solid rgb(146, 138, 121);
-	border-left: rgb(255, 187, 0) solid 8px;
-}
-form label.top input:required {
-	border-left: rgb(255, 187, 0) solid 8px;
-	border-radius: 5em;
-	border: 2px solid rgb(34, 36, 36);
-	width: 90%;
-}
-tr:first-child th {
-	background-color: rgb(12, 36, 82);
-	color: rgb(246, 252, 252);
-}
-table {
-	margin: 5px auto;
-	border: 1px solid rgb(19, 17, 17);
-	box-shadow: 10px 10px 25px rgb(8, 8, 8);
-	border-collapse: collapse;
-	width: 50%;
-}
-tr:nth-child(even) {
-	background-color: #7e7a7a;
-}
-th,
-td {
-	padding: 40px 55px;
-	border: 1px solid rgb(10, 3, 3);
-}
-tr:first-child th {
-	color: rgb(249, 249, 255);
-}
-tr:nth-child(even) {
-	background-color: #f2f2f2;
-}
-td {
-	text-align: center;
-	color: black;
-}
-th {
-	background-color: rgb(7, 153, 146);
-	text-align: center;
-}
-h6 {
-	margin-top: -2px;
-}
-#extra {
-	background-color: rgb(7, 153, 146);
-}
-#style {
-	font-style: italic;
-}
-*/
+   
 div.elemdetail.inlined {
 	width: 49%;
 	display: inline-block;
@@ -357,4 +300,54 @@ div.content p{
 
 
 }
+
+
+	.hotel-aminities {
+		margin: 25px auto;
+	width: 550px;
+	background-color: #F2F2F2;
+	padding: 25px;
+	}
+
+	.hotel-aminities h3 {
+		background: none;
+	box-shadow: none;
+	padding: 0;
+	color: #000;
+	}
+
+	.hotel-aminities td {
+		width:  25%;
+		padding: 10px 0;
+		color: #000;
+		text-align: center;
+	}
+
+	.hotel-aminities td i {
+		font-size: 25px;
+		color:  orange;
+	}
+
+   
+
+/*----temple----*/
+main.change1 h2 {
+	text-align: center;
+}
+.templelist.card-view{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .templelist.card-view{
+   margin: 0 auto;
+    padding: 1em;
+    box-shadow: 0 0 20px 5px rgb(255 255 255);
+    background-color: rgb(51, 51, 108);
+}
+
+div.temple{
+	display: grid;
+	border: #fff solid 5px;
+}
+
 }

@@ -84,6 +84,7 @@ header .social-media ul li img {
 
 /* main */
 
+
 main {
     background-color: #fffefd;
     line-height: 1.5;
@@ -112,6 +113,33 @@ main.change h2{
     margin-left: 35px;
     margin-top: 0;
     padding-top: 20px;
+}
+
+
+/*--element--*/
+
+.button-primary {
+    border: 2px solid #9E9B4A;
+    background-color: #9E9B4A;
+    color: white;
+    padding: 14px 28px;
+    font-family:  'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button-outline {
+    border: 2px solid #9E9B4A;
+    background-color: rgba(255, 255, 255, 0);
+    color: #9E9B4A;
+    padding: 14px 28px;
+    font-family:  'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
 /* footer */
@@ -151,3 +179,5 @@ footer div.contact-form input, footer div.contact-form textarea {
     width: 100%;
     padding: 10px 0;
 }
+
+

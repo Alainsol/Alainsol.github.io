@@ -10,53 +10,39 @@ fetch(requestURL)
 
     for (let i=0; i < temples.length; i++ ) {
 
-      let section = document.createElement('section');
+      let temple = document.createElement('div');
+      temple.classList.add('temple');
 
-      let imgbox = document.createElement('div');
-      imgbox.classList.add('img-box');
+      let name = document.createElement('h3');
+      name.innerHTML = temples[i].name;
+      temple.appendChild(name);
 
-      //images
-      let image = document.createElement('img');
-      image.src = temples[i].address.image; //'<i class="fa fa-envelope"></i> <img src="'+ companies[i].address.image +'"/>';
-      imgbox.appendChild(image);
+      let telephone = document.createElement('p');
+      telephone.innerHTML = "Telephone: " + temples[i].telephone;
+      temple.appendChild(telephone);
 
-      section.appendChild(imgbox);
+      let email = document.createElement('p');
+      email.innerHTML = "Email: " + temples[i].email;
+      temple.appendChild(email);
 
-      
-      let h4 = document.createElement('h4');
-      h4.innerHTML = temples[i].templeName;
-      section.appendChild(h4);
+      let services = document.createElement('p');
+      services.innerHTML = 'Services: ' + temples[i].services.join(', ');
+      temple.appendChild(services);
 
-      // street name
-      let addresss =  document.createElement('p');
-      addresss.innerHTML = temples[i].address.streetAdress + '<br/>' 
-      + '<i class="fa fa-phone-square"> ' + temples[i].phoneNumbers[0].number;;
-      section.appendChild(addresss);
-    
-      //email
-      let email =  document.createElement('p');
-      email.innerHTML = temples[i].address.email;
-      section.appendChild(email);
+      let sessions = document.createElement('table');
+      for (let j=0; j < temples[i].sessionSchedule.length; j++ ) {
+        let session = document.createElement('tr');
+        session.innerHTML = '<td>' + temples[i].sessionSchedule[j].datetime + '</td>'
+                            + '<td>' + temples[i].sessionSchedule[j].name + '</td>'
+                            + '<td>' + temples[i].sessionSchedule[j].venue + '</td>';
+        sessions.appendChild(session);
+      }
+      temple.appendChild(sessions);
 
-      //website
-      let website =  document.createElement('p');
-      website.innerHTML = temples[i].address.website;
-      section.appendChild(website);
- 
-      
-        
+      let templeClosure = document.createElement('p');
+      templeClosure.innerHTML = 'Temple Closure: <br/>' + temples[i].templeClosureSchedule.join('<br/>');
+      temple.appendChild(templeClosure);
 
-      companylist.appendChild(section);
+      templelist.appendChild(temple);
   }
 });// temporary checking for valid response and data parsing
-
-
-let cardView = function(){
-  document.querySelector('.companylist').classList.remove('list-view');
-  document.querySelector('.companylist').classList.add('card-view');
-};
-
-let listView = function(){
-  document.querySelector('.companylist').classList.add('list-view');
-  document.querySelector('.companylist').classList.remove('card-view');
-};
