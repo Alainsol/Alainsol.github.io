@@ -52,8 +52,12 @@
 		"templeClosureSchedule": [
 			"date 1",
 			"date 2"
-		]
+		],
+
+		"image":""
+		
 	},
+	
 	{
     "name" :"Provo Utah Temple" ,
 		"address": "2200 Temple Hill Drive",
@@ -106,8 +110,11 @@
 		"templeClosureSchedule": [
 			"date 1",
 			"date 2"
-		]
+		],
+		"image":""
+		
 	},
+	
 	{
     "name" :"Barranquilla Colombia Temple" ,
 		"address": "Carrera 46 via al mar pr 107",
@@ -160,8 +167,11 @@
 		"templeClosureSchedule": [
 			"date 1",
 			"date 2"
-		]
+		],
+		"image":""
+		
 	},
+	
 	{
     "name" :"Edmonton Alberta Temple" ,
 		"address": "14335 53rd Ave NW Canada",
@@ -212,6 +222,9 @@
 		"templeClosureSchedule": [
 			"date 1",
 			"date 2"
-		]
+		],
+		"image":""
+		
 	}
+	
 ]

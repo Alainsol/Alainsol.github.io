@@ -43,6 +43,10 @@ fetch(requestURL)
       templeClosure.innerHTML = 'Temple Closure: <br/>' + temples[i].templeClosureSchedule.join('<br/>');
       temple.appendChild(templeClosure);
 
+      let image = document.createElement('img');
+      image.src =  temples[i].image;
+      temple.appendChild(image);
+
       templelist.appendChild(temple);
   }
 });// temporary checking for valid response and data parsing
