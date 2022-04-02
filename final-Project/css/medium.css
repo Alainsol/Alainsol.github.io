@@ -73,6 +73,7 @@
 	
 	main h2{
 		color: black;
+		text-align: center;
 	}
 	
 	main p{
@@ -94,9 +95,10 @@
 	
 	div.content{
 		background-color: darkgray;
-		border: rgb(37, 37, 41) solid 10px;
+	
 		box-shadow: #fff silver;
 		border-bottom: 2px 2px;
+		height: 82px;
 	}
 
 	/*---reception----*/
@@ -236,7 +238,7 @@ div.temple {
 	grid-column: 2;
 }
 .menu {
-	background-color: #ffd902b3;
+	
 	border-radius: 0.25rem;
 	box-shadow: 0 0.1rem 3rem #00000019;
 	padding: 20px 1rem 10px;
@@ -288,6 +290,82 @@ color: #000;
 .hotel-aminities td i {
 	font-size: 25px;
 	color:  orange;
+}
+
+ /*accomondation*/
+
+ div.temple-summary{
+	 text-align: center;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 color: rgb(108, 100, 100)
+ }
+
+ div.weather-card{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: rgb(108, 100, 100)
+
+ }
+
+ .group-2{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+}
+
+.accomond-1{
+	grid-column-start: 1;
+	grid-column-end: 3;
+
+}
+
+.accomond-2{
+  grid-column: 1;
+}
+
+.accomond-3{
+  grid-column: 2;
+}
+
+.group-1 div.call-to-action a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9e9b4a;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+	width:500px;
+	margin:0 auto;
+}
+
+div.group-2 h2{
+	text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.accomond-1,
+.accomond-2,
+.accomond-3{
+  margin:15px;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.1rem 3rem #00000019;
+  padding: 20px 1rem 10px;
+  border-radius: 16px;
+  height: fit-content;
+  text-align: center;
+
+}
+.accomond-1 .content {
+	height: auto;
+    padding: 20px;
+}
+
+.content p {
+	margin: 0;
 }
 
 }

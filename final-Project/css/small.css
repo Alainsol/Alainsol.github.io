@@ -172,10 +172,54 @@ img{
 
 div.content{
 	background-color: darkgray;
-    border: rgb(37, 37, 41) solid 10px;
+   
 	box-shadow: #fff silver;
 	border-bottom: 2px 2px;
 }
+div.temple-summary{
+	text-align: center;
+	color: rgb(108, 100, 100)
+}
+
+
+
+.group-1 div.call-to-action a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9e9b4a;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+	width:300px;
+	margin:0 auto;
+}
+
+div.weather-card{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: rgb(108, 100, 100)
+
+ }
+
+ div.group-2 h2{
+	text-align: center;
+ }
+
+ .accomondprincipal h2{
+	 text-align: center;
+ }
+ 
+ div.content{
+	background-color: darkgray;
+
+	box-shadow: #fff silver;
+	border-bottom: 2px 2px;
+	padding: 20px;
+}
+
 /*---reception----*/
 .mainh{
 	text-align: center;

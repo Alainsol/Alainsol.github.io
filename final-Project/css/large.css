@@ -88,6 +88,43 @@ div.elemdetail.inlined {
 	border: 2px solid rgb(112, 112, 112);
   }
 
+  /*accomondation*/
+
+  .group-2{
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .accomond-1{
+	  grid-column: 1;
+  }
+
+  .accomond-2{
+	grid-column: 2;
+}
+
+.accomond-3{
+	grid-column: 3;
+}
+
+
+.accomond-1,
+.accomond-2,
+.accomond-3{
+	margin:15px;
+	border-radius: 0.25rem;
+    box-shadow: 0 0.1rem 3rem #00000019;
+    padding: 20px 1rem 10px;
+    border-radius: 16px;
+    height: fit-content;
+    text-align: center;
+
+}
+
+.accomond-1 .content {
+	height: 82px;
+}
+
   /*--reception--*/
 
   .mainh{
@@ -213,7 +250,7 @@ img{
 }
 
 .menu {
-	background-color: #ffd902b3;
+	
 	border-radius: 0.25rem;
 	box-shadow: 0 0.1rem 3rem #00000019;
 	padding: 20px 1rem 10px;
@@ -242,6 +279,7 @@ img{
 
 main h2{
 	color: black;
+	text-align: center;
 }
 
 main p{
@@ -261,9 +299,17 @@ img{
 .content p{
   font-size: 300;
   color: rgb(252, 252, 250);
-  
-  
-  
+
+}
+
+.content .button {
+	padding: 5px 15px;
+    display: inline-block;
+    background-color: #9e9b4a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -373,4 +419,5 @@ div.temple {
 	margin-top: 15px;
 	height: 300px;
 }
+
 }
