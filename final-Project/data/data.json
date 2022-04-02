@@ -109,11 +109,11 @@
 		]
 	},
 	{
-    "name" :"Aba Nigeria Temple" ,
-		"address": "",
-		"telephone": "",
+    "name" :"Barranquilla Colombia Temple" ,
+		"address": "Carrera 46 via al mar pr 107",
+		"telephone": "(57) 5-310-0200",
     "state" :"Abu",
-    "country" : "Nigeria",
+    "country" : "Colombia",
 		"email": "",
 		"services": [
 			"Service 1",
@@ -121,16 +121,16 @@
 		],
 		"history": [
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "1 October 2011",
+				"description": "Annonced "
 			},
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "20 February 2016",
+				"description": "groundbreaking  "
 			},
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "9 December 2018",
+				"description": "Dedicated "
 			}
 		],
 		"ordinanceSchedule": [
@@ -163,9 +163,9 @@
 		]
 	},
 	{
-    "name" :"Aba Nigeria Temple" ,
-		"address": "",
-		"telephone": "",
+    "name" :"Edmonton Alberta Temple" ,
+		"address": "14335 53rd Ave NW Canada",
+		"telephone": "(1) 780-434-7436",
 		"email": "",
 		"services": [
 			"Service 1",
@@ -173,16 +173,16 @@
 		],
 		"history": [
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "11 August 1998",
+				"description": "Annonced "
 			},
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "27 February 1999",
+				"description": "Groundbreaking "
 			},
 			{
-				"date": "14 August 1967",
-				"description": "sdha shdasd "
+				"date": "11 December 1999",
+				"description": "Dedicated"
 			}
 		],
 		"ordinanceSchedule": [
