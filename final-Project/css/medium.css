@@ -81,7 +81,8 @@
 	}
 	
 	img{
-	  width:100%
+	  width:100%;
+	  box-shadow: 5px 5px 5px rgb(0 0 0 / 50%); 
 	
 	}
 	
@@ -367,5 +368,7 @@ div.group-2 h2{
 .content p {
 	margin: 0;
 }
-
+.accomond img {
+	display: block;
+}
 }
