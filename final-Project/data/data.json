@@ -111,7 +111,7 @@
 	{
     "name" :"Aba Nigeria Temple" ,
 		"address": "",
-		"telephoene": "",
+		"telephone": "",
     "state" :"Abu",
     "country" : "Nigeria",
 		"email": "",
@@ -165,7 +165,7 @@
 	{
     "name" :"Aba Nigeria Temple" ,
 		"address": "",
-		"telephoene": "",
+		"telephone": "",
 		"email": "",
 		"services": [
 			"Service 1",
