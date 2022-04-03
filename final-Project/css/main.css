@@ -184,5 +184,18 @@ footer div.contact-form input, footer div.contact-form textarea {
     width: 100%;
     padding: 10px 0;
 }
+div.sectiondate{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 
+}
+
+
+div.footer-sectionhotel{
+   
+    grid-column:1;
+    grid-row: 1;
+
+}
 
