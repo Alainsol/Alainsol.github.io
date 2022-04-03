@@ -1,7 +1,7 @@
 @media only screen and (min-width: 600px) {
-	footer {
+	/*footer {
 		grid-template-columns: 1fr 1fr 1fr;
-	}
+	}*/
      /*---header---*/
 	 div.social-media{
 		text-align: center;
@@ -78,6 +78,7 @@
 	
 	main p{
 		text-align: center;
+		color:rgb(108, 100, 100)
 	}
 	
 	img{
@@ -161,7 +162,7 @@
   
 	}
   main h3{
-	  background-color: #ffd902b3;
+	  background-color: rgb(108, 100, 100);
 	  border-radius: 0.25rem;
 	  box-shadow: 0 0.1rem 3rem #00000019;
 		overflow: hidden;
@@ -169,6 +170,7 @@
 	  border-radius: 10px 10px;
 	  height: fit-content;
 		text-align: center;
+		color: white;
   }
      /*----temple----*/
 main.change1 h2 {
@@ -201,7 +203,7 @@ main.change1 h2 {
    margin: 0 auto;
     padding: 1em;
     box-shadow: 0 0 20px 5px rgb(255 255 255);
-    background-color: rgb(51, 51, 108);
+    background-color: #E5E5E5;
 }
 
 
@@ -217,6 +219,7 @@ div.temple {
 
 .temple table {
 	margin: 30px;
+	color:rgb(108, 100, 100);
 	
 }
 

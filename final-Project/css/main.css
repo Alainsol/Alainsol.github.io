@@ -8,9 +8,18 @@ body {
 
 
 a {
-    color:  #dd491b;
+    color: white;
 }
 
+div.content a{
+    background-color: #9E9B4A;
+    padding: 5px;
+    border-radius: 5px;   
+}
+
+div.sectiondate a{
+    color: #dae0b4;
+}
 /* header  */
 
 header {
@@ -38,7 +47,7 @@ header .hotel-name h2 {
 }
 
 div.logohotel img{
-    max-width: 300px;
+    max-width: 200px;
     margin:0 auto;
 }
 
@@ -184,18 +193,16 @@ footer div.contact-form input, footer div.contact-form textarea {
     width: 100%;
     padding: 10px 0;
 }
+
+
+.footerpart-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 div.sectiondate{
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    text-align: center;
 
 }
-
-
-div.footer-sectionhotel{
-   
-    grid-column:1;
-    grid-row: 1;
-
-}
-
