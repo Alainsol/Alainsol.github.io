@@ -57,13 +57,14 @@
 		"image":"images/nigeriatemple.jpeg"
 		
 	},
-	
+	 
+
 	{
     "name" :"Provo Utah Temple" ,
 		"address": "2200 Temple Hill Drive",
-		"telephone": "",
-    "state" :"Abu",
-    "country" : "Nigeria",
+		"telephone": " +1 801-375-5775",
+    "state" :"Utah",
+    "country" : "USA",
 		"email": "",
 		"services": [
 			"Service 1",
@@ -119,7 +120,7 @@
     "name" :"Barranquilla Colombia Temple" ,
 		"address": "Carrera 46 via al mar pr 107",
 		"telephone": "(57) 5-310-0200",
-    "state" :"Abu",
+    "state" :"",
     "country" : "Colombia",
 		"email": "",
 		"services": [
