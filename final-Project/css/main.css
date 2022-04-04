@@ -2,39 +2,32 @@ body {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    background-color: #fefdfd;;
-    color:  #dae0b4;
+    background-color: #F7F7F7;
+    color: #dae0b4;
 }
-
 
 a {
     color: white;
 }
 
-div.content a{
-   
+div.content a {
     padding: 5px;
-   
-  
-        border: 3px solid #9E9B4A;
-        background-color: rgba(255, 255, 255, 0);
-        color: #9E9B4A;
-        padding: 5px 2px;
-        font-family: 'Lato', sans-serif;
-        font-size: 14px;
-        font-weight: 100;
-        cursor: pointer;
-        border-radius: 8px;   
+    border: 3px solid #9E9B4A;
+    background-color: rgba(255, 255, 255, 0);
+    color: #9E9B4A;
+    padding: 5px 2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    cursor: pointer;
+    border-radius: 8px;
 }
 
-div.google-map{
-    max-width: 100%;
-}
-
-
-div.sectiondate a{
+div.sectiondate a {
     color: #ffff;
 }
+
+
 /* header  */
 
 header {
@@ -47,24 +40,24 @@ header {
 }
 
 header .hotel-name {
-    padding: 25px 25px 10px;
+    padding: 24px;
     text-align: center;
-    width: 478px;
-    margin: 0 auto;
-    background-color: #00000094;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    width: 300px;
+    margin: 24px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
 }
 
 header .hotel-name h2 {
-    margin-top: 0;
-    color: #edec80;
+    margin-top: 8px;
+    color: #9e9b4a;
 }
 
-div.logohotel img{
+div.logohotel img {
     max-width: 200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 
 /* navigation  */
 
@@ -79,9 +72,8 @@ header .navigation ul {
     list-style: none;
     text-align: center;
     margin: 0 auto;
-    width: 500px;
-    padding: 14px;
-    background-color: #3d3936;
+    padding: 24px;
+    background-color: #9e9b4a;
 }
 
 header .navigation ul li {
@@ -108,14 +100,13 @@ header .social-media ul li {
 }
 
 header .social-media ul li img {
-    width:  40px;
+    width: 40px;
 }
+
 
 /* main */
 
-
 main {
-    background-color: #fffefd;
     line-height: 1.5;
 }
 
@@ -138,7 +129,7 @@ main .group-1 div.weather-card table td {
     width: 33.33%;
 }
 
-main.change h2{
+main.change h2 {
     margin-left: 35px;
     margin-top: 0;
     padding-top: 20px;
@@ -152,7 +143,7 @@ main.change h2{
     background-color: #9E9B4A;
     color: white;
     padding: 14px 28px;
-    font-family:  'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
@@ -164,14 +155,16 @@ main.change h2{
     background-color: rgba(255, 255, 255, 0);
     color: #9E9B4A;
     padding: 14px 28px;
-    font-family:  'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     border-radius: 8px;
 }
 
+
 /* footer */
+
 footer {
     background-color: #302c29;
     line-height: 1.8;
@@ -181,7 +174,7 @@ footer {
 }
 
 footer div {
-    padding: 25px;
+    padding: 0 24px;
 }
 
 footer div.hotel-address {
@@ -189,48 +182,61 @@ footer div.hotel-address {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#ffff;
+    color: #ffff;
 }
 
 footer div div {
     padding: 0;
     margin-bottom: 15px;
-    color:#ffff;
+    color: #ffff;
 }
 
 footer div.contact-form h3 {
     margin-top: 0;
-    color:#ffff;
+    color: #ffff;
 }
 
 footer div.contact-form label {
     display: block;
 }
 
-footer div.contact-form input, footer div.contact-form textarea {
+footer div.contact-form input,
+footer div.contact-form textarea {
     width: 100%;
     padding: 10px 0;
 }
 
-
-.footerpart-1{
-    display:grid;
+.footerpart-1 {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-div.sectiondate{
-    display:grid;
+
+div.sectiondate {
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     text-align: center;
-
 }
-.google-map{
+
+.contact-form {
+    padding-top: 24px;
+}
+
+.google-map {
     max-width: 100%;
+    padding-top: 24px;
 }
 
-legend{
+legend {
     color: grey;
 }
-.custinfo legend{
-    color:#ffff;
+
+.custinfo legend {
+    color: #ffff;
+}
+fieldset.custinfo{
+    border-radius: 5px;
+}
+fieldset.contact-box{
+    border-radius: 5px;
 }
