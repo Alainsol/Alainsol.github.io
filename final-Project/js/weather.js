@@ -11,8 +11,8 @@ fetch(apiURL)
     var icon = jsObject.weather[0].icon;
 
     document.getElementById('temperature').innerHTML = jsObject.main.temp;
-    document.getElementById('current-condition').innerHTML = '<img src="http://openweathermap.org/img/w/'+icon+'.png">';
-    document.getElementById('current-condition').innerHTML += '<br/><span>' + jsObject.weather[0].description + '</span>';
+    document.getElementById('current-condition-image').innerHTML = '<img src="http://openweathermap.org/img/w/'+icon+'.png">';
+    document.getElementById('current-condition-text').innerHTML = jsObject.weather[0].description;
     document.getElementById('humidity').innerHTML = jsObject.main.humidity;
 
   });

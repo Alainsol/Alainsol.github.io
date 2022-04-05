@@ -42,6 +42,7 @@ header .hotel-name h2 {
 div.logohotel img {
     max-width: 200px;
     margin: 0 auto;
+    box-shadow: none;
 }
 
 
@@ -107,10 +108,6 @@ main .group-1 div.call-to-action a {
     border-radius: 5px;
 }
 
-main .group-1 div.weather-card table {
-    width: 100%;
-    margin-top: 10px;
-}
 
 main .group-1 div.weather-card table td {
     width: 33.33%;

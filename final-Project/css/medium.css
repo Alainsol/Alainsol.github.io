@@ -272,12 +272,7 @@
         margin-right: 10px;
         color: rgb(108, 100, 100)
     }
-    div.weather-card {
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
-        color: rgb(108, 100, 100)
-    }
+    
     .group-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -674,7 +669,7 @@ footer div.contact-form input, footer div.contact-form textarea {
 }
 
 .google-map {
-    max-width: 80%;
+    max-width: 100%;
     padding-top: 35px;
 }
 
@@ -686,15 +681,74 @@ ooter div div {
 footer div.contact-form h3 {
     color: #ffff;
 }
-
-div.weather-card {
+/* weather card */
+.weather-card {
     text-align: center;
-    /* text-align: center; */
-    margin-left: 10px;
-    margin-right: 10px;
-    color: rgb(108, 100, 100);
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: #deab4f;
     padding: 15px;
     color: #FFF;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
 }
+
+.weather-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weather-header .icon-weather {
+    font-size: 40px;
+}
+
+.weather-header .icon-temperature {
+    text-align: right;
+}
+
+.icon-weather .fas {
+    margin-top: 35px;
+    color:skyblue;
+}
+
+.weather-card table {
+    width: 225px;
+    margin: 10px auto 0;
+}
+
+.weather-card table img {
+    width:  22px;
+}
+
+.weather-card table td:nth-child(1) {
+    width:  auto !important;
+    text-align: left;
+}
+
+.weather-card table td:nth-child(2) {
+    width:  25px !important;
+    text-align: right;
+}
+
+.weather-card table td:nth-child(3) {
+    text-align: right;
+    width:  60px !important;
+}
+
+#current-condition-image {
+    height: 50px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 6px;
+}
+
+#current-condition-image img {
+    width: 80px;
+    display: inline-block;
+    margin-top: -5px;
+}
+
+
 }
