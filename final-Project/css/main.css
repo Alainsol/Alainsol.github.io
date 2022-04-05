@@ -30,23 +30,9 @@ div.sectiondate a {
 
 /* header  */
 
-header {
-    overflow: hidden;
-    background-color: #12110f;
-    background-image: url("../images/bangkok-thailand-temple.jpeg");
-    background-position: center bottom;
-    height: 250px;
-    position: relative;
-}
 
-header .hotel-name {
-    padding: 24px;
-    text-align: center;
-    width: 300px;
-    margin: 24px auto;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-}
+
+
 
 header .hotel-name h2 {
     margin-top: 8px;
@@ -219,7 +205,7 @@ div.sectiondate {
 }
 
 .contact-form {
-    padding-top: 24px;
+    padding-top: 10px;
 }
 
 .google-map {
@@ -231,8 +217,12 @@ legend {
     color: grey;
 }
 
+fieldset legend{
+    color: white;
+}
+
 .custinfo legend {
-    color: #ffff;
+    color: grey;
 }
 fieldset.custinfo{
     border-radius: 5px;

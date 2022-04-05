@@ -3,15 +3,35 @@
 		font-family:lato, sans-serif;
 	}
 	/* header */
+
     header {
+        overflow: hidden;
+        background-color: #12110f;
+        background-image: url("../images/bangkok-thailand-temple.jpeg");
+        background-position: center bottom;
+        height: 400px;
+        position: relative;
         max-width: 1200px;
         margin: 0 auto;
-        height: 400px;
+
     }
+    /*header {
+       
+        height: 400px;
+    }*/
     header .social-media {
         position: absolute;
         bottom: 8px;
         right: 10px;
+    }
+
+    header .hotel-name {
+        padding: 24px;
+        text-align: center;
+        width: 300px;
+        margin: 24px auto;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
     }
     /* main */
     main {
@@ -60,7 +80,7 @@
         display: block;
         font-family: lato sans-serif;
         padding-bottom: 10px;
-        font-size: 1.25em;
+        font-size: 12px;
         color: #FFF;
     }
     input,
@@ -69,7 +89,7 @@
         border-radius: 5px;
         border: 2px solid #777;
         box-sizing: border-box;
-        font-size: 1.25em;
+        font-size: 14px;
         font-family: 'Nanum Gothic';
         width: 100%;
         padding: 10px;
@@ -97,6 +117,22 @@
     button:hover {
         border: 2px solid rgb(112, 112, 112);
     }
+
+    .weather-header{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .icon-weather .fas {
+        margin-top: 35px;
+        color:skyblue;
+    }
+
+    #current-condition img {
+        width: 40px;
+        display: inline;
+    }
+
     /*accomondation*/
     .group-2 {
         display: grid;
