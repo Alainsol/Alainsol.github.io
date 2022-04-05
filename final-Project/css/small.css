@@ -592,4 +592,14 @@
      grid-row: 3/3;
      grid-column: 1;
  }
+ div.weather-card {
+    text-align: center;
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(108, 100, 100);
+    background-color: #deab4f;
+    padding: 15px;
+    color: #FFF;
+}
 }

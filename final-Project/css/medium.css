@@ -11,7 +11,7 @@
         max-width: 1200px;
         margin: 0 auto;
     }
-    
+
     div.social-media {
         text-align: center;
     }
@@ -45,7 +45,7 @@
     input,
     select,
     textarea {
-        border-radius: 2px;
+        border-radius: 5px;
         border: 2px solid #777;
         box-sizing: border-box;
         font-size: 1.25em;
@@ -53,6 +53,12 @@
         width: 100%;
         padding: 10px;
     }
+
+    fieldset {
+        padding: 0.35em 0.75em 0.625em;
+        border-radius: 5px;
+    }
+
     div.elemdetail.inlined input {
         width: 95%;
         display: inline-block;
@@ -681,4 +687,14 @@ footer div.contact-form h3 {
     color: #ffff;
 }
 
+div.weather-card {
+    text-align: center;
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(108, 100, 100);
+    background-color: #deab4f;
+    padding: 15px;
+    color: #FFF;
+}
 }

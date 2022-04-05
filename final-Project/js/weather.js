@@ -37,5 +37,9 @@ fetch(forecastApiURL)
     document.getElementById('temp-1').innerHTML = jsObject.daily[1].temp.day;
     document.getElementById('temp-2').innerHTML = jsObject.daily[2].temp.day;
     document.getElementById('temp-3').innerHTML = jsObject.daily[3].temp.day;
+    document.getElementById('w-icon-1').innerHTML = '<img src="http://openweathermap.org/img/w/'+jsObject.daily[1].weather[0].icon+'.png">';
+    document.getElementById('w-icon-2').innerHTML = '<img src="http://openweathermap.org/img/w/'+jsObject.daily[2].weather[0].icon+'.png">';
+    document.getElementById('w-icon-3').innerHTML = '<img src="http://openweathermap.org/img/w/'+jsObject.daily[3].weather[0].icon+'.png">';
+
 
   });
