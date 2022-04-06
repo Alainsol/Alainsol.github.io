@@ -81,23 +81,23 @@
         "ordinanceSchedule": [],
         "sessionSchedule": [{
                 "datetime": "date 1",
-                "name": "Session name 1",
-                "venue": "Session venue 1"
+                "name": "",
+                "venue": "Provo Utah"
             },
             {
                 "datetime": "date 2",
-                "name": "Session name 2",
-                "venue": "Session venue 2"
+                "name": "",
+                "venue": "Provo Utah"
             },
             {
                 "datetime": "date 3",
                 "name": "Session name 3",
-                "venue": "Session venue 3"
+                "venue": "Provo Utah"
             },
             {
                 "datetime": "date 4",
                 "name": "Session name 4",
-                "venue": "Session venue 4"
+                "venue": "Provo utah"
             }
         ],
         "templeClosureSchedule": [
