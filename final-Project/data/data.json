@@ -1,230 +1,217 @@
-[
-	{  
-    "name" :"Aba Nigeria Temple" ,
-		"address": "72-80 Okpu-Umuobo Rd",
-    "state" :"Abu",
-    "country" : "Nigeria",
-		"telephone": "234) 80-3903-4810",
-		"email": "familylink9@gmail.com",
-		"services": [
-			"baptism confirmation",
-			"endowement sealing"
-		],
-		"history": [
-			{
-				"date": "2 April 2000",
-				"description": "annonced "
-      
-			},
-			{
-				"date": "23 February 2002",
-				"description": "Groundbreaking "
-			},
-			{
-				"date": "7 August 2005",
-				"description": "dedication"
-			}
-		],
-		"ordinanceSchedule": [
-		],
-		"sessionSchedule": [
-			{
-				"datetime": "Saturday, 20 August 2022",
-				"name": "closure",
-				"venue": "Session venue 1"
-			},
-			{
-				"datetime": "Monday, 5 September 2022",
-				"name": "closure",
-				"venue": "Session venue 2"
-			},
-			{
-				"datetime": "Monday, 2 January 2023",
-				"name": "closure",
-				"venue": "Session venue 3"
-			},
-			{
-				"datetime": "date 4",
-				"name": "Session name 4",
-				"venue": "Session venue 4"
-			}
-		],
-		"templeClosureSchedule": [
-			"date 1",
-			"date 2"
-		],
+[{
+        "name": "Aba Nigeria Temple",
+        "address": "72-80 Okpu-Umuobo Rd",
+        "state": "Abu",
+        "country": "Nigeria",
+        "telephone": "234) 80-3903-4810",
+        "email": "familylink9@gmail.com",
+        "services": [
+            "baptism confirmation",
+            "endowement sealing"
+        ],
+        "history": [{
+                "date": "2 April 2000",
+                "description": "annonced "
 
-		"image":"images/nigeriatemple.jpeg"
-		
-	},
-	
-	{
-    "name" :"Provo Utah Temple" ,
-		"address": "2200 Temple Hill Drive",
-		"telephone": "1 801-375-5775",
-    "state" :"utah",
-    "country" : "USA",
-		"email": "UT_ProvoGrandviewEast@LDSmail.net ",
-		"services": [
-			"Service 1",
-			"Service 2"
-		],
-		"history": [
-			{
-				"date": "August 14, 1967",
-				"description": "Annonce's date "
-			},
-			{
-				"date": "September 15, 1969",
-				"description": "Ground breaking  "
-			},
-			{
-				"date": "February 9, 1972",
-				"description": "Dedication "
-			}
-		],
-		"ordinanceSchedule": [
-		],
-		"sessionSchedule": [
-			{
-				"datetime": "date 1",
-				"name": "Session name 1",
-				"venue": "Session venue 1"
-			},
-			{
-				"datetime": "date 2",
-				"name": "Session name 2",
-				"venue": "Session venue 2"
-			},
-			{
-				"datetime": "date 3",
-				"name": "Session name 3",
-				"venue": "Session venue 3"
-			},
-			{
-				"datetime": "date 4",
-				"name": "Session name 4",
-				"venue": "Session venue 4"
-			}
-		],
-		"templeClosureSchedule": [
-			"date 1",
-			"date 2"
-		],
-		"image":"images/Provo-temple-rendering.jpg"
-		
-	},
-	
-	{
-    "name" :"Barranquilla Colombia Temple" ,
-		"address": "Carrera 46 via al mar pr 107",
-		"telephone": "(57) 5-310-0200",
-    "state" :"Colombia",
-	    "country" : "Colombia",
-		"email": "COL_BarranquillaParaiso@familyhistory.org",
-		"services": [
-			"Service 1",
-			"Service 2"
-		],
-		"history": [
-			{
-				"date": "1 October 2011",
-				"description": "Annonced "
-			},
-			{
-				"date": "20 February 2016",
-				"description": "groundbreaking  "
-			},
-			{
-				"date": "9 December 2018",
-				"description": "Dedicated "
-			}
-		],
-		"ordinanceSchedule": [
-		],
-		"sessionSchedule": [
-			{
-				"datetime": "date 1",
-				"name": "Session name 1",
-				"venue": "Session venue 1"
-			},
-			{
-				"datetime": "date 2",
-				"name": "Session name 2",
-				"venue": "Session venue 2"
-			},
-			{
-				"datetime": "date 3",
-				"name": "Session name 3",
-				"venue": "Session venue 3"
-			},
-			{
-				"datetime": "date 4",
-				"name": "Session name 4",
-				"venue": "Session venue 4"
-			}
-		],
-		"templeClosureSchedule": [
-			"date 1",
-			"date 2"
-		],
-		"image":"images/barranquillatemple.jpeg"
-		
-	},
-	
-	{
-    "name" :"Edmonton Alberta Temple" ,
-		"address": "14335 53rd Ave NW Canada",
-		"telephone": "(1) 780-434-7436",
-		"email": "",
-		"services": [
-			"Service 1",
-			"Service 2"
-		],
-		"history": [
-			{
-				"date": "11 August 1998",
-				"description": "Annonced "
-			},
-			{
-				"date": "27 February 1999",
-				"description": "Groundbreaking "
-			},
-			{
-				"date": "11 December 1999",
-				"description": "Dedicated"
-			}
-		],
-		"ordinanceSchedule": [
-		],
-		"sessionSchedule": [
-			{
-				"datetime": "date 1",
-				"name": "Session name 1",
-				"venue": "Session venue 1"
-			},
-			{
-				"datetime": "date 2",
-				"name": "Session name 2",
-				"venue": "Session venue 2"
-			},
-			{
-				"datetime": "date 3",
-				"name": "Session name 3",
-				"venue": "Session venue 3"
-			},
-			{
-				"datetime": "date 4",
-				"name": "Session name 4",
-				"venue": "Session venue 4"
-			}
-		],
-		"templeClosureSchedule": [
-			"date 1",
-			"date 2"
-		],
-		"image":"images/edmontontemple.jpeg"
-		
-	}
-	
+            },
+            {
+                "date": "23 February 2002",
+                "description": "Groundbreaking "
+            },
+            {
+                "date": "7 August 2005",
+                "description": "dedication"
+            }
+        ],
+        "ordinanceSchedule": [],
+        "sessionSchedule": [{
+                "datetime": "Saturday, 20 August 2022",
+                "name": "closure",
+                "venue": "Session venue 1"
+            },
+            {
+                "datetime": "Monday, 5 September 2022",
+                "name": "closure",
+                "venue": "Session venue 2"
+            },
+            {
+                "datetime": "Monday, 2 January 2023",
+                "name": "closure",
+                "venue": "Session venue 3"
+            },
+            {
+                "datetime": "date 4",
+                "name": "Session name 4",
+                "venue": "Session venue 4"
+            }
+        ],
+        "templeClosureSchedule": [
+            "Monday - Saturday : 8AM -5PM",
+            "Sunday: Closed"
+        ],
+
+        "image": "images/nigeriatemple.jpeg"
+
+    },
+
+    {
+        "name": "Provo Utah Temple",
+        "address": "2200 Temple Hill Drive",
+        "telephone": "1 801-375-5775",
+        "state": "utah",
+        "country": "USA",
+        "email": "UT_ProvoGrandviewEast@LDSmail.net ",
+        "services": [
+            "Service 1",
+            "Service 2"
+        ],
+        "history": [{
+                "date": "August 14, 1967",
+                "description": "Annonce's date "
+            },
+            {
+                "date": "September 15, 1969",
+                "description": "Ground breaking  "
+            },
+            {
+                "date": "February 9, 1972",
+                "description": "Dedication "
+            }
+        ],
+        "ordinanceSchedule": [],
+        "sessionSchedule": [{
+                "datetime": "date 1",
+                "name": "Session name 1",
+                "venue": "Session venue 1"
+            },
+            {
+                "datetime": "date 2",
+                "name": "Session name 2",
+                "venue": "Session venue 2"
+            },
+            {
+                "datetime": "date 3",
+                "name": "Session name 3",
+                "venue": "Session venue 3"
+            },
+            {
+                "datetime": "date 4",
+                "name": "Session name 4",
+                "venue": "Session venue 4"
+            }
+        ],
+        "templeClosureSchedule": [
+            "date 1",
+            "date 2"
+        ],
+        "image": "images/Provo-temple-rendering.jpg"
+
+    },
+
+    {
+        "name": "Barranquilla Colombia Temple",
+        "address": "Carrera 46 via al mar pr 107",
+        "telephone": "(57) 5-310-0200",
+        "state": "Colombia",
+        "country": "Colombia",
+        "email": "COL_BarranquillaParaiso@familyhistory.org",
+        "services": [
+            "Service 1",
+            "Service 2"
+        ],
+        "history": [{
+                "date": "1 October 2011",
+                "description": "Annonced "
+            },
+            {
+                "date": "20 February 2016",
+                "description": "groundbreaking  "
+            },
+            {
+                "date": "9 December 2018",
+                "description": "Dedicated "
+            }
+        ],
+        "ordinanceSchedule": [],
+        "sessionSchedule": [{
+                "datetime": "date 1",
+                "name": "Session name 1",
+                "venue": "Session venue 1"
+            },
+            {
+                "datetime": "date 2",
+                "name": "Session name 2",
+                "venue": "Session venue 2"
+            },
+            {
+                "datetime": "date 3",
+                "name": "Session name 3",
+                "venue": "Session venue 3"
+            },
+            {
+                "datetime": "date 4",
+                "name": "Session name 4",
+                "venue": "Session venue 4"
+            }
+        ],
+        "templeClosureSchedule": [
+            "date 1",
+            "date 2"
+        ],
+        "image": "images/barranquillatemple.jpeg"
+
+    },
+
+    {
+        "name": "Edmonton Alberta Temple",
+        "address": "14335 53rd Ave NW Canada",
+        "telephone": "(1) 780-434-7436",
+        "email": "",
+        "services": [
+            "Service 1",
+            "Service 2"
+        ],
+        "history": [{
+                "date": "11 August 1998",
+                "description": "Annonced "
+            },
+            {
+                "date": "27 February 1999",
+                "description": "Groundbreaking "
+            },
+            {
+                "date": "11 December 1999",
+                "description": "Dedicated"
+            }
+        ],
+        "ordinanceSchedule": [],
+        "sessionSchedule": [{
+                "datetime": "date 1",
+                "name": "Session name 1",
+                "venue": "Session venue 1"
+            },
+            {
+                "datetime": "date 2",
+                "name": "Session name 2",
+                "venue": "Session venue 2"
+            },
+            {
+                "datetime": "date 3",
+                "name": "Session name 3",
+                "venue": "Session venue 3"
+            },
+            {
+                "datetime": "date 4",
+                "name": "Session name 4",
+                "venue": "Session venue 4"
+            }
+        ],
+        "templeClosureSchedule": [
+            "date 1",
+            "date 2"
+        ],
+        "image": "images/edmontontemple.jpeg"
+
+    }
+
 ]

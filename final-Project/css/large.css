@@ -3,7 +3,6 @@
 		font-family:lato, sans-serif;
 	}
 	/* header */
-
     header {
         overflow: hidden;
         background-color: #12110f;
@@ -13,7 +12,6 @@
         position: relative;
         max-width: 1200px;
         margin: 0 auto;
-
     }
     /*header {
        
@@ -21,10 +19,9 @@
     }*/
     header .social-media {
         position: absolute;
-        bottom: 8px;
+        bottom: -4px;
         right: 10px;
     }
-
     header .hotel-name {
         padding: 24px;
         text-align: center;
@@ -53,14 +50,12 @@
         padding: 25px;
         text-align: center;
         text-decoration: none;
-        background-color: #9e9b4a;
         font-size: 20px;
         color: white;
         border-radius: 5px;
         width: 500px;
         margin: 0 auto;
     }
-   
     div.group-2 h2 {
         text-align: center;
         grid-column-end: 3;
@@ -81,8 +76,8 @@
     input,
     select,
     textarea {
-        border-radius: 5px;
-        border: 2px solid #777;
+        border-radius: 10px;
+        border: 1px solid #777;
         box-sizing: border-box;
         font-size: 14px;
         font-family: 'Nanum Gothic';
@@ -99,114 +94,81 @@
     hr {
         border: 1px dotted #ccc;
     }
-    button {
-        height: 50px;
-        background: #777;
-        border: none;
+    /*  button {
+        border: 1px solid #6C6464;
+        background-color: #6C6464;
         color: white;
-        font-size: 1.25em;
-        font-family: 'Nanum Gothic';
-        border-radius: 4px;
+        padding: 12px 24px;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
         cursor: pointer;
-    }
-    button:hover {
-        border: 2px solid rgb(112, 112, 112);
-    }
-    
+        border-radius: 10px;
+        transition: 0.3s;
+    } */
     .weather-card {
         text-align: center;
-        /* text-align: center; */
         margin-left: 10px;
-        margin-right: 10px;
-
+        /* margin-right: 10px; */
         color: rgb(108, 100, 100);
-        background-color: #deab4f;
+        background: linear-gradient(to bottom right, #3cc0fe 20%, #0066ff);
         padding: 15px;
         color: #FFF;
+        border-radius: 10px;
     }
-    .weather-header{
+    .weather-header {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-columns: 1fr 1fr;
     }
-
     .weather-header .icon-weather {
         font-size: 40px;
     }
-
-    .weather-header .icon-temperature {
-        text-align: right;
-    }
-
     .icon-weather .fas {
         margin-top: 35px;
-        color:skyblue;
+        color: skyblue;
     }
     .weather-card table {
         width: 225px;
         margin: 10px auto 0;
     }
     .weather-card table img {
-        width:  22px;
+        width: 22px;
     }
-
     .weather-card table td:nth-child(1) {
-        width:  auto !important;
+        width: auto !important;
         text-align: left;
-
     }
-
     .weather-card table td:nth-child(2) {
-        width:  25px !important;
+        width: 25px !important;
         text-align: right;
     }
-
     .weather-card table td:nth-child(3) {
         text-align: right;
-        width:  60px !important;
+        width: 60px !important;
     }
-    
     #current-condition-image {
         height: 50px;
         overflow: hidden;
         display: block;
         margin-bottom: 6px;
     }
-
     #current-condition-image img {
         width: 80px;
         display: inline-block;
-        margin-top: -13px;
     }
     /*accomondation*/
     .group-2 {
         display: grid;
-        grid-column: 3;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-column: 4;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 20px;
     }
-    .card {
-        grid-column: 1;
-    }
-    .card-2 {
+    .main {
+        display: grid;
         grid-column: 2;
-    }
-    .card-3 {
-        grid-column: 3;
-    }
-    .accomond-1,
-    .accomond-2,
-    .accomond-3 {
-        margin: 15px;
-        border-radius: 0.25rem;
-        box-shadow: 0 0.1rem 3rem #00000019;
-        padding: 20px 1rem 10px;
-        border-radius: 16px;
-        height: fit-content;
-        text-align: center;
-    }
-    .accomond-1 .content {
-        height: 82px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
     }
     /*--reception--*/
     .mainh {
@@ -260,12 +222,12 @@
         border: 5px solid #fefdfd;
     }
     /*--reception---*/
-    * {
+    /* * {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
         border-radius: 5px;
-    }
+    } */
     html {
         scroll-behavior: smooth;
     }
@@ -307,14 +269,11 @@
         max-width: 1200px;
         margin: 0 auto;
     }
-    .main {
+    /* .main {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .main .text {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
+        grid-column: 2;
+        grid-template-columns: 1fr 1fr;
+    } */
     .menu {
         border-radius: 0.25rem;
         box-shadow: 0 0.1rem 3rem #00000019;
@@ -324,30 +283,29 @@
         text-align: center;
         margin: 15px;
     }
-    .menu.breakfast {
+    /* .menu.breakfast {
         grid-column: 1;
         grid-row: 2;
     }
     .menu.resto {
         grid-column-start: 3;
         grid-column-end: 4;
-    }
+    } */
     .menu .img-container {
         height: 191px;
         overflow: hidden;
     }
     main h2 {
-        color: black;
+        color: #9E9B4A;
         text-align: center;
+        font-size: 32px;
     }
     main p {
         text-align: center;
     }
-
-   .temple p{
-        color:grey;
+    .temple p {
+        color: grey;
     }
-
     img {
         width: 100%
     }
@@ -358,6 +316,8 @@
     .temple-summary h2 {
         text-align: left;
         color: #9E9B4A;
+        font-size: 32px;
+        margin: unset;
     }
     .weather-card h2 {
         color: #9E9B4A;
@@ -395,16 +355,14 @@
     }
     /*----aminities----*/
     .hotel-aminities {
-        margin: 25px auto;
-        width: 550px;
-        background-color: #F2F2F2;
-        padding: 25px;
+        margin: 0px auto;
     }
     .hotel-aminities h3 {
         background: none;
         box-shadow: none;
         padding: 0;
-        color: #000;
+        color: #9E9B4A;
+        font-size: 32px;
     }
     .hotel-aminities td {
         width: 25%;
@@ -414,7 +372,7 @@
     }
     .hotel-aminities td i {
         font-size: 25px;
-        color: orange;
+        color: #6c6464;
     }
     /*----temple----*/
     main.change1 h2 {
@@ -441,10 +399,10 @@
         grid-template-columns: 1fr 1fr;
     }
     .templelist.card-view {
-        margin: 0 auto;
-        background-color: #E5E5E5;
+        margin: 32px auto;
+        background-color: #ffffff;
         border-radius: 0.25rem;
-        box-shadow: 0 0.1rem 3rem #00000019;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         padding: 20px 1rem 10px;
         border-radius: 16px;
         height: fit-content;
@@ -465,200 +423,25 @@
         margin-top: 15px;
         height: 300px;
     }
-    /*********************************new css************************/
-    /*card-design*/
-    .card,
-    .card-2,
-    .card-3 {
-        background-color: #000;
-        border-radius: 10px;
-        outline: 1px solid #fff;
-        outline-offset: -8px;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
-    .card-4 {
-        background-color: #000;
-        border-radius: 10px;
-        outline: 1px solid #fff;
-        outline-offset: -8px;
-        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
-        position: relative;
-        overflow: hidden;
-        height: 500px;
-        margin: 0 0 32px 0;
-    }
-    /*card image*/
-    .card-image {
-        position: absolute;
-        inset: 0;
-        opacity: 0.8;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform .75s;
-        border-radius: 10px;
-    }
-    .card:hover .card-image {
-        transform: scale(1.15);
-    }
-    .card-image-2,
-    .card-image-3 {
-        position: absolute;
-        inset: 0;
-        opacity: 0.8;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform .75s;
-        border-radius: 10px;
-    }
-    .card-image-4 {
-        position: absolute;
-        inset: 0;
-        opacity: 0.8;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: 50% 100%;
-        transition: transform .75s;
-        border-radius: 10px;
-    }
-    .card-2:hover .card-image-2 {
-        transform: scale(1.15);
-    }
-    .card-3:hover .card-image-3 {
-        transform: scale(1.15);
-    }
-    .card-4:hover .card-image-4 {
-        transform: scale(1.15);
-    }
-    /* Card content */
-    .card-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        height: 120px;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        font-size: 20px;
-        background-color: #9E9B4A;
-        text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-        padding: 20px;
-        border-radius: 0 0 10px 10px;
-    }
-    .card-content-2,
-    .card-content-3,
-    .card-content-4 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        height: 120px;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        font-size: 20px;
-        background-color: #9E9B4A;
-        text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-        padding: 20px;
-        border-radius: 0 0 10px 10px;
-    }
-    .card-content p {
-        font-family: 'Lato', sans-serif;
-        color: white;
-        font-size: 16px;
-    }
-    .card-content-2 p,
-    .card-content-3 p {
-        font-family: 'Lato', sans-serif;
-        color: white;
-        font-size: 16px;
-    }
-    .card-content-4 p {
-        color: white;
-        font-size: 24px;
-        font-weight: 700;
-    }
-    /* Card Title */
-    .card-title {
-        background-color: unset;
-        box-shadow: unset;
-        color: white;
-        border-radius: unset;
-        overflow: hidden;
-        padding: 0;
-        border-radius: unset;
-        height: unset;
-        text-align: center;
-    }
-    .card-title-2,
-    .card-title-3 {
-        background-color: unset;
-        box-shadow: unset;
-        color: white;
-        border-radius: unset;
-        overflow: hidden;
-        padding: 0;
-        border-radius: unset;
-        height: unset;
-        text-align: center;
-    }
-    .title-group-2 {
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-size: 24px;
-        color: #9e9b4a;
-        font-weight: 700;
-        margin: 16px 0;
-    }
-    .title-card-4 {
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-size: 24px;
-        color: #9e9b4a;
-        font-weight: 700;
-        margin: 36px 0 16px 0;
-    }
-    div.icon-weather{
-        margin-top: 40px;
-
-    }
-
     /**fullmissionary*/
-    
-   
-    div.suitehotel-1{
+    div.suitehotel-1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .img1hotelinn {
-       
         grid-column: 1;
-
     }
-
-    .divparagraph-1{
+    .divparagraph-1 {
         grid-column: 2;
     }
-   
-    .suitehotel-2{
-  
+    .suitehotel-2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
-
-   
-
-    .img2hotelinn{
+    .img2hotelinn {
         grid-column: 2;
     }
-    .divparagraph-2{
+    .divparagraph-2 {
         grid-column: 1;
     }
 }

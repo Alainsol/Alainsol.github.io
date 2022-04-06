@@ -10,7 +10,8 @@
     <meta name="description" content="">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Russo+One&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/small.css">
@@ -48,17 +49,17 @@
             <ul>
                 <li>
                     <a class="social-link" href="https://www.facebook.com" target="_blank">
-                        <img src="images/facebook-icon.png" alt="Facebook">
+                        <img src="images/facebook-square-brands.svg" alt="Facebook">
                     </a>
                 </li>
                 <li>
                     <a class="social-link" href="https://www.linkedin.com" target="_blank">
-                        <img src="images/linkedin-icon.png" alt="LinkedIn">
+                        <img src="images/linkedin-brands.svg" alt="LinkedIn">
                     </a>
                 </li>
                 <li>
                     <a class="social-link" href="https://www.instagram.com" target="_blank">
-                        <img src="images/instagram-icon.png" alt="Instagram">
+                        <img src="images/instagram-brands.svg" alt="Instagram">
                     </a>
                 </li>
             </ul>
@@ -74,14 +75,14 @@
                 </p>
             </div>
             <div class="call-to-action">
-                <a href="reservation.html">Make a reservation</a>
+                <a class="button-primary" href="reservation.html">Make a reservation</a>
             </div>
             <div class="weather-card">
                 <div class="weather-header">
 
                     <div class="icon-weather">
                         <span id="temperature"></span> &deg;
-                        
+
                     </div>
                     <div class="icon-temperature">
                         <span id="current-condition-image"></span>
@@ -109,36 +110,41 @@
                     </tr>
                 </table>
             </div>
-            </div>
+        </div>
         <p class="title-group-2">Daily-monthly accomondation is avalaible with spacious room</p>
 
         <div class="group-2">
 
 
             <div class="card">
-                <img src="images/11.-Family-Room-1.jpg" alt=" room" class="card-image">
-
+                <img src="images/room1.jpg" alt=" room" class="card-image">
                 <div class="card-content">
-                    <h3 class="card-title">Deluxe Double Room</h2>
-                        <p>We have a special room</p>
+                    <h3 class="card-title">Deluxe Room & Suites</h3>
+                    <a class="button-outline-white" href="reservation.html">Book Now</a>
                 </div>
             </div>
 
-            <div class="card-2">
-                <img src="images/weddingrec.jpg" alt=" room" class="card-image-2">
-
-                <div class="card-content-2">
-                    <h3 class="card-title-2">Wedding's reception</h2>
-                        <p>We have a special room</p>
+            <div class="card">
+                <img src="images/weddingrec.jpg" alt=" room" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Wedding Reception</h3>
+                    <a class="button-outline-white" href="reservation.html">Book Now</a>
                 </div>
             </div>
 
-            <div class="card-3">
-                <img src="images/fish.jpg" alt=" room" class="card-image-3">
+            <div class="card">
+                <img src="images/fish.jpg" alt=" room" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Restaurant</h3>
+                    <a class="button-outline-white" href="reservation.html">Book Now</a>
+                </div>
+            </div>
 
-                <div class="card-content-3">
-                    <h3 class="card-title-3">Restaurant</h2>
-                        <p>We have very special menu</p>
+            <div class="card">
+                <img src="images/11.-Family-Room-1.jpg" alt=" room" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Deluxe Double Room</h3>
+                    <a class="button-outline-white" href="reservation.html">Book Now</a>
                 </div>
             </div>
 
@@ -147,15 +153,15 @@
 
 
 
-        <p class="title-card-4">Poolside Restaurant</p>
-
-        <div class="card-4">
-
-            <img src="images/poolside-restaurant.jpg" alt="room" class="card-image-4">
-
-            <div class="card-content-4">
-                <p>The pool area can be arranged as a meeting place or a restaurant </p>
+        <div class="group-3">
+            <p class="title-card-xl">Poolside Restaurant</p>
+            <div class="card-xl">
+                <img src="images/poolside-restaurant.jpg" alt="room" class="card-xl-image">
+                <div class="card-xl-content">
+                    <p>The pool area can be arranged as a meeting place or a restaurant </p>
+                </div>
             </div>
+
         </div>
 
 
@@ -182,7 +188,7 @@
                             <label>Message</label>
                             <textarea></textarea>
                         </div>
-                        <button type="button" class="button-outline">Send</button>
+                        <button type="button" class="button-outline-white">Send</button>
                     </form>
                 </fieldset>
             </div>
