@@ -628,4 +628,37 @@
         margin-top: 40px;
 
     }
+
+    /**fullmissionary*/
+    
+   
+    div.suitehotel-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img1hotelinn {
+       
+        grid-column: 1;
+
+    }
+
+    .divparagraph-1{
+        grid-column: 2;
+    }
+   
+    .suitehotel-2{
+  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+   
+
+    .img2hotelinn{
+        grid-column: 2;
+    }
+    .divparagraph-2{
+        grid-column: 1;
+    }
 }

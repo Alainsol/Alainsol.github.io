@@ -231,18 +231,23 @@
         text-align: center;
     }
     /*----temple----*/
-    main.change1 h2 {
-        text-align: center;
-    }
-    .templelist.card-view {
+
+    div.templelist.card-view {
         display: grid;
         grid-template-columns: 1fr;
     }
+
+
+    main.change1 h2 {
+        text-align: center;
+    }
+    
     .templelist.card-view {
         margin: 0 auto;
         padding: 1em;
         box-shadow: 0 0 20px 5px rgb(255 255 255);
         background-color: #E5E5E5;
+       
     }
     div.temple {
         display: grid;
