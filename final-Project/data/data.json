@@ -6,8 +6,8 @@
         "telephone": "234) 80-3903-4810",
         "email": "familylink9@gmail.com",
         "services": [
-            "baptism confirmation",
-            "endowement sealing"
+            "No service available",
+            "No rental clothing"
         ],
         "history": [{
                 "date": "2 April 2000",
@@ -27,22 +27,22 @@
         "sessionSchedule": [{
                 "datetime": "Saturday, 20 August 2022",
                 "name": "closure",
-                "venue": "Session venue 1"
+                "venue": "Aba Nigeria Temple"
             },
             {
                 "datetime": "Monday, 5 September 2022",
                 "name": "closure",
-                "venue": "Session venue 2"
+                "venue": "Aba Nigeria Temple"
             },
             {
                 "datetime": "Monday, 2 January 2023",
                 "name": "closure",
-                "venue": "Session venue 3"
+                "venue": "Aba Nigeria Temple"
             },
             {
                 "datetime": "date 4",
                 "name": "Session name 4",
-                "venue": "Session venue 4"
+                "venue": "Aba Nigeria Temple"
             }
         ],
         "templeClosureSchedule": [

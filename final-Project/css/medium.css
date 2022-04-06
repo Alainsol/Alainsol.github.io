@@ -76,8 +76,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     } */
     main h2 {
-        color: black;
+        color:#9E9B4A;
         text-align: center;
+        font-size: 32px;
     }
     main p {
         text-align: center;
