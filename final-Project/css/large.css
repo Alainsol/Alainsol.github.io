@@ -422,6 +422,7 @@
     .temple img {
         margin-top: 15px;
         height: 300px;
+        border-radius: 10px 10px;
     }
     /**fullmissionary*/
     div.suitehotel-1 {
