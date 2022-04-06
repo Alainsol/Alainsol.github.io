@@ -37,7 +37,7 @@
     }
     label {
         display: block;
-        font-family: lato sans-serif;
+        font-family: 'lato', sans-serif;
         padding-bottom: 10px;
         font-size: 12px;
         color: #FFF;
@@ -71,10 +71,7 @@
         max-width: 1200px;
         margin: 0 auto;
     }
-    /* .main {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    } */
+   
     main h2 {
         color:#9E9B4A;
         text-align: center;
@@ -88,12 +85,12 @@
         width: 100%;
     }
     .content p {
-        font-size: 300;
+        font-size: 30px;
         color: rgb(252, 252, 250);
     }
     div.content {
         background-color: darkgray;
-        box-shadow: #fff silver;
+       
         border-bottom: 2px 2px;
         height: 82px;
     }
@@ -203,16 +200,8 @@
         text-align: center;
         margin: 15px;
     }
-    /* .menu.breakfast {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    .menu.resto {
-        grid-column-start: 1;
-        grid-column-end: 4;
-    } */
+    
     .menu .img-container {
-        /*height: 191px;*/
         overflow: hidden;
     }
     /*----aminities----*/
@@ -337,15 +326,9 @@
         display: inline-block;
         margin-top: -5px;
     }
-    /*  .card-m:nth-child(3) {
-        grid-column-start: 1;
-        grid-column-end: 2;
-    } */
+   
     .group-reception {
-        /* display: grid;
-        grid-column: 2;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20 px; */
+        
         margin: 20px 20px;
     }
     .room-listing {

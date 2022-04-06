@@ -103,7 +103,7 @@ main .group-1 div.call-to-action a {
     padding: 25px;
     text-align: center;
     text-decoration: none;
-    /* background-color: #9e9b4a; */
+    
     font-size: 20px;
     color: white;
     border-radius: 10px;
@@ -284,9 +284,6 @@ fieldset.contact-box {
 }
 
 
-/*********************************new css************************/
-
-
 /*card-design*/
 
 .card {
@@ -396,7 +393,7 @@ fieldset.contact-box {
     font-size: 20px;
     background-color: #6c646400;
     text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-    /* padding: 20px; */
+    
     border-radius: 0 0 10px 10px;
 }
 
@@ -572,7 +569,7 @@ fieldset.contact-box {
     outline: 1px solid #fff;
     outline-offset: -8px;
     height: 320px;
-    /* border-radius: 10px 0 0 10px; */
+    
     overflow: hidden;
 }
 
