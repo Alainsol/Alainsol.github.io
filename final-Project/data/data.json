@@ -121,8 +121,8 @@
         "country": "Colombia",
         "email": "COL_BarranquillaParaiso@familyhistory.org",
         "services": [
-            "Service 1",
-            "Service 2"
+            "No cafeteria avalaible",
+                "No rental clothing avalaible"
         ],
         "history": [{
                 "date": "1 October 2011",
@@ -139,29 +139,29 @@
         ],
         "ordinanceSchedule": [],
         "sessionSchedule": [{
-                "datetime": "date 1",
-                "name": "Session name 1",
-                "venue": "Session venue 1"
-            },
-            {
-                "datetime": "date 2",
-                "name": "Session name 2",
-                "venue": "Session venue 2"
-            },
-            {
-                "datetime": "date 3",
-                "name": "Session name 3",
-                "venue": "Session venue 3"
-            },
-            {
-                "datetime": "date 4",
-                "name": "Session name 4",
-                "venue": "Session venue 4"
-            }
-        ],
-        "templeClosureSchedule": [
-            "date 1",
-            "date 2"
+            "datetime": "Monday, 2 May 2022",
+            "name": "Closure",
+            "venue": "Barranquilla Colombia Temple"
+        },
+        {
+            "datetime": "Saturday, 1, 17, 31 october 2022",
+            "name": "Closure",
+            "venue": "Provo Utah"
+        },
+        {
+            "datetime": " Thursday, 8 december 2022",
+            "name": "Closure",
+            "venue": "Barranquilla Colombia Temple"
+        },
+        {
+            "datetime": " Saturday, 24-25, 1 January 2023",
+            "name": "Closure",
+            "venue": "Barranquilla Colombia Temple"
+        }
+    ],
+    "templeClosureSchedule": [
+        "Open : Monday - Saturday : 8AM -5PM",
+        "Sunday: Closed"
         ],
         "image": "images/barranquillatemple.jpeg"
 
