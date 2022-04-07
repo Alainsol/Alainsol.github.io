@@ -5,6 +5,7 @@
         "country": "Nigeria",
         "telephone": "(234) 80-3903-4810",
         "email": "familylink9@gmail.com", 
+        "like" :900,
         "services": [
             "No cafeteria avalaible",
             "No rental clothing avalaible"
@@ -65,6 +66,7 @@
         "state": "utah",
         "country": "USA",
         "email": "UT_ProvoGrandviewEast@LDSmail.net",
+        "like" :900,
         "services": [
                 "No cafeteria avalaible",
                 "No rental clothing avalaible"
@@ -120,6 +122,7 @@
         "state": "Colombia",
         "country": "Colombia",
         "email": "COL_BarranquillaParaiso@familyhistory.org",
+        "like" :900,
         "services": [
             "No cafeteria avalaible",
                 "No rental clothing avalaible"
@@ -172,6 +175,7 @@
         "address": "14335 53rd Ave NW Canada",
         "telephone": "(1) 780-434-7436",
         "email": "not available",
+        "like" :900,
         "services": [
             "No cafeteria avalaible",
             "No rental clothing avalaible"
