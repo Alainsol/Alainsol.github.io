@@ -173,8 +173,9 @@
         "telephone": "(1) 780-434-7436",
         "email": "",
         "services": [
-            "Service 1",
-            "Service 2"
+            "No cafeteria avalaible",
+            "No rental clothing avalaible"
+        
         ],
         "history": [{
                 "date": "11 August 1998",
@@ -191,30 +192,27 @@
         ],
         "ordinanceSchedule": [],
         "sessionSchedule": [{
-                "datetime": "date 1",
-                "name": "Session name 1",
-                "venue": "Session venue 1"
+            
+                "datetime": "Friday, 1, 18 July 2022",
+                "name": "Closure",
+                "venue": "Edmonton Alberta Temple"
             },
             {
-                "datetime": "date 2",
-                "name": "Session name 2",
-                "venue": "Session venue 2"
+                "datetime": " Monday, 26 Semptember 2022",
+                "name": "Closure",
+                "venue": "Edmonton Alberta Temple"
             },
             {
-                "datetime": "date 3",
-                "name": "Session name 3",
-                "venue": "Session venue 3"
-            },
-            {
-                "datetime": "date 4",
-                "name": "Session name 4",
-                "venue": "Session venue 4"
+                "datetime": " Saturday,1 October 2023",
+                "name": "Closure",
+                "venue": "Edmonton Alberta Temple"
             }
         ],
         "templeClosureSchedule": [
-            "date 1",
-            "date 2"
-        ],
+            "Open : Monday - Saturday : 8AM -5PM",
+            "Sunday: Closed"
+            ],
+        
         "image": "images/edmontontemple.jpeg"
 
     }
