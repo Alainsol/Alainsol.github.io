@@ -3,7 +3,7 @@
         "address": "72-80 Okpu-Umuobo Rd",
         "state": "Abu",
         "country": "Nigeria",
-        "telephone": "234) 80-3903-4810",
+        "telephone": "(234) 80-3903-4810",
         "email": "familylink9@gmail.com", 
         "services": [
             "No cafeteria avalaible",
@@ -25,7 +25,9 @@
                 "description": "dedication"
             }
         ],
-        "ordinanceSchedule": [],
+        "ordinanceSchedule": [{
+            "datetime": "All ordinances are available by appointment only"
+        }],
         "sessionSchedule": [{
                 "datetime": "Saturday, 8 April 2022",
                 "name": "closure",
