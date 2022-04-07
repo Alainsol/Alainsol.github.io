@@ -4,10 +4,12 @@
         "state": "Abu",
         "country": "Nigeria",
         "telephone": "234) 80-3903-4810",
-        "email": "familylink9@gmail.com",
+        "email": "familylink9@gmail.com", 
         "services": [
-            "No service available",
-            "No rental clothing"
+            "No cafeteria avalaible",
+            "No rental clothing avalaible"
+        
+
         ],
         "history": [{
                 "date": "2 April 2000",
@@ -25,28 +27,28 @@
         ],
         "ordinanceSchedule": [],
         "sessionSchedule": [{
+                "datetime": "Saturday, 8 April 2022",
+                "name": "closure",
+                "venue": "Aba Nigeria Temple"
+            },
+            {
                 "datetime": "Saturday, 20 August 2022",
                 "name": "closure",
                 "venue": "Aba Nigeria Temple"
             },
             {
-                "datetime": "Monday, 5 September 2022",
+                "datetime": "Monday, 5 September 2023",
                 "name": "closure",
                 "venue": "Aba Nigeria Temple"
             },
             {
                 "datetime": "Monday, 2 January 2023",
-                "name": "closure",
-                "venue": "Aba Nigeria Temple"
-            },
-            {
-                "datetime": "date 4",
-                "name": "Session name 4",
+                "name": "Closure",
                 "venue": "Aba Nigeria Temple"
             }
         ],
         "templeClosureSchedule": [
-            "Monday - Saturday : 8AM -5PM",
+            "Open : Monday - Saturday : 8AM -5PM",
             "Sunday: Closed"
         ],
 
