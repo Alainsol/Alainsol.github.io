@@ -13,10 +13,7 @@ fetch(requestURL)
       let temple = document.createElement('div');
       temple.classList.add('temple');
 
-      let like = document.createElement('p');
-      like.innerHTML = '<i class="far fa-thumbs-up"></i> ' + temples[i].like;
-      temple.appendChild(like);
-
+    
 
       let name = document.createElement('h3');
       name.innerHTML = temples[i].name;
@@ -66,6 +63,11 @@ fetch(requestURL)
       let image = document.createElement('img');
       image.src =  temples[i].image;
       temple.appendChild(image);
+
+      let like = document.createElement('p');
+      like.innerHTML = '<i class="far fa-thumbs-up"></i> ' + temples[i].like;
+      temple.appendChild(like);
+
 
       templelist.appendChild(temple);
   }
