@@ -217,8 +217,8 @@
             "Sunday: Closed"
             ],
         
-        "image": "images/edmontontemple.jpeg"
-
+        "image": "images/edmontontemple.jpeg",
+        "like" :"900"
     }
 
 ]
