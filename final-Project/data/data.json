@@ -175,7 +175,7 @@
         "address": "14335 53rd Ave NW Canada",
         "telephone": "(1) 780-434-7436",
         "email": "not available",
-        "like" :900,
+        "like" :"far fa-thumbs-up",
         "services": [
             "No cafeteria avalaible",
             "No rental clothing avalaible"
