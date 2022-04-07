@@ -1,435 +1,420 @@
 @media only screen and (min-width: 1024px) {
-    /*html{
-		font-family:lato, sans-serif;
-	}
 	/* header */
-    header {
-        overflow: hidden;
-        background-color: #12110f;
-        background-image: url("../images/bangkok-thailand-temple.jpeg");
-        background-position: center bottom;
-        height: 400px;
-        position: relative;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    /*header {
-       
-        height: 400px;
-    }*/
-    header .social-media {
-        position: absolute;
-        bottom: -4px;
-        right: 10px;
-    }
-    header .hotel-name {
-        padding: 24px;
-        text-align: center;
-        width: 300px;
-        margin: 24px auto;
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-    }
-    /* main */
-    main {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    main .group-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        margin: 32px 0 32px 0;
-        gap: 20px;
-    }
-    .call-to-action {
-        display: flex;
-        align-items: center;
-    }
-    .group-1 div.call-to-action a {
-        display: block;
-        padding: 25px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        border-radius: 5px;
-        width: 500px;
-        margin: 0 auto;
-    }
-    div.group-2 h2 {
-        text-align: center;
-        grid-column-end: 3;
-    }
-    div.elemdetail.inlined {
-        width: 49%;
-        display: inline-block;
-        float: left;
-        margin-left: 1%;
-    }
-    label {
-        display: block;
-        font-family: lato sans-serif;
-        padding-bottom: 10px;
-        font-size: 12px;
-        color: white;
-    }
-
-    .top {
-        color: #6c6464;
-    }
-
-    .form-group label {
-        color: #6c6464;
-    }
-
-    .elemdetail label {
-        color: #6c6464;
-    }
-
-    .elem-group label {
-        color: #6c6464;
-    }
-    input,
-    select,
-    textarea {
-        border-radius: 10px;
-        border: 1px solid #777;
-        box-sizing: border-box;
-        font-size: 14px;
-        font-family: 'Nanum Gothic';
-        width: 100%;
-        padding: 10px;
-    }
-    div.elemdetail.inlined input {
-        width: 95%;
-        display: inline-block;
-    }
-    textarea {
-        height: 70px;
-    }
-    hr {
-        border: 1px dotted #ccc;
-    }
-    
-    .weather-card {
-        text-align: center;
-        margin-left: 10px;
-        color: rgb(108, 100, 100);
-        background: linear-gradient(to bottom right, #3cc0fe 20%, #0066ff);
-        padding: 15px;
-        color: #FFF;
-        border-radius: 10px;
-    }
-    .weather-header {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-columns: 1fr 1fr;
-    }
-    .weather-header .icon-weather {
-        font-size: 40px;
-    }
-    .icon-weather .fas {
-        margin-top: 35px;
-        color: skyblue;
-    }
-    .weather-card table {
-        width: 225px;
-        margin: 10px auto 0;
-    }
-    .weather-card table img {
-        width: 22px;
-    }
-    .weather-card table td:nth-child(1) {
-        width: auto !important;
-        text-align: left;
-    }
-    .weather-card table td:nth-child(2) {
-        width: 25px !important;
-        text-align: right;
-    }
-    .weather-card table td:nth-child(3) {
-        text-align: right;
-        width: 60px !important;
-    }
-    #current-condition-image {
-        height: 50px;
-        overflow: hidden;
-        display: block;
-        margin-bottom: 6px;
-    }
-    #current-condition-image img {
-        width: 80px;
-        display: inline-block;
-    }
-    /*accomondation*/
-    .group-2 {
-        display: grid;
-        grid-column: 4;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
-    }
-    .main {
-        display: grid;
-        grid-column: 2;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
-    }
-    /*--reception--*/
-    .mainh {
-        text-align: center;
-    }
-    .mainh p {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    main h3 {
-        background-color: rgb(108, 100, 100);
-        border-radius: 0.25rem;
-        box-shadow: 0 0.1rem 3rem #00000019;
-        overflow: hidden;
-        padding: 20px 1rem 10px;
-        border-radius: 10px 10px;
-        height: fit-content;
-        text-align: center;
-        color: white;
-    }
-    .recptBox {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .detbox1 {
-        grid-column: 1;
-        border: 5px solid #fefdfd;
-    }
-    .detbox2 {
-        display: grid;
-        grid-column: 2;
-        border: 5px solid #fefdfd;
-    }
-    .detbox3 {
-        grid-column: 3;
-        border: 5px solid #fefdfd;
-    }
-    .detboxA {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        border: 5px solid #fefdfd;
-    }
-    .roombox1 {
-        display: grid;
-        grid-column: 1;
-        border: 5px solid #fefdfd;
-    }
-    .roombox2 {
-        display: grid;
-        grid-column: 2;
-        border: 5px solid #fefdfd;
-    }
-    /*--reception---*/
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    body {
-        line-height: 1.6;
-    }
-    .btn {
-        font-size: 14px;
-        font-weight: 500;
-        border-radius: 5px;
-        padding: 10px;
-        width: 120px;
-        display: block;
-    }
-    img {
-        width: 100%;
-        display: block;
-    }
-    .temple table {
-        margin: 30px;
-        color: rgb(108, 100, 100);
-    }
-    /*--rooms---*/
-    .rooms {
-        margin: 45px 0;
-        padding-bottom: 25px;
-        background: var(--dark);
-        color: white;
-        width: 100%;
-    }
-    .room text {
-        padding: 5px 20px;
-    }
-    .room text h3 {
-        padding: 5px 20px;
-    }
-    /*--service--*/
-    .main {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    
-    .menu {
-        border-radius: 0.25rem;
-        box-shadow: 0 0.1rem 3rem #00000019;
-        padding: 20px 1rem 10px;
-        border-radius: 16px;
-        height: fit-content;
-        text-align: center;
-        margin: 15px;
-    }
-    
-    .menu .img-container {
-        height: 191px;
-        overflow: hidden;
-    }
-    main h2 {
-        color: #9E9B4A;
-        text-align: center;
-        font-size: 32px;
-    }
-    main p {
-        text-align: center;
-    }
-    .temple p {
-        color: grey;
-    }
-    img {
-        width: 100%
-    }
-    .temple-summary p {
-        text-align: left;
-        color: rgb(108, 100, 100);
-    }
-    .temple-summary h2 {
-        text-align: left;
-        color: #9E9B4A;
-        font-size: 32px;
-        margin: unset;
-    }
-    .weather-card h2 {
-        color: #9E9B4A;
-    }
-    .content p {
-        font-size: 30px;
-        color: rgb(252, 252, 250);
-    }
-    .content .button {
-        padding: 5px 15px;
-        display: inline-block;
-        background-color: #9e9b4a;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-bottom: 10px;
-    }
-    div.content p {
-        border-radius: 5px 5px;
-        border-bottom: 2px 2px;
-        padding-top: 10px;
-    }
-    .weddingroom {
-        display: grid;
-        grid-column: 1;
-        background-color: #ffd902b3;
-        border-radius: 0.25rem;
-        box-shadow: 0 0.1rem 3rem #00000019;
-        overflow: hidden;
-        padding: 20px 1rem 10px;
-        border-radius: 16px;
-        height: fit-content;
-        text-align: center;
-    }
-    /*----aminities----*/
-    .hotel-aminities {
-        margin: 0px auto;
-    }
-    .hotel-aminities h3 {
-        background: none;
-        box-shadow: none;
-        padding: 0;
-        color: #9E9B4A;
-        font-size: 32px;
-    }
-    .hotel-aminities td {
-        width: 25%;
-        padding: 10px 0;
-        color: #000;
-        text-align: center;
-    }
-    .hotel-aminities td i {
-        font-size: 25px;
-        color: #6c6464;
-    }
-    /*----temple----*/
-    main.change1 h2 {
-        text-align: center;
-    }
-    .templelist.card-view {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .templelist.card-view {
-        margin: 0 auto;
-        padding: 1em;
-        box-shadow: 0 0 20px 5px rgb(255 255 255);
-        background-color: rgb(51, 51, 108);
-    }
-    div.temple {
-        display: grid;
-    }
-    main.change1 h2 {
-        text-align: center;
-    }
-    .templelist.card-view {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .templelist.card-view {
-        margin: 32px auto;
-        background-color: #ffffff;
-        border-radius: 0.25rem;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-        padding: 20px 1rem 10px;
-        border-radius: 16px;
-        height: fit-content;
-        text-align: center;
-    }
-    .temple h3 {
-        margin-bottom: 15px;
-        padding: 15px 1rem;
-    }
-    div.temple {
-        display: grid;
-        margin: 10px;
-    }
-    .temple table {
-        margin: 35px;
-    }
-    .temple img {
-        margin-top: 15px;
-        height: 300px;
-        border-radius: 10px 10px;
-    }
-    /**fullmissionary*/
-    div.suitehotel-1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .img1hotelinn {
-        grid-column: 1;
-    }
-    .divparagraph-1 {
-        grid-column: 2;
-    }
-    .suitehotel-2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .img2hotelinn {
-        grid-column: 2;
-    }
-    .divparagraph-2 {
-        grid-column: 1;
-    }
+	header {
+		overflow: hidden;
+		background-color: #12110f;
+		background-image: url("../images/bangkok-thailand-temple.jpeg");
+		background-position: center bottom;
+		height: 400px;
+		position: relative;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	header .social-media {
+		position: absolute;
+		bottom: -4px;
+		right: 10px;
+	}
+	header .hotel-name {
+		padding: 24px;
+		text-align: center;
+		width: 300px;
+		margin: 24px auto;
+		background-color: rgba(255, 255, 255, 0.9);
+		border-radius: 10px;
+	}
+	/* main */
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	main .group-1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 32px 0 32px 0;
+		gap: 20px;
+	}
+	.call-to-action {
+		display: flex;
+		align-items: center;
+	}
+	.group-1 div.call-to-action a {
+		display: block;
+		padding: 25px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		border-radius: 5px;
+		width: 500px;
+		margin: 0 auto;
+	}
+	div.group-2 h2 {
+		text-align: center;
+		grid-column-end: 3;
+	}
+	div.elemdetail.inlined {
+		width: 49%;
+		display: inline-block;
+		float: left;
+		margin-left: 1%;
+	}
+	label {
+		display: block;
+		font-family: lato sans-serif;
+		padding-bottom: 10px;
+		font-size: 12px;
+		color: white;
+	}
+	.top {
+		color: #6c6464;
+	}
+	.form-group label {
+		color: #6c6464;
+	}
+	.elemdetail label {
+		color: #6c6464;
+	}
+	.elem-group label {
+		color: #6c6464;
+	}
+	input,
+	select,
+	textarea {
+		border-radius: 10px;
+		border: 1px solid #777;
+		box-sizing: border-box;
+		font-size: 14px;
+		font-family: 'Nanum Gothic';
+		width: 100%;
+		padding: 10px;
+	}
+	div.elemdetail.inlined input {
+		width: 95%;
+		display: inline-block;
+	}
+	textarea {
+		height: 70px;
+	}
+	hr {
+		border: 1px dotted #ccc;
+	}
+	.weather-card {
+		text-align: center;
+		margin-left: 10px;
+		color: rgb(108, 100, 100);
+		background: linear-gradient(to bottom right, #3cc0fe 20%, #0066ff);
+		padding: 15px;
+		color: #FFF;
+		border-radius: 10px;
+	}
+	.weather-header {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-template-columns: 1fr 1fr;
+	}
+	.weather-header .icon-weather {
+		font-size: 40px;
+	}
+	.icon-weather .fas {
+		margin-top: 35px;
+		color: skyblue;
+	}
+	.weather-card table {
+		width: 225px;
+		margin: 10px auto 0;
+	}
+	.weather-card table img {
+		width: 22px;
+	}
+	.weather-card table td:nth-child(1) {
+		width: auto !important;
+		text-align: left;
+	}
+	.weather-card table td:nth-child(2) {
+		width: 25px !important;
+		text-align: right;
+	}
+	.weather-card table td:nth-child(3) {
+		text-align: right;
+		width: 60px !important;
+	}
+	#current-condition-image {
+		height: 50px;
+		overflow: hidden;
+		display: block;
+		margin-bottom: 6px;
+	}
+	#current-condition-image img {
+		width: 80px;
+		display: inline-block;
+	}
+	/*accomondation*/
+	.group-2 {
+		display: grid;
+		grid-column: 4;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 20px;
+	}
+	.main {
+		display: grid;
+		grid-column: 2;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+	/*--reception--*/
+	.mainh {
+		text-align: center;
+	}
+	.mainh p {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	main h3 {
+		background-color: rgb(108, 100, 100);
+		border-radius: 0.25rem;
+		box-shadow: 0 0.1rem 3rem #00000019;
+		overflow: hidden;
+		padding: 20px 1rem 10px;
+		border-radius: 10px 10px;
+		height: fit-content;
+		text-align: center;
+		color: white;
+	}
+	.recptBox {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.detbox1 {
+		grid-column: 1;
+		border: 5px solid #fefdfd;
+	}
+	.detbox2 {
+		display: grid;
+		grid-column: 2;
+		border: 5px solid #fefdfd;
+	}
+	.detbox3 {
+		grid-column: 3;
+		border: 5px solid #fefdfd;
+	}
+	.detboxA {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border: 5px solid #fefdfd;
+	}
+	.roombox1 {
+		display: grid;
+		grid-column: 1;
+		border: 5px solid #fefdfd;
+	}
+	.roombox2 {
+		display: grid;
+		grid-column: 2;
+		border: 5px solid #fefdfd;
+	}
+	/*--reception---*/
+	html {
+		scroll-behavior: smooth;
+	}
+	body {
+		line-height: 1.6;
+	}
+	.btn {
+		font-size: 14px;
+		font-weight: 500;
+		border-radius: 5px;
+		padding: 10px;
+		width: 120px;
+		display: block;
+	}
+	img {
+		width: 100%;
+		display: block;
+	}
+	.temple table {
+		margin: 30px;
+		color: rgb(108, 100, 100);
+	}
+	/*--rooms---*/
+	.rooms {
+		margin: 45px 0;
+		padding-bottom: 25px;
+		background: var(--dark);
+		color: white;
+		width: 100%;
+	}
+	.room text {
+		padding: 5px 20px;
+	}
+	.room text h3 {
+		padding: 5px 20px;
+	}
+	/*--service--*/
+	.main {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.menu {
+		border-radius: 0.25rem;
+		box-shadow: 0 0.1rem 3rem #00000019;
+		padding: 20px 1rem 10px;
+		border-radius: 16px;
+		height: fit-content;
+		text-align: center;
+		margin: 15px;
+	}
+	.menu .img-container {
+		height: 191px;
+		overflow: hidden;
+	}
+	main h2 {
+		color: #9E9B4A;
+		text-align: center;
+		font-size: 32px;
+	}
+	main p {
+		text-align: center;
+	}
+	.temple p {
+		color: grey;
+	}
+	img {
+		width: 100%
+	}
+	.temple-summary p {
+		text-align: left;
+		color: rgb(108, 100, 100);
+	}
+	.temple-summary h2 {
+		text-align: left;
+		color: #9E9B4A;
+		font-size: 32px;
+		margin: unset;
+	}
+	.weather-card h2 {
+		color: #9E9B4A;
+	}
+	.content p {
+		font-size: 30px;
+		color: rgb(252, 252, 250);
+	}
+	.content .button {
+		padding: 5px 15px;
+		display: inline-block;
+		background-color: #9e9b4a;
+		color: white;
+		text-decoration: none;
+		border-radius: 5px;
+		margin-bottom: 10px;
+	}
+	div.content p {
+		border-radius: 5px 5px;
+		border-bottom: 2px 2px;
+		padding-top: 10px;
+	}
+	.weddingroom {
+		display: grid;
+		grid-column: 1;
+		background-color: #ffd902b3;
+		border-radius: 0.25rem;
+		box-shadow: 0 0.1rem 3rem #00000019;
+		overflow: hidden;
+		padding: 20px 1rem 10px;
+		border-radius: 16px;
+		height: fit-content;
+		text-align: center;
+	}
+	/*----aminities----*/
+	.hotel-aminities {
+		margin: 0px auto;
+	}
+	.hotel-aminities h3 {
+		background: none;
+		box-shadow: none;
+		padding: 0;
+		color: #9E9B4A;
+		font-size: 32px;
+	}
+	.hotel-aminities td {
+		width: 25%;
+		padding: 10px 0;
+		color: #000;
+		text-align: center;
+	}
+	.hotel-aminities td i {
+		font-size: 25px;
+		color: #6c6464;
+	}
+	/*----temple----*/
+	main.change1 h2 {
+		text-align: center;
+	}
+	.templelist.card-view {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.templelist.card-view {
+		margin: 0 auto;
+		padding: 1em;
+		box-shadow: 0 0 20px 5px rgb(255 255 255);
+		
+	}
+	div.temple {
+		display: grid;
+	}
+	main.change1 h2 {
+		text-align: center;
+	}
+	.templelist.card-view {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.templelist.card-view {
+		margin: 32px auto;
+		background-color: #ffffff;
+		border-radius: 0.25rem;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+		padding: 20px 1rem 10px;
+		border-radius: 16px;
+		height: fit-content;
+		text-align: center;
+	}
+	.temple h3 {
+		margin-bottom: 15px;
+		padding: 15px 1rem;
+	}
+	div.temple {
+		display: grid;
+		margin: 10px;
+	}
+	.temple table {
+		margin: 35px;
+	}
+	.temple img {
+		margin-top: 15px;
+		height: 300px;
+		border-radius: 10px 10px;
+	}
+	/**fullmissionary*/
+	div.suitehotel-1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.img1hotelinn {
+		grid-column: 1;
+	}
+	.divparagraph-1 {
+		grid-column: 2;
+	}
+	.suitehotel-2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.img2hotelinn {
+		grid-column: 2;
+	}
+	.divparagraph-2 {
+		grid-column: 1;
+	}
 }
