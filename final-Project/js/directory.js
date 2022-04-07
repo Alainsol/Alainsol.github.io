@@ -13,17 +13,16 @@ fetch(requestURL)
       let temple = document.createElement('div');
       temple.classList.add('temple');
 
-      let name = document.createElement('h3');
-      name.innerHTML = temples[i].name;
-      temple.appendChild(name);
-
-      
-
       let like = document.createElement('p');
       like.innerHTML = '<i class="far fa-thumbs-up"></i> ' + temples[i].like;
       temple.appendChild(like);
 
 
+      let name = document.createElement('h3');
+      name.innerHTML = temples[i].name;
+      temple.appendChild(name);
+
+      
 
       let telephone = document.createElement('p');
       telephone.innerHTML = "Telephone: " + temples[i].telephone;
