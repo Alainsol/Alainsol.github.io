@@ -29,6 +29,15 @@ fetch(requestURL)
       services.innerHTML = 'Services: ' + temples[i].services.join(', ');
       temple.appendChild(services);
 
+      let histories = document.createElement('table');
+      for (let j=0; j < temples[i].history.length; j++ ) {
+        let history = document.createElement('tr');
+        history.innerHTML = '<td>' + temples[i].history[j].date + '</td>'
+                            + '<td>' + temples[i].history[j].description + '</td>';
+        histories.appendChild(history);
+      }
+      temple.appendChild(histories);
+
       let sessions = document.createElement('table');
       for (let j=0; j < temples[i].sessionSchedule.length; j++ ) {
         let session = document.createElement('tr');
