@@ -64,10 +64,11 @@
         "telephone": "1 801-375-5775",
         "state": "utah",
         "country": "USA",
-        "email": "UT_ProvoGrandviewEast@LDSmail.net ",
+        "email": "UT_ProvoGrandviewEast@LDSmail.net",
         "services": [
-            "Service 1",
-            "Service 2"
+                "No cafeteria avalaible",
+                "No rental clothing avalaible"
+            
         ],
         "history": [{
                 "date": "August 14, 1967",
@@ -75,38 +76,38 @@
             },
             {
                 "date": "September 15, 1969",
-                "description": "Ground breaking  "
+                "description": "Groundbreaking"
             },
             {
                 "date": "February 9, 1972",
-                "description": "Dedication "
+                "description": "Dedication"
             }
         ],
         "ordinanceSchedule": [],
         "sessionSchedule": [{
-                "datetime": "date 1",
-                "name": "",
+                "datetime": "Monday, 30 May 2022",
+                "name": "Closure",
                 "venue": "Provo Utah"
             },
             {
-                "datetime": "date 2",
-                "name": "",
+                "datetime": "Monday, 4-18, 25 july 2022",
+                "name": "Closure",
                 "venue": "Provo Utah"
             },
             {
-                "datetime": "date 3",
-                "name": "Session name 3",
+                "datetime": " Monday, 5 September 2022",
+                "name": "Closure",
                 "venue": "Provo Utah"
             },
             {
-                "datetime": "date 4",
-                "name": "Session name 4",
+                "datetime": " Saturday, 1 October 2022",
+                "name": "Closure",
                 "venue": "Provo utah"
             }
         ],
         "templeClosureSchedule": [
-            "date 1",
-            "date 2"
+            "Open : Monday - Saturday : 8AM -5PM",
+            "Sunday: Closed"
         ],
         "image": "images/Provo-temple-rendering.jpg"
 
