@@ -17,6 +17,10 @@ fetch(requestURL)
       name.innerHTML = temples[i].name;
       temple.appendChild(name);
 
+      let like = document.createElement('h3');
+      like.innerHTML = temples[i].like;
+      temple.appendChild(like);
+
       let telephone = document.createElement('p');
       telephone.innerHTML = "Telephone: " + temples[i].telephone;
       temple.appendChild(telephone);
