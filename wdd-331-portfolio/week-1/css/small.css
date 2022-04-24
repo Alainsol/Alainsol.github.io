@@ -1,0 +1,15 @@
+@media screen and (max-width: 400px){
+
+    header{
+        background: #6495ED;
+        margin:0;
+        padding: 50px;
+        text-align: center;
+       
+    }
+    .post-date{
+        margin:10px;
+        color: #999;
+        text-align: end;
+    }
+}

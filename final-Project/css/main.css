@@ -374,7 +374,6 @@ fieldset.contact-box {
 	font-size: 20px;
 	background-color: #6c646400;
 	text-shadow: 0 0 1px rgba(0, 0, 0, .5);
-	/* padding: 20px; */
 	border-radius: 0 0 10px 10px;
 }
 
@@ -627,7 +626,9 @@ fieldset {
 	color: #6c6464;
 }
 
-
+ img p{
+	 text-align: left;
+ }
 /* Reception */
 
 .mainh h2 {
