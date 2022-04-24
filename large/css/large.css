@@ -1,0 +1,85 @@
+.parent-container {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* container */
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 0 8px;
+}
+
+.right {
+    background-color: darkblue;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    margin: 0 18px;
+    height: 100%;
+}
+
+
+/*element*/
+
+.element-1-left,
+.element-3-left {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 25%;
+    margin: 8px 8px;
+}
+
+.element-2-left {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 50%;
+    margin: 8px 8px;
+}
+
+.element-1-middle {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 75%;
+    margin: 8px 8px;
+}
+
+.element-2-middle {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 25%;
+    margin: 8px 8px;
+}
+
+.element-1-right,
+.element-3-right {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 33.3%;
+    margin: 8px 8px;
+}
+
+.element-2-right {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+    height: 33.3%;
+    margin: 8px 8px;
+}
